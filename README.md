@@ -241,9 +241,16 @@ For apps with 100-1,000 stars, see [OTHER.md](OTHER.md).
 
 | Repo | Stars | Description |
 |------|-------|-------------|
+| [ollama/ollama](https://github.com/ollama/ollama) | ![Stars](https://img.shields.io/github/stars/ollama/ollama?style=flat) | Run LLMs locally (Llama, Gemma, Mistral, and more) |
+| [nomic-ai/gpt4all](https://github.com/nomic-ai/gpt4all) | ![Stars](https://img.shields.io/github/stars/nomic-ai/gpt4all?style=flat) | Run local LLMs on CPU/GPU with M-series support |
+| [ChatNextWeb/NextChat](https://github.com/ChatNextWeb/NextChat) | ![Stars](https://img.shields.io/github/stars/ChatNextWeb/NextChat?style=flat) | Light and fast AI chat assistant |
+| [lobehub/lobe-chat](https://github.com/lobehub/lobe-chat) | ![Stars](https://img.shields.io/github/stars/lobehub/lobe-chat?style=flat) | Modern AI chat framework with plugins |
+| [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm) | ![Stars](https://img.shields.io/github/stars/Mintplex-Labs/anything-llm?style=flat) | All-in-one AI app with document chat |
 | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | ![Stars](https://img.shields.io/github/stars/CherryHQ/cherry-studio?style=flat) | Multi-provider AI chat desktop app |
 | [janhq/jan](https://github.com/janhq/jan) | ![Stars](https://img.shields.io/github/stars/janhq/jan?style=flat) | Run AI models locally on your computer |
 | [chatboxai/chatbox](https://github.com/chatboxai/chatbox) | ![Stars](https://img.shields.io/github/stars/chatboxai/chatbox?style=flat) | Desktop client for ChatGPT and other LLMs |
+| [kevinhermawan/Ollamac](https://github.com/kevinhermawan/Ollamac) | ![Stars](https://img.shields.io/github/stars/kevinhermawan/Ollamac?style=flat) | Native Ollama client for Mac |
+| [psugihara/FreeChat](https://github.com/psugihara/FreeChat) | ![Stars](https://img.shields.io/github/stars/psugihara/FreeChat?style=flat) | Native macOS LLM chat app |
 | [nbonamy/witsy](https://github.com/nbonamy/witsy) | ![Stars](https://img.shields.io/github/stars/nbonamy/witsy?style=flat) | AI assistant for macOS |
 
 ## Download Managers
@@ -322,6 +329,7 @@ For apps with 100-1,000 stars, see [OTHER.md](OTHER.md).
 
 | Repo | Stars | Description |
 |------|-------|-------------|
+| [waydabber/BetterDisplay](https://github.com/waydabber/BetterDisplay) | ![Stars](https://img.shields.io/github/stars/waydabber/BetterDisplay?style=flat) | HiDPI scaling, XDR/HDR brightness, virtual screens |
 | [newmarcel/KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake) | ![Stars](https://img.shields.io/github/stars/newmarcel/KeepingYouAwake?style=flat) | Prevent your Mac from sleeping |
 | [dteoh/SlowQuitApps](https://github.com/dteoh/SlowQuitApps) | ![Stars](https://img.shields.io/github/stars/dteoh/SlowQuitApps?style=flat) | Add delay to Cmd+Q to prevent accidental quits |
 | [mangerlahn/Latest](https://github.com/mangerlahn/Latest) | ![Stars](https://img.shields.io/github/stars/mangerlahn/Latest?style=flat) | Check for app updates |
@@ -341,6 +349,7 @@ For apps with 100-1,000 stars, see [OTHER.md](OTHER.md).
 
 | Repo | Stars | Description |
 |------|-------|-------------|
+| [Wox-launcher/Wox](https://github.com/Wox-launcher/Wox) | ![Stars](https://img.shields.io/github/stars/Wox-launcher/Wox?style=flat) | Cross-platform app launcher |
 | [ActivityWatch/activitywatch](https://github.com/ActivityWatch/activitywatch) | ![Stars](https://img.shields.io/github/stars/ActivityWatch/activitywatch?style=flat) | Automated time tracker |
 | [johannesjo/super-productivity](https://github.com/johannesjo/super-productivity) | ![Stars](https://img.shields.io/github/stars/johannesjo/super-productivity?style=flat) | Todo list and time tracker |
 | [mattermost/focalboard](https://github.com/mattermost/focalboard) | ![Stars](https://img.shields.io/github/stars/mattermost/focalboard?style=flat) | Open source project management |
