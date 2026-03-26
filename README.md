@@ -1,357 +1,466 @@
-# Awesome Open Source Alternatives
+# Awesome Open Source Mac Apps
 
-A curated list of open source alternatives to proprietary software. All repos have 1k+ stars.
+A curated list of awesome open source applications for macOS. Only includes apps with **>1,000 GitHub stars**.
 
-![](images/banner.png)
-
-## Backend & Infrastructure
-
-| Repo | Stars | Description | Alternative For |
-|------|-------|-------------|-----------------|
-| [supabase/supabase](https://github.com/supabase/supabase) | ![Stars](https://img.shields.io/github/stars/supabase/supabase?style=flat) | PostgreSQL-based backend with auth, storage, and realtime APIs | Firebase |
-| [appwrite/appwrite](https://github.com/appwrite/appwrite) | ![Stars](https://img.shields.io/github/stars/appwrite/appwrite?style=flat) | Self-hosted backend with auth, database, storage, and functions | Firebase |
-| [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) | ![Stars](https://img.shields.io/github/stars/pocketbase/pocketbase?style=flat) | Lightweight Go backend with SQLite and admin dashboard | Firebase |
-| [nocodb/nocodb](https://github.com/nocodb/nocodb) | ![Stars](https://img.shields.io/github/stars/nocodb/nocodb?style=flat) | Spreadsheet-like database interface with API generation | Airtable |
-| [gristlabs/grist-core](https://github.com/gristlabs/grist-core) | ![Stars](https://img.shields.io/github/stars/gristlabs/grist-core?style=flat) | Spreadsheet-database hybrid with formulas | Airtable |
-| [rowyio/rowy](https://github.com/rowyio/rowy) | ![Stars](https://img.shields.io/github/stars/rowyio/rowy?style=flat) | Low-code backend with spreadsheet UI on Firestore | Airtable |
-| [bram2w/baserow](https://github.com/bram2w/baserow) | ![Stars](https://img.shields.io/github/stars/bram2w/baserow?style=flat) | No-code database and app builder | Airtable |
-| [espocrm/espocrm](https://github.com/espocrm/espocrm) | ![Stars](https://img.shields.io/github/stars/espocrm/espocrm?style=flat) | CRM for managing relationships and projects | Airtable, Salesforce |
-| [nhost/nhost](https://github.com/nhost/nhost) | ![Stars](https://img.shields.io/github/stars/nhost/nhost?style=flat) | Backend with GraphQL on PostgreSQL | Firebase |
-| [rivet-gg/rivet](https://github.com/rivet-gg/rivet) | ![Stars](https://img.shields.io/github/stars/rivet-gg/rivet?style=flat) | Serverless platform for game backends | AWS Lambda |
-| [apioo/fusio](https://github.com/apioo/fusio) | ![Stars](https://img.shields.io/github/stars/apioo/fusio?style=flat) | API management and development platform | Apigee |
-| [kuzzleio/kuzzle](https://github.com/kuzzleio/kuzzle) | ![Stars](https://img.shields.io/github/stars/kuzzleio/kuzzle?style=flat) | Backend for IoT and data-intensive apps | Firebase |
-| [coollabsio/coolify](https://github.com/coollabsio/coolify) | ![Stars](https://img.shields.io/github/stars/coollabsio/coolify?style=flat) | Self-hosted PaaS for deploying apps and databases | Vercel, Netlify, Heroku |
-| [dokku/dokku](https://github.com/dokku/dokku) | ![Stars](https://img.shields.io/github/stars/dokku/dokku?style=flat) | Docker-powered PaaS for app deployment | Heroku |
-| [CapRover/CapRover](https://github.com/CapRover/CapRover) | ![Stars](https://img.shields.io/github/stars/CapRover/CapRover?style=flat) | PaaS with automatic HTTPS and Docker | Heroku |
-| [openfaas/faas](https://github.com/openfaas/faas) | ![Stars](https://img.shields.io/github/stars/openfaas/faas?style=flat) | Serverless functions on containers | AWS Lambda |
-| [minio/minio](https://github.com/minio/minio) | ![Stars](https://img.shields.io/github/stars/minio/minio?style=flat) | S3-compatible object storage server | Amazon S3 |
-| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | ![Stars](https://img.shields.io/github/stars/seaweedfs/seaweedfs?style=flat) | Distributed file system for billions of files | Amazon S3 |
-| [Kong/kong](https://github.com/Kong/kong) | ![Stars](https://img.shields.io/github/stars/Kong/kong?style=flat) | Cloud-native API gateway and platform | AWS API Gateway |
-| [centrifugal/centrifugo](https://github.com/centrifugal/centrifugo) | ![Stars](https://img.shields.io/github/stars/centrifugal/centrifugo?style=flat) | Scalable real-time messaging server | Pusher, Ably |
-| [keycloak/keycloak](https://github.com/keycloak/keycloak) | ![Stars](https://img.shields.io/github/stars/keycloak/keycloak?style=flat) | Enterprise identity and access management with SSO | Okta, Auth0 |
-| [logto-io/logto](https://github.com/logto-io/logto) | ![Stars](https://img.shields.io/github/stars/logto-io/logto?style=flat) | Auth infrastructure with sign-in experience | Auth0, Clerk |
-| [cockroachdb/cockroach](https://github.com/cockroachdb/cockroach) | ![Stars](https://img.shields.io/github/stars/cockroachdb/cockroach?style=flat) | Distributed SQL database built for scale | Amazon Aurora, CockroachDB Cloud |
-| [yugabyte/yugabyte-db](https://github.com/yugabyte/yugabyte-db) | ![Stars](https://img.shields.io/github/stars/yugabyte/yugabyte-db?style=flat) | Distributed SQL database for global apps | Amazon Aurora |
-| [timescale/timescaledb](https://github.com/timescale/timescaledb) | ![Stars](https://img.shields.io/github/stars/timescale/timescaledb?style=flat) | Time-series database on PostgreSQL | InfluxDB Cloud |
-| [pingcap/tidb](https://github.com/pingcap/tidb) | ![Stars](https://img.shields.io/github/stars/pingcap/tidb?style=flat) | Distributed SQL database compatible with MySQL | Amazon Aurora, CockroachDB Cloud |
-| [influxdata/influxdb](https://github.com/influxdata/influxdb) | ![Stars](https://img.shields.io/github/stars/influxdata/influxdb?style=flat) | Time-series database for metrics and events | AWS Timestream |
-| [taosdata/TDengine](https://github.com/taosdata/TDengine) | ![Stars](https://img.shields.io/github/stars/taosdata/TDengine?style=flat) | High-performance time-series database for IoT | InfluxDB Cloud |
-| [questdb/questdb](https://github.com/questdb/questdb) | ![Stars](https://img.shields.io/github/stars/questdb/questdb?style=flat) | Fast SQL database for time-series | InfluxDB Cloud |
-| [dgraph-io/dgraph](https://github.com/dgraph-io/dgraph) | ![Stars](https://img.shields.io/github/stars/dgraph-io/dgraph?style=flat) | Distributed graph database with GraphQL | Neo4j Aura |
-| [neo4j/neo4j](https://github.com/neo4j/neo4j) | ![Stars](https://img.shields.io/github/stars/neo4j/neo4j?style=flat) | Graph database platform | Neo4j Aura |
-| [arangodb/arangodb](https://github.com/arangodb/arangodb) | ![Stars](https://img.shields.io/github/stars/arangodb/arangodb?style=flat) | Multi-model database for graphs and documents | MongoDB Atlas |
-| [manticoresoftware/manticoresearch](https://github.com/manticoresoftware/manticoresearch) | ![Stars](https://img.shields.io/github/stars/manticoresoftware/manticoresearch?style=flat) | Fast search database engine | Elasticsearch |
-| [dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) | ![Stars](https://img.shields.io/github/stars/dragonflydb/dragonfly?style=flat) | Modern Redis replacement with better memory efficiency | Redis Cloud |
-| [redpanda-data/redpanda](https://github.com/redpanda-data/redpanda) | ![Stars](https://img.shields.io/github/stars/redpanda-data/redpanda?style=flat) | Kafka-compatible streaming data platform | Confluent Cloud |
-| [nats-io/nats-server](https://github.com/nats-io/nats-server) | ![Stars](https://img.shields.io/github/stars/nats-io/nats-server?style=flat) | High-performance messaging system | Kafka, Pub/Sub |
-| [temporalio/temporal](https://github.com/temporalio/temporal) | ![Stars](https://img.shields.io/github/stars/temporalio/temporal?style=flat) | Durable workflow orchestration platform | Temporal Cloud, AWS Step Functions |
-
-## Developer Tools
-
-| Repo | Stars | Description | Alternative For |
-|------|-------|-------------|-----------------|
-| [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) | ![Stars](https://img.shields.io/github/stars/hoppscotch/hoppscotch?style=flat) | API development ecosystem with REST and GraphQL support | Postman |
-| [usebruno/bruno](https://github.com/usebruno/bruno) | ![Stars](https://img.shields.io/github/stars/usebruno/bruno?style=flat) | Offline API client with Git-friendly file storage | Postman |
-| [Kong/insomnia](https://github.com/Kong/insomnia) | ![Stars](https://img.shields.io/github/stars/Kong/insomnia?style=flat) | Cross-platform API client for REST, GraphQL, and gRPC | Postman |
-| [go-gitea/gitea](https://github.com/go-gitea/gitea) | ![Stars](https://img.shields.io/github/stars/go-gitea/gitea?style=flat) | Lightweight self-hosted Git service | GitHub, GitLab |
-| [gogs/gogs](https://github.com/gogs/gogs) | ![Stars](https://img.shields.io/github/stars/gogs/gogs?style=flat) | Painless self-hosted Git service in Go | GitHub, GitLab |
-| [gitlabhq/gitlabhq](https://github.com/gitlabhq/gitlabhq) | ![Stars](https://img.shields.io/github/stars/gitlabhq/gitlabhq?style=flat) | Complete DevOps platform with CI/CD | GitHub |
-| [strapi/strapi](https://github.com/strapi/strapi) | ![Stars](https://img.shields.io/github/stars/strapi/strapi?style=flat) | Headless CMS with customizable API and admin panel | Contentful |
-| [directus/directus](https://github.com/directus/directus) | ![Stars](https://img.shields.io/github/stars/directus/directus?style=flat) | Database-agnostic headless CMS with REST and GraphQL | Contentful |
-| [appsmithorg/appsmith](https://github.com/appsmithorg/appsmith) | ![Stars](https://img.shields.io/github/stars/appsmithorg/appsmith?style=flat) | Low-code platform for building internal tools | Retool |
-| [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | ![Stars](https://img.shields.io/github/stars/ToolJet/ToolJet?style=flat) | Low-code platform with database and API connectors | Retool |
-| [Budibase/budibase](https://github.com/Budibase/budibase) | ![Stars](https://img.shields.io/github/stars/Budibase/budibase?style=flat) | Build internal tools with low-code | Retool |
-| [refinedev/refine](https://github.com/refinedev/refine) | ![Stars](https://img.shields.io/github/stars/refinedev/refine?style=flat) | React framework for admin panels and dashboards | Retool |
-| [illacloud/illa-builder](https://github.com/illacloud/illa-builder) | ![Stars](https://img.shields.io/github/stars/illacloud/illa-builder?style=flat) | Low-code platform for building apps | Retool |
-| [lowdefy/lowdefy](https://github.com/lowdefy/lowdefy) | ![Stars](https://img.shields.io/github/stars/lowdefy/lowdefy?style=flat) | Low-code framework for internal tools | Retool |
-| [marmelab/react-admin](https://github.com/marmelab/react-admin) | ![Stars](https://img.shields.io/github/stars/marmelab/react-admin?style=flat) | Frontend framework for building admin apps | Admin panels |
-| [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio) | ![Stars](https://img.shields.io/github/stars/beekeeper-studio/beekeeper-studio?style=flat) | Cross-platform SQL editor and database manager | DataGrip, DBeaver |
-| [windmill-labs/windmill](https://github.com/windmill-labs/windmill) | ![Stars](https://img.shields.io/github/stars/windmill-labs/windmill?style=flat) | Developer platform for scripts and workflows | Retool, Airplane |
-| [verdaccio/verdaccio](https://github.com/verdaccio/verdaccio) | ![Stars](https://img.shields.io/github/stars/verdaccio/verdaccio?style=flat) | Lightweight private npm registry | npm Enterprise |
-| [returntocorp/semgrep](https://github.com/returntocorp/semgrep) | ![Stars](https://img.shields.io/github/stars/returntocorp/semgrep?style=flat) | Static analysis for finding bugs and vulnerabilities | SonarQube, Snyk |
-| [responsively-org/responsively-app](https://github.com/responsively-org/responsively-app) | ![Stars](https://img.shields.io/github/stars/responsively-org/responsively-app?style=flat) | Browser for responsive web development | BrowserStack |
-| [quickwit-oss/quickwit](https://github.com/quickwit-oss/quickwit) | ![Stars](https://img.shields.io/github/stars/quickwit-oss/quickwit?style=flat) | Cloud-native search engine for logs | Elasticsearch, Splunk |
-| [growthbook/growthbook](https://github.com/growthbook/growthbook) | ![Stars](https://img.shields.io/github/stars/growthbook/growthbook?style=flat) | Feature flags and A/B testing platform | LaunchDarkly, Optimizely |
-| [thingsboard/thingsboard](https://github.com/thingsboard/thingsboard) | ![Stars](https://img.shields.io/github/stars/thingsboard/thingsboard?style=flat) | IoT platform for device management | AWS IoT, Azure IoT |
-| [payloadcms/payload](https://github.com/payloadcms/payload) | ![Stars](https://img.shields.io/github/stars/payloadcms/payload?style=flat) | Next.js headless CMS framework | Contentful |
-| [webiny/webiny-js](https://github.com/webiny/webiny-js) | ![Stars](https://img.shields.io/github/stars/webiny/webiny-js?style=flat) | Serverless CMS with page and form builders | Contentful |
-| [tinacms/tinacms](https://github.com/tinacms/tinacms) | ![Stars](https://img.shields.io/github/stars/tinacms/tinacms?style=flat) | Git-backed CMS with visual editing | Contentful |
-| [BuilderIO/builder](https://github.com/BuilderIO/builder) | ![Stars](https://img.shields.io/github/stars/BuilderIO/builder?style=flat) | Visual editor and headless CMS | Contentful, Figma |
-| [webstudio-is/webstudio](https://github.com/webstudio-is/webstudio) | ![Stars](https://img.shields.io/github/stars/webstudio-is/webstudio?style=flat) | Visual website builder for headless CMS | Webflow |
-| [plasmicapp/plasmic](https://github.com/plasmicapp/plasmic) | ![Stars](https://img.shields.io/github/stars/plasmicapp/plasmic?style=flat) | Visual builder for React applications | Webflow, Framer |
-| [apostrophecms/apostrophe](https://github.com/apostrophecms/apostrophe) | ![Stars](https://img.shields.io/github/stars/apostrophecms/apostrophe?style=flat) | Full-featured CMS and website builder | WordPress |
-| [microweber/microweber](https://github.com/microweber/microweber) | ![Stars](https://img.shields.io/github/stars/microweber/microweber?style=flat) | Drag-and-drop website builder with CMS | Wix, Squarespace |
-| [hasura/graphql-engine](https://github.com/hasura/graphql-engine) | ![Stars](https://img.shields.io/github/stars/hasura/graphql-engine?style=flat) | Instant GraphQL APIs on databases | Custom backend |
-
-## AI & Local LLMs
-
-| Repo | Stars | Description | Alternative For |
-|------|-------|-------------|-----------------|
-| [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | ![Stars](https://img.shields.io/github/stars/langflow-ai/langflow?style=flat) | Visual platform for building AI agents and workflows | LangChain SaaS |
-| [ollama/ollama](https://github.com/ollama/ollama) | ![Stars](https://img.shields.io/github/stars/ollama/ollama?style=flat) | Run large language models locally with simple commands | ChatGPT, OpenAI API |
-| [open-webui/open-webui](https://github.com/open-webui/open-webui) | ![Stars](https://img.shields.io/github/stars/open-webui/open-webui?style=flat) | Self-hosted AI interface with RAG support | ChatGPT |
-| [lobehub/lobe-chat](https://github.com/lobehub/lobe-chat) | ![Stars](https://img.shields.io/github/stars/lobehub/lobe-chat?style=flat) | AI chat platform with multi-agent support | ChatGPT |
-| [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) | ![Stars](https://img.shields.io/github/stars/FlowiseAI/Flowise?style=flat) | Build AI agents visually with drag-and-drop | AI workflow builders |
-| [heartexlabs/label-studio](https://github.com/heartexlabs/label-studio) | ![Stars](https://img.shields.io/github/stars/heartexlabs/label-studio?style=flat) | Multi-type data labeling and annotation tool | Scale AI |
-| [mlflow/mlflow](https://github.com/mlflow/mlflow) | ![Stars](https://img.shields.io/github/stars/mlflow/mlflow?style=flat) | ML lifecycle platform for experiments and models | Weights & Biases |
-| [allegroai/clearml](https://github.com/allegroai/clearml) | ![Stars](https://img.shields.io/github/stars/allegroai/clearml?style=flat) | MLOps suite for experiment tracking and automation | Weights & Biases |
-| [screenpipe/screenpipe](https://github.com/screenpipe/screenpipe) | ![Stars](https://img.shields.io/github/stars/screenpipe/screenpipe?style=flat) | 24/7 screen and audio capture with AI | Rewind, Microsoft Recall |
-
-## Search & Data
-
-| Repo | Stars | Description | Alternative For |
-|------|-------|-------------|-----------------|
-| [meilisearch/meilisearch](https://github.com/meilisearch/meilisearch) | ![Stars](https://img.shields.io/github/stars/meilisearch/meilisearch?style=flat) | Fast search engine with typo tolerance and hybrid search | Algolia |
-| [elastic/elasticsearch](https://github.com/elastic/elasticsearch) | ![Stars](https://img.shields.io/github/stars/elastic/elasticsearch?style=flat) | Distributed search and analytics engine | Algolia, Splunk |
-| [qdrant/qdrant](https://github.com/qdrant/qdrant) | ![Stars](https://img.shields.io/github/stars/qdrant/qdrant?style=flat) | Vector similarity search with filtering | Pinecone |
-| [milvus-io/milvus](https://github.com/milvus-io/milvus) | ![Stars](https://img.shields.io/github/stars/milvus-io/milvus?style=flat) | Vector database for AI applications | Pinecone |
-| [typesense/typesense](https://github.com/typesense/typesense) | ![Stars](https://img.shields.io/github/stars/typesense/typesense?style=flat) | Fast typo-tolerant search engine | Algolia |
-| [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | ![Stars](https://img.shields.io/github/stars/ClickHouse/ClickHouse?style=flat) | Column-oriented OLAP database for analytics | Snowflake, BigQuery |
-| [trinodb/trino](https://github.com/trinodb/trino) | ![Stars](https://img.shields.io/github/stars/trinodb/trino?style=flat) | Distributed SQL query engine for big data | Snowflake, Databricks |
-| [airbytehq/airbyte](https://github.com/airbytehq/airbyte) | ![Stars](https://img.shields.io/github/stars/airbytehq/airbyte?style=flat) | Data integration and ETL platform | Fivetran |
-
-## Analytics & Monitoring
-
-| Repo | Stars | Description | Alternative For |
-|------|-------|-------------|-----------------|
-| [grafana/grafana](https://github.com/grafana/grafana) | ![Stars](https://img.shields.io/github/stars/grafana/grafana?style=flat) | Observability and data visualization platform | Datadog, New Relic |
-| [metabase/metabase](https://github.com/metabase/metabase) | ![Stars](https://img.shields.io/github/stars/metabase/metabase?style=flat) | Business intelligence with visual query builder | Tableau, Power BI, Looker |
-| [apache/superset](https://github.com/apache/superset) | ![Stars](https://img.shields.io/github/stars/apache/superset?style=flat) | Data visualization and exploration platform | Tableau, Looker |
-| [PostHog/posthog](https://github.com/PostHog/posthog) | ![Stars](https://img.shields.io/github/stars/PostHog/posthog?style=flat) | Product analytics, session replay, and feature flags | Amplitude, Mixpanel |
-| [plausible/analytics](https://github.com/plausible/analytics) | ![Stars](https://img.shields.io/github/stars/plausible/analytics?style=flat) | Privacy-focused web analytics | Google Analytics |
-| [umami-software/umami](https://github.com/umami-software/umami) | ![Stars](https://img.shields.io/github/stars/umami-software/umami?style=flat) | Simple, fast privacy-focused analytics | Google Analytics |
-| [matomo-org/matomo](https://github.com/matomo-org/matomo) | ![Stars](https://img.shields.io/github/stars/matomo-org/matomo?style=flat) | Full-featured web analytics platform | Google Analytics |
-| [getsentry/sentry](https://github.com/getsentry/sentry) | ![Stars](https://img.shields.io/github/stars/getsentry/sentry?style=flat) | Error tracking and performance monitoring | Datadog, New Relic |
-| [signoz/signoz](https://github.com/signoz/signoz) | ![Stars](https://img.shields.io/github/stars/signoz/signoz?style=flat) | Logs, metrics, and traces in one platform | Datadog, New Relic |
-| [openreplay/openreplay](https://github.com/openreplay/openreplay) | ![Stars](https://img.shields.io/github/stars/openreplay/openreplay?style=flat) | Session replay and debugging platform | LogRocket, FullStory |
-| [Unleash/unleash](https://github.com/Unleash/unleash) | ![Stars](https://img.shields.io/github/stars/Unleash/unleash?style=flat) | Feature management and A/B testing | LaunchDarkly, Firebase Remote Config |
-| [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) | ![Stars](https://img.shields.io/github/stars/louislam/uptime-kuma?style=flat) | Self-hosted uptime monitoring | Uptime Robot, Pingdom |
-| [VictoriaMetrics/VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics) | ![Stars](https://img.shields.io/github/stars/VictoriaMetrics/VictoriaMetrics?style=flat) | Fast and cost-effective monitoring solution | Datadog, Prometheus Cloud |
-| [jaegertracing/jaeger](https://github.com/jaegertracing/jaeger) | ![Stars](https://img.shields.io/github/stars/jaegertracing/jaeger?style=flat) | Distributed tracing platform | Datadog APM, New Relic |
-| [Flagsmith/flagsmith](https://github.com/Flagsmith/flagsmith) | ![Stars](https://img.shields.io/github/stars/Flagsmith/flagsmith?style=flat) | Feature flags and remote config | LaunchDarkly |
-| [grafana/pyroscope](https://github.com/grafana/pyroscope) | ![Stars](https://img.shields.io/github/stars/grafana/pyroscope?style=flat) | Continuous profiling platform | Datadog Profiler |
-| [prometheus/prometheus](https://github.com/prometheus/prometheus) | ![Stars](https://img.shields.io/github/stars/prometheus/prometheus?style=flat) | Monitoring and alerting toolkit | Datadog, New Relic |
-| [dbeaver/dbeaver](https://github.com/dbeaver/dbeaver) | ![Stars](https://img.shields.io/github/stars/dbeaver/dbeaver?style=flat) | Universal database management tool | DataGrip, Navicat |
-| [allinurl/goaccess](https://github.com/allinurl/goaccess) | ![Stars](https://img.shields.io/github/stars/allinurl/goaccess?style=flat) | Real-time web log analyzer | Splunk, Loggly |
-| [usefathom/fathom](https://github.com/usefathom/fathom) | ![Stars](https://img.shields.io/github/stars/usefathom/fathom?style=flat) | Simple privacy-focused website analytics | Google Analytics |
-| [Countly/countly-server](https://github.com/Countly/countly-server) | ![Stars](https://img.shields.io/github/stars/Countly/countly-server?style=flat) | Product analytics for mobile and web | Mixpanel, Amplitude |
-| [arp242/goatcounter](https://github.com/arp242/goatcounter) | ![Stars](https://img.shields.io/github/stars/arp242/goatcounter?style=flat) | Simple web analytics without tracking | Google Analytics |
-| [electerious/Ackee](https://github.com/electerious/Ackee) | ![Stars](https://img.shields.io/github/stars/electerious/Ackee?style=flat) | Self-hosted analytics with privacy focus | Google Analytics |
-
-## Communication & Collaboration
-
-| Repo | Stars | Description | Alternative For |
-|------|-------|-------------|-----------------|
-| [RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat) | ![Stars](https://img.shields.io/github/stars/RocketChat/Rocket.Chat?style=flat) | Team communication and messaging platform | Slack |
-| [mattermost/mattermost](https://github.com/mattermost/mattermost) | ![Stars](https://img.shields.io/github/stars/mattermost/mattermost?style=flat) | Enterprise team collaboration platform | Slack |
-| [zulip/zulip](https://github.com/zulip/zulip) | ![Stars](https://img.shields.io/github/stars/zulip/zulip?style=flat) | Team chat with threaded conversations | Slack, Discord |
-| [element-hq/element-web](https://github.com/element-hq/element-web) | ![Stars](https://img.shields.io/github/stars/element-hq/element-web?style=flat) | Matrix chat client with E2E encryption | Slack, Discord |
-| [jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet) | ![Stars](https://img.shields.io/github/stars/jitsi/jitsi-meet?style=flat) | Video conferencing with WebRTC | Zoom, Google Meet |
-| [meetecho/janus-gateway](https://github.com/meetecho/janus-gateway) | ![Stars](https://img.shields.io/github/stars/meetecho/janus-gateway?style=flat) | General-purpose WebRTC server | Twilio Video |
-| [chatwoot/chatwoot](https://github.com/chatwoot/chatwoot) | ![Stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=flat) | Omnichannel customer support platform | Intercom, Zendesk |
-| [discourse/discourse](https://github.com/discourse/discourse) | ![Stars](https://img.shields.io/github/stars/discourse/discourse?style=flat) | Community discussion platform | Traditional forums |
-| [zammad/zammad](https://github.com/zammad/zammad) | ![Stars](https://img.shields.io/github/stars/zammad/zammad?style=flat) | Helpdesk and customer support | Zendesk |
-| [uvdesk/community-skeleton](https://github.com/uvdesk/community-skeleton) | ![Stars](https://img.shields.io/github/stars/uvdesk/community-skeleton?style=flat) | Helpdesk ticketing system | Zendesk, Freshdesk |
-| [signalapp/Signal-Android](https://github.com/signalapp/Signal-Android) | ![Stars](https://img.shields.io/github/stars/signalapp/Signal-Android?style=flat) | Private encrypted messaging | WhatsApp, Telegram |
-| [bigbluebutton/bigbluebutton](https://github.com/bigbluebutton/bigbluebutton) | ![Stars](https://img.shields.io/github/stars/bigbluebutton/bigbluebutton?style=flat) | Virtual classroom and web conferencing | Zoom, Google Meet |
-| [berty/berty](https://github.com/berty/berty) | ![Stars](https://img.shields.io/github/stars/berty/berty?style=flat) | Peer-to-peer encrypted messaging | Signal |
-| [cinnyapp/cinny](https://github.com/cinnyapp/cinny) | ![Stars](https://img.shields.io/github/stars/cinnyapp/cinny?style=flat) | Matrix chat client | Discord |
-| [umputun/remark42](https://github.com/umputun/remark42) | ![Stars](https://img.shields.io/github/stars/umputun/remark42?style=flat) | Self-hosted comment engine | Disqus |
-| [posativ/isso](https://github.com/posativ/isso) | ![Stars](https://img.shields.io/github/stars/posativ/isso?style=flat) | Lightweight commenting server | Disqus |
-| [chaskiq/chaskiq](https://github.com/chaskiq/chaskiq) | ![Stars](https://img.shields.io/github/stars/chaskiq/chaskiq?style=flat) | Messaging platform for marketing and support | Intercom |
-| [calcom/cal.com](https://github.com/calcom/cal.com) | ![Stars](https://img.shields.io/github/stars/calcom/cal.com?style=flat) | Scheduling infrastructure with calendar integrations | Calendly |
-| [HiEventsDev/hi.events](https://github.com/HiEventsDev/hi.events) | ![Stars](https://img.shields.io/github/stars/HiEventsDev/hi.events?style=flat) | Event management and ticketing platform | Eventbrite |
-| [lukevella/rallly](https://github.com/lukevella/rallly) | ![Stars](https://img.shields.io/github/stars/lukevella/rallly?style=flat) | Meeting poll and scheduling tool | Doodle |
-| [inverse-inc/sogo](https://github.com/inverse-inc/sogo) | ![Stars](https://img.shields.io/github/stars/inverse-inc/sogo?style=flat) | Groupware with calendar and contacts | Google Calendar, Microsoft Exchange |
-| [binwiederhier/ntfy](https://github.com/binwiederhier/ntfy) | ![Stars](https://img.shields.io/github/stars/binwiederhier/ntfy?style=flat) | Simple HTTP-based push notifications | Pushover, Firebase FCM |
-| [novuhq/novu](https://github.com/novuhq/novu) | ![Stars](https://img.shields.io/github/stars/novuhq/novu?style=flat) | Notification infrastructure for developers | Twilio, SendGrid |
-
-## Productivity & Notes
-
-| Repo | Stars | Description | Alternative For |
-|------|-------|-------------|-----------------|
-| [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) | ![Stars](https://img.shields.io/github/stars/AppFlowy-IO/AppFlowy?style=flat) | AI workspace with kanban, docs, and databases | Notion |
-| [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) | ![Stars](https://img.shields.io/github/stars/toeverything/AFFiNE?style=flat) | Knowledge base with docs, whiteboards, and databases | Notion, Miro |
-| [Zettlr/Zettlr](https://github.com/Zettlr/Zettlr) | ![Stars](https://img.shields.io/github/stars/Zettlr/Zettlr?style=flat) | Markdown editor for academics and writers | Notion, Obsidian |
-| [logseq/logseq](https://github.com/logseq/logseq) | ![Stars](https://img.shields.io/github/stars/logseq/logseq?style=flat) | Privacy-first knowledge management platform | Roam Research, Notion |
-| [laurent22/joplin](https://github.com/laurent22/joplin) | ![Stars](https://img.shields.io/github/stars/laurent22/joplin?style=flat) | Note-taking app with sync and encryption | Evernote, OneNote |
-| [standardnotes/app](https://github.com/standardnotes/app) | ![Stars](https://img.shields.io/github/stars/standardnotes/app?style=flat) | Encrypted notes app with longevity focus | Evernote, Apple Notes |
-| [zadam/trilium](https://github.com/zadam/trilium) | ![Stars](https://img.shields.io/github/stars/zadam/trilium?style=flat) | Hierarchical note-taking with knowledge base | Notion, Roam |
-| [ankitects/anki](https://github.com/ankitects/anki) | ![Stars](https://img.shields.io/github/stars/ankitects/anki?style=flat) | Intelligent flashcard learning | Quizlet |
-| [xournalpp/xournalpp](https://github.com/xournalpp/xournalpp) | ![Stars](https://img.shields.io/github/stars/xournalpp/xournalpp?style=flat) | Handwriting and PDF annotation | Notability, GoodNotes |
-| [streetwriters/notesnook](https://github.com/streetwriters/notesnook) | ![Stars](https://img.shields.io/github/stars/streetwriters/notesnook?style=flat) | Privacy-focused encrypted notes | Evernote |
-| [wallabag/wallabag](https://github.com/wallabag/wallabag) | ![Stars](https://img.shields.io/github/stars/wallabag/wallabag?style=flat) | Save and read articles later | Pocket, Instapaper |
-| [plankanban/planka](https://github.com/plankanban/planka) | ![Stars](https://img.shields.io/github/stars/plankanban/planka?style=flat) | Elegant kanban board for projects | Trello |
-| [dendronhq/dendron](https://github.com/dendronhq/dendron) | ![Stars](https://img.shields.io/github/stars/dendronhq/dendron?style=flat) | Personal knowledge management in VS Code | Roam Research |
-| [freeplane/freeplane](https://github.com/freeplane/freeplane) | ![Stars](https://img.shields.io/github/stars/freeplane/freeplane?style=flat) | Mind mapping and knowledge management | MindMeister, XMind |
-| [outline/outline](https://github.com/outline/outline) | ![Stars](https://img.shields.io/github/stars/outline/outline?style=flat) | Team wiki and knowledge base | Notion, Confluence |
-| [makeplane/plane](https://github.com/makeplane/plane) | ![Stars](https://img.shields.io/github/stars/makeplane/plane?style=flat) | Issue tracking with cycles and modules | Jira, Linear, Asana |
-| [mattermost/focalboard](https://github.com/mattermost/focalboard) | ![Stars](https://img.shields.io/github/stars/mattermost/focalboard?style=flat) | Project and task management boards | Trello, Notion, Asana |
-| [wekan/wekan](https://github.com/wekan/wekan) | ![Stars](https://img.shields.io/github/stars/wekan/wekan?style=flat) | Kanban board for project management | Trello |
-| [kanboard/kanboard](https://github.com/kanboard/kanboard) | ![Stars](https://img.shields.io/github/stars/kanboard/kanboard?style=flat) | Minimalist Kanban project management | Trello |
-| [Leantime/leantime](https://github.com/Leantime/leantime) | ![Stars](https://img.shields.io/github/stars/Leantime/leantime?style=flat) | Strategic project management for teams | Monday, Asana |
-| [getfider/fider](https://github.com/getfider/fider) | ![Stars](https://img.shields.io/github/stars/getfider/fider?style=flat) | Feature voting and feedback collection | Canny, UserVoice |
-| [n8n-io/n8n](https://github.com/n8n-io/n8n) | ![Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=flat) | Workflow automation with visual builder | Zapier, Make |
-| [huginn/huginn](https://github.com/huginn/huginn) | ![Stars](https://img.shields.io/github/stars/huginn/huginn?style=flat) | Automation agents that monitor and act on your behalf | IFTTT, Zapier |
-| [activepieces/activepieces](https://github.com/activepieces/activepieces) | ![Stars](https://img.shields.io/github/stars/activepieces/activepieces?style=flat) | No-code automation tool with 200+ integrations | Zapier, Make |
-| [automatisch/automatisch](https://github.com/automatisch/automatisch) | ![Stars](https://img.shields.io/github/stars/automatisch/automatisch?style=flat) | Business automation platform | Zapier |
-| [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | ![Stars](https://img.shields.io/github/stars/PipedreamHQ/pipedream?style=flat) | Workflow automation for developers | Zapier |
-| [jenkinsci/jenkins](https://github.com/jenkinsci/jenkins) | ![Stars](https://img.shields.io/github/stars/jenkinsci/jenkins?style=flat) | Automation server for CI/CD | CircleCI, GitHub Actions |
-| [netbox-community/netbox](https://github.com/netbox-community/netbox) | ![Stars](https://img.shields.io/github/stars/netbox-community/netbox?style=flat) | Network automation and IPAM | SolarWinds IPAM |
-| [StackStorm/st2](https://github.com/StackStorm/st2) | ![Stars](https://img.shields.io/github/stars/StackStorm/st2?style=flat) | Event-driven DevOps automation | Rundeck |
-| [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) | ![Stars](https://img.shields.io/github/stars/siyuan-note/siyuan?style=flat) | Local-first personal knowledge management | Notion, Obsidian |
-| [requarks/wiki](https://github.com/requarks/wiki) | ![Stars](https://img.shields.io/github/stars/requarks/wiki?style=flat) | Modern wiki engine with markdown support | Confluence |
-| [BookStackApp/BookStack](https://github.com/BookStackApp/BookStack) | ![Stars](https://img.shields.io/github/stars/BookStackApp/BookStack?style=flat) | Self-hosted wiki and documentation platform | Confluence, Notion |
-| [docmost/docmost](https://github.com/docmost/docmost) | ![Stars](https://img.shields.io/github/stars/docmost/docmost?style=flat) | Collaborative wiki and documentation | Confluence, Notion |
-
-## File Storage & Media
-
-| Repo | Stars | Description | Alternative For |
-|------|-------|-------------|-----------------|
-| [nextcloud/server](https://github.com/nextcloud/server) | ![Stars](https://img.shields.io/github/stars/nextcloud/server?style=flat) | Self-hosted cloud storage with collaboration | Dropbox, Google Drive |
-| [haiwen/seafile](https://github.com/haiwen/seafile) | ![Stars](https://img.shields.io/github/stars/haiwen/seafile?style=flat) | File sync and share with encryption | Dropbox |
-| [immich-app/immich](https://github.com/immich-app/immich) | ![Stars](https://img.shields.io/github/stars/immich-app/immich?style=flat) | Self-hosted photo and video backup with AI features | Google Photos |
-| [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | ![Stars](https://img.shields.io/github/stars/rustdesk/rustdesk?style=flat) | Remote desktop with self-hosted server option | TeamViewer, AnyDesk |
-| [Ylianst/MeshCentral](https://github.com/Ylianst/MeshCentral) | ![Stars](https://img.shields.io/github/stars/Ylianst/MeshCentral?style=flat) | Remote device management platform | TeamViewer |
-
-## Marketing & Social Media
-
-| Repo | Stars | Description | Alternative For |
-|------|-------|-------------|-----------------|
-| [gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app) | ![Stars](https://img.shields.io/github/stars/gitroomhq/postiz-app?style=flat) | AI social media scheduling tool | Buffer, Hypefury |
-| [dubinc/dub](https://github.com/dubinc/dub) | ![Stars](https://img.shields.io/github/stars/dubinc/dub?style=flat) | Link shortening and conversion tracking | Bitly, Short.io |
-| [inovector/mixpost](https://github.com/inovector/mixpost) | ![Stars](https://img.shields.io/github/stars/inovector/mixpost?style=flat) | Self-hosted social media management | Buffer |
-| [mautic/mautic](https://github.com/mautic/mautic) | ![Stars](https://img.shields.io/github/stars/mautic/mautic?style=flat) | Marketing automation platform | Mailchimp, HubSpot |
-| [knadh/listmonk](https://github.com/knadh/listmonk) | ![Stars](https://img.shields.io/github/stars/knadh/listmonk?style=flat) | High-performance mailing list and newsletter manager | Mailchimp, ConvertKit |
-| [postalserver/postal](https://github.com/postalserver/postal) | ![Stars](https://img.shields.io/github/stars/postalserver/postal?style=flat) | Mail delivery platform for transactional emails | SendGrid, Mailgun, Postmark |
-| [mettle/sendportal](https://github.com/mettle/sendportal) | ![Stars](https://img.shields.io/github/stars/mettle/sendportal?style=flat) | Self-hosted email marketing and newsletters | Mailchimp |
-| [pentacent/keila](https://github.com/pentacent/keila) | ![Stars](https://img.shields.io/github/stars/pentacent/keila?style=flat) | Newsletter tool with campaign management | Mailchimp, Sendinblue |
-
-## E-Commerce & Business
-
-| Repo | Stars | Description | Alternative For |
-|------|-------|-------------|-----------------|
-| [medusajs/medusa](https://github.com/medusajs/medusa) | ![Stars](https://img.shields.io/github/stars/medusajs/medusa?style=flat) | Headless commerce platform with modular architecture | Shopify |
-| [saleor/saleor](https://github.com/saleor/saleor) | ![Stars](https://img.shields.io/github/stars/saleor/saleor?style=flat) | GraphQL-based headless e-commerce | Shopify |
-| [odoo/odoo](https://github.com/odoo/odoo) | ![Stars](https://img.shields.io/github/stars/odoo/odoo?style=flat) | Suite of business apps for CRM, sales, and accounting | Salesforce, SAP |
-| [frappe/erpnext](https://github.com/frappe/erpnext) | ![Stars](https://img.shields.io/github/stars/frappe/erpnext?style=flat) | Full-featured ERP for manufacturing and distribution | SAP, Oracle NetSuite |
-| [tryghost/ghost](https://github.com/tryghost/ghost) | ![Stars](https://img.shields.io/github/stars/tryghost/ghost?style=flat) | Headless publishing platform for blogs and newsletters | Medium, Substack |
-| [btw-so/btw](https://github.com/btw-so/btw) | ![Stars](https://img.shields.io/github/stars/btw-so/btw?style=flat) | Personal website and blog builder | Medium |
-| [twentyhq/twenty](https://github.com/twentyhq/twenty) | ![Stars](https://img.shields.io/github/stars/twentyhq/twenty?style=flat) | Modern open-source CRM | Salesforce, HubSpot |
-| [erxes/erxes](https://github.com/erxes/erxes) | ![Stars](https://img.shields.io/github/stars/erxes/erxes?style=flat) | Experience operating system for CRM | HubSpot |
-| [rudderlabs/rudder-server](https://github.com/rudderlabs/rudder-server) | ![Stars](https://img.shields.io/github/stars/rudderlabs/rudder-server?style=flat) | Customer data platform | Segment |
-| [invoiceninja/invoiceninja](https://github.com/invoiceninja/invoiceninja) | ![Stars](https://img.shields.io/github/stars/invoiceninja/invoiceninja?style=flat) | Invoicing and billing platform | FreshBooks, QuickBooks |
-| [getlago/lago](https://github.com/getlago/lago) | ![Stars](https://img.shields.io/github/stars/getlago/lago?style=flat) | Usage-based billing platform | Stripe Billing, Chargebee |
-
-## Document Signing
-
-| Repo | Stars | Description | Alternative For |
-|------|-------|-------------|-----------------|
-| [documenso/documenso](https://github.com/documenso/documenso) | ![Stars](https://img.shields.io/github/stars/documenso/documenso?style=flat) | Digital document signing | DocuSign, HelloSign |
-| [OpenSignLabs/OpenSign](https://github.com/OpenSignLabs/OpenSign) | ![Stars](https://img.shields.io/github/stars/OpenSignLabs/OpenSign?style=flat) | Free e-signature solution | DocuSign |
-
-## Design Tools
-
-| Repo | Stars | Description | Alternative For |
-|------|-------|-------------|-----------------|
-| [penpot/penpot](https://github.com/penpot/penpot) | ![Stars](https://img.shields.io/github/stars/penpot/penpot?style=flat) | Design and code collaboration platform | Figma |
-| [open-pencil/open-pencil](https://github.com/open-pencil/open-pencil) | ![Stars](https://img.shields.io/github/stars/open-pencil/open-pencil?style=flat) | AI-native design editor with .fig file support | Figma |
-| [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw) | ![Stars](https://img.shields.io/github/stars/excalidraw/excalidraw?style=flat) | Virtual whiteboard for sketching hand-drawn diagrams | Miro, FigJam |
-| [tldraw/tldraw](https://github.com/tldraw/tldraw) | ![Stars](https://img.shields.io/github/stars/tldraw/tldraw?style=flat) | Collaborative digital whiteboard | Miro, FigJam |
-| [darktable-org/darktable](https://github.com/darktable-org/darktable) | ![Stars](https://img.shields.io/github/stars/darktable-org/darktable?style=flat) | Photography workflow and raw developer | Adobe Lightroom |
-| [KDE/krita](https://github.com/KDE/krita) | ![Stars](https://img.shields.io/github/stars/KDE/krita?style=flat) | Digital painting and illustration | Photoshop, Procreate |
-| [Orama-Interactive/Pixelorama](https://github.com/Orama-Interactive/Pixelorama) | ![Stars](https://img.shields.io/github/stars/Orama-Interactive/Pixelorama?style=flat) | 2D sprite editor for pixel art | Aseprite |
-| [GNOME/gimp](https://github.com/GNOME/gimp) | ![Stars](https://img.shields.io/github/stars/GNOME/gimp?style=flat) | Image manipulation program | Adobe Photoshop |
-| [inkscape/inkscape](https://github.com/inkscape/inkscape) | ![Stars](https://img.shields.io/github/stars/inkscape/inkscape?style=flat) | Vector graphics editor | Adobe Illustrator |
-| [opentoonz/opentoonz](https://github.com/opentoonz/opentoonz) | ![Stars](https://img.shields.io/github/stars/opentoonz/opentoonz?style=flat) | 2D animation production software | Toon Boom |
-| [NatronGitHub/Natron](https://github.com/NatronGitHub/Natron) | ![Stars](https://img.shields.io/github/stars/NatronGitHub/Natron?style=flat) | VFX compositing software | After Effects, Nuke |
-| [tone-row/flowchart-fun](https://github.com/tone-row/flowchart-fun) | ![Stars](https://img.shields.io/github/stars/tone-row/flowchart-fun?style=flat) | Text-to-flowchart diagram generator | Lucidchart |
-
-## Social & Security
-
-| Repo | Stars | Description | Alternative For |
-|------|-------|-------------|-----------------|
-| [mastodon/mastodon](https://github.com/mastodon/mastodon) | ![Stars](https://img.shields.io/github/stars/mastodon/mastodon?style=flat) | Decentralized social network using ActivityPub | Twitter/X |
-| [pixelfed/pixelfed](https://github.com/pixelfed/pixelfed) | ![Stars](https://img.shields.io/github/stars/pixelfed/pixelfed?style=flat) | Decentralized photo sharing platform | Instagram |
-| [Chocobozzz/PeerTube](https://github.com/Chocobozzz/PeerTube) | ![Stars](https://img.shields.io/github/stars/Chocobozzz/PeerTube?style=flat) | Decentralized video hosting with P2P | YouTube |
-| [bitwarden/clients](https://github.com/bitwarden/clients) | ![Stars](https://img.shields.io/github/stars/bitwarden/clients?style=flat) | Password manager with browser and desktop apps | 1Password, LastPass |
-| [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) | ![Stars](https://img.shields.io/github/stars/dani-garcia/vaultwarden?style=flat) | Lightweight Bitwarden server implementation | 1Password, LastPass |
-| [keepassxreboot/keepassxc](https://github.com/keepassxreboot/keepassxc) | ![Stars](https://img.shields.io/github/stars/keepassxreboot/keepassxc?style=flat) | Cross-platform password manager | 1Password, LastPass |
-| [Infisical/infisical](https://github.com/Infisical/infisical) | ![Stars](https://img.shields.io/github/stars/Infisical/infisical?style=flat) | Secret management platform for teams | HashiCorp Vault, Doppler |
-
-## Documentation & Knowledge
-
-| Repo | Stars | Description | Alternative For |
-|------|-------|-------------|-----------------|
-| [facebook/docusaurus](https://github.com/facebook/docusaurus) | ![Stars](https://img.shields.io/github/stars/facebook/docusaurus?style=flat) | Build optimized documentation websites | GitBook, ReadMe |
-| [vuejs/vuepress](https://github.com/vuejs/vuepress) | ![Stars](https://img.shields.io/github/stars/vuejs/vuepress?style=flat) | Vue-powered static site generator for docs | GitBook |
-| [splitbrain/dokuwiki](https://github.com/splitbrain/dokuwiki) | ![Stars](https://img.shields.io/github/stars/splitbrain/dokuwiki?style=flat) | Simple wiki that stores data in plain files | Confluence |
-| [hedgedoc/hedgedoc](https://github.com/hedgedoc/hedgedoc) | ![Stars](https://img.shields.io/github/stars/hedgedoc/hedgedoc?style=flat) | Collaborative markdown notes | HackMD, Notion |
-
-## Document Management
-
-| Repo | Stars | Description | Alternative For |
-|------|-------|-------------|-----------------|
-| [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) | ![Stars](https://img.shields.io/github/stars/paperless-ngx/paperless-ngx?style=flat) | Document management system with OCR | DocuWare |
-| [mfts/papermark](https://github.com/mfts/papermark) | ![Stars](https://img.shields.io/github/stars/mfts/papermark?style=flat) | Document sharing with analytics | DocSend |
-
-## Surveys & Forms
-
-| Repo | Stars | Description | Alternative For |
-|------|-------|-------------|-----------------|
-| [formbricks/formbricks](https://github.com/formbricks/formbricks) | ![Stars](https://img.shields.io/github/stars/formbricks/formbricks?style=flat) | Survey and experience management platform | Typeform, SurveyMonkey |
-| [baptisteArno/typebot.io](https://github.com/baptisteArno/typebot.io) | ![Stars](https://img.shields.io/github/stars/baptisteArno/typebot.io?style=flat) | Visual chatbot builder with embeddable widgets | Typeform, Landbot, Drift |
-
-## File Sync & Backup
-
-| Repo | Stars | Description | Alternative For |
-|------|-------|-------------|-----------------|
-| [syncthing/syncthing](https://github.com/syncthing/syncthing) | ![Stars](https://img.shields.io/github/stars/syncthing/syncthing?style=flat) | Continuous file synchronization | Dropbox, Resilio Sync |
-| [restic/restic](https://github.com/restic/restic) | ![Stars](https://img.shields.io/github/stars/restic/restic?style=flat) | Fast and secure backup program | Backblaze, Acronis |
-| [photoprism/photoprism](https://github.com/photoprism/photoprism) | ![Stars](https://img.shields.io/github/stars/photoprism/photoprism?style=flat) | AI-powered photos app with browsing and sharing | Google Photos |
-| [ArchiveBox/ArchiveBox](https://github.com/ArchiveBox/ArchiveBox) | ![Stars](https://img.shields.io/github/stars/ArchiveBox/ArchiveBox?style=flat) | Self-hosted web archiving tool | Wayback Machine |
-
-## PDF & Office Tools
-
-| Repo | Stars | Description | Alternative For |
-|------|-------|-------------|-----------------|
-| [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) | ![Stars](https://img.shields.io/github/stars/Stirling-Tools/Stirling-PDF?style=flat) | Self-hosted PDF manipulation tool | Adobe Acrobat, SmallPDF |
-| [ONLYOFFICE/DocumentServer](https://github.com/ONLYOFFICE/DocumentServer) | ![Stars](https://img.shields.io/github/stars/ONLYOFFICE/DocumentServer?style=flat) | Online document editing suite | Google Docs, Microsoft 365 |
-| [dream-num/univer](https://github.com/dream-num/univer) | ![Stars](https://img.shields.io/github/stars/dream-num/univer?style=flat) | Collaborative spreadsheets and docs framework | Google Sheets, Google Docs |
-| [ether/etherpad-lite](https://github.com/ether/etherpad-lite) | ![Stars](https://img.shields.io/github/stars/ether/etherpad-lite?style=flat) | Real-time collaborative document editing | Google Docs |
-| [xwiki-labs/cryptpad](https://github.com/xwiki-labs/cryptpad) | ![Stars](https://img.shields.io/github/stars/xwiki-labs/cryptpad?style=flat) | End-to-end encrypted collaborative editing | Google Docs |
-| [CollaboraOnline/online](https://github.com/CollaboraOnline/online) | ![Stars](https://img.shields.io/github/stars/CollaboraOnline/online?style=flat) | LibreOffice-based collaborative editing | Google Docs, Microsoft 365 |
-| [ciur/papermerge](https://github.com/ciur/papermerge) | ![Stars](https://img.shields.io/github/stars/ciur/papermerge?style=flat) | Document management with OCR | DocuWare |
-
-## Browser Automation & Scraping
-
-| Repo | Stars | Description | Alternative For |
-|------|-------|-------------|-----------------|
-| [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) | ![Stars](https://img.shields.io/github/stars/puppeteer/puppeteer?style=flat) | Headless Chrome automation library | Selenium |
-| [apify/crawlee](https://github.com/apify/crawlee) | ![Stars](https://img.shields.io/github/stars/apify/crawlee?style=flat) | Web scraping and browser automation library | Apify |
-| [scrapy/scrapy](https://github.com/scrapy/scrapy) | ![Stars](https://img.shields.io/github/stars/scrapy/scrapy?style=flat) | Fast web crawling framework | Apify |
-
-## Translation & Localization
-
-| Repo | Stars | Description | Alternative For |
-|------|-------|-------------|-----------------|
-| [WeblateOrg/weblate](https://github.com/WeblateOrg/weblate) | ![Stars](https://img.shields.io/github/stars/WeblateOrg/weblate?style=flat) | Web-based localization tool | Crowdin, Lokalise |
-
-## Infrastructure as Code
-
-| Repo | Stars | Description | Alternative For |
-|------|-------|-------------|-----------------|
-| [hashicorp/terraform](https://github.com/hashicorp/terraform) | ![Stars](https://img.shields.io/github/stars/hashicorp/terraform?style=flat) | Infrastructure provisioning with declarative config | Terraform Cloud |
-| [pulumi/pulumi](https://github.com/pulumi/pulumi) | ![Stars](https://img.shields.io/github/stars/pulumi/pulumi?style=flat) | Infrastructure as code using programming languages | Terraform Cloud |
-| [istio/istio](https://github.com/istio/istio) | ![Stars](https://img.shields.io/github/stars/istio/istio?style=flat) | Service mesh for microservices networking | AWS App Mesh |
-| [linkerd/linkerd2](https://github.com/linkerd/linkerd2) | ![Stars](https://img.shields.io/github/stars/linkerd/linkerd2?style=flat) | Ultralight service mesh for Kubernetes | AWS App Mesh |
-
-## Resume & Career
-
-| Repo | Stars | Description | Alternative For |
-|------|-------|-------------|-----------------|
-| [AmruthPillai/Reactive-Resume](https://github.com/AmruthPillai/Reactive-Resume) | ![Stars](https://img.shields.io/github/stars/AmruthPillai/Reactive-Resume?style=flat) | Free resume builder with real-time preview | Canva Resume, Resume.io |
+For apps with 100-1,000 stars, see [OTHER.md](OTHER.md).
 
 ---
 
-*All projects listed have 1k+ stars and are actively maintained.*
+## Contents
+
+- [Video & Media Players](#video--media-players)
+- [Audio & Music](#audio--music)
+- [Terminal Emulators](#terminal-emulators)
+- [Code Editors](#code-editors)
+- [Note-Taking & Writing](#note-taking--writing)
+- [Markdown Tools](#markdown-tools)
+- [Database Clients](#database-clients)
+- [API Development](#api-development)
+- [Version Control](#version-control)
+- [Virtualization & Containers](#virtualization--containers)
+- [Design & Graphics](#design--graphics)
+- [Screen Recording](#screen-recording)
+- [Image Tools](#image-tools)
+- [Browsers](#browsers)
+- [Communication](#communication)
+- [Email Clients](#email-clients)
+- [AI Assistants](#ai-assistants)
+- [Download Managers](#download-managers)
+- [Security & Privacy](#security--privacy)
+- [VPN & Proxy](#vpn--proxy)
+- [Clipboard Managers](#clipboard-managers)
+- [Menu Bar Tools](#menu-bar-tools)
+- [Window Management](#window-management)
+- [System Utilities](#system-utilities)
+- [Productivity](#productivity)
+- [Password Managers](#password-managers)
+- [File Management](#file-management)
+- [Translation](#translation)
+- [RSS Readers](#rss-readers)
+- [E-Book & Reading](#e-book--reading)
+- [Gaming & Emulators](#gaming--emulators)
+- [Remote Desktop](#remote-desktop)
+- [QuickLook Plugins](#quicklook-plugins)
+- [Package Managers](#package-managers)
+- [Development Tools](#development-tools)
+- [Development Frameworks](#development-frameworks)
+- [Voice & Dictation](#voice--dictation)
+
+---
+
+## Video & Media Players
+
+| Repo | Stars | Description |
+|------|-------|-------------|
+| [iina/iina](https://github.com/iina/iina) | ![Stars](https://img.shields.io/github/stars/iina/iina?style=flat) | Modern video player with minimalist design for macOS |
+| [mpv-player/mpv](https://github.com/mpv-player/mpv) | ![Stars](https://img.shields.io/github/stars/mpv-player/mpv?style=flat) | Powerful command-line media player |
+| [videolan/vlc](https://github.com/videolan/vlc) | ![Stars](https://img.shields.io/github/stars/videolan/vlc?style=flat) | Cross-platform multimedia player that plays most formats |
+| [xbmc/xbmc](https://github.com/xbmc/xbmc) | ![Stars](https://img.shields.io/github/stars/xbmc/xbmc?style=flat) | Kodi media center for organizing and streaming content |
+| [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin) | ![Stars](https://img.shields.io/github/stars/jellyfin/jellyfin?style=flat) | Self-hosted media server system |
+| [FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube) | ![Stars](https://img.shields.io/github/stars/FreeTubeApp/FreeTube?style=flat) | Privacy-focused YouTube desktop client |
+| [th-ch/youtube-music](https://github.com/th-ch/youtube-music) | ![Stars](https://img.shields.io/github/stars/th-ch/youtube-music?style=flat) | YouTube Music desktop app with plugins |
+| [popcorn-official/popcorn-desktop](https://github.com/popcorn-official/popcorn-desktop) | ![Stars](https://img.shields.io/github/stars/popcorn-official/popcorn-desktop?style=flat) | Stream movies and shows via torrent |
+
+## Audio & Music
+
+| Repo | Stars | Description |
+|------|-------|-------------|
+| [audacity/audacity](https://github.com/audacity/audacity) | ![Stars](https://img.shields.io/github/stars/audacity/audacity?style=flat) | Multi-track audio editor and recorder |
+| [musescore/MuseScore](https://github.com/musescore/MuseScore) | ![Stars](https://img.shields.io/github/stars/musescore/MuseScore?style=flat) | Music notation and composition software |
+| [LMMS/lmms](https://github.com/LMMS/lmms) | ![Stars](https://img.shields.io/github/stars/LMMS/lmms?style=flat) | Cross-platform music production software |
+| [Ardour/ardour](https://github.com/Ardour/ardour) | ![Stars](https://img.shields.io/github/stars/Ardour/ardour?style=flat) | Professional digital audio workstation |
+| [mixxxdj/mixxx](https://github.com/mixxxdj/mixxx) | ![Stars](https://img.shields.io/github/stars/mixxxdj/mixxx?style=flat) | DJ mixing software with controller support |
+| [ExistentialAudio/BlackHole](https://github.com/ExistentialAudio/BlackHole) | ![Stars](https://img.shields.io/github/stars/ExistentialAudio/BlackHole?style=flat) | Virtual audio driver for routing audio between apps |
+| [mifi/lossless-cut](https://github.com/mifi/lossless-cut) | ![Stars](https://img.shields.io/github/stars/mifi/lossless-cut?style=flat) | Trim and cut video/audio without re-encoding |
+| [nukeop/nuclear](https://github.com/nukeop/nuclear) | ![Stars](https://img.shields.io/github/stars/nukeop/nuclear?style=flat) | Streaming music player from free sources |
+| [ddddxxx/LyricsX](https://github.com/ddddxxx/LyricsX) | ![Stars](https://img.shields.io/github/stars/ddddxxx/LyricsX?style=flat) | Display lyrics on desktop for iTunes and Spotify |
+| [sindresorhus/gifski-app](https://github.com/sindresorhus/gifski-app) | ![Stars](https://img.shields.io/github/stars/sindresorhus/gifski-app?style=flat) | Convert videos to high-quality GIFs |
+| [kyleneideck/BackgroundMusic](https://github.com/kyleneideck/BackgroundMusic) | ![Stars](https://img.shields.io/github/stars/kyleneideck/BackgroundMusic?style=flat) | Per-app volume control and audio recording |
+
+## Terminal Emulators
+
+| Repo | Stars | Description |
+|------|-------|-------------|
+| [alacritty/alacritty](https://github.com/alacritty/alacritty) | ![Stars](https://img.shields.io/github/stars/alacritty/alacritty?style=flat) | GPU-accelerated terminal emulator |
+| [gnachman/iTerm2](https://github.com/gnachman/iTerm2) | ![Stars](https://img.shields.io/github/stars/gnachman/iTerm2?style=flat) | Feature-rich terminal replacement for macOS |
+| [kovidgoyal/kitty](https://github.com/kovidgoyal/kitty) | ![Stars](https://img.shields.io/github/stars/kovidgoyal/kitty?style=flat) | Fast GPU-based terminal with advanced features |
+| [vercel/hyper](https://github.com/vercel/hyper) | ![Stars](https://img.shields.io/github/stars/vercel/hyper?style=flat) | Electron-based terminal with web technologies |
+| [Eugeny/tabby](https://github.com/Eugeny/tabby) | ![Stars](https://img.shields.io/github/stars/Eugeny/tabby?style=flat) | Modern terminal with serial port support |
+| [wez/wezterm](https://github.com/wez/wezterm) | ![Stars](https://img.shields.io/github/stars/wez/wezterm?style=flat) | GPU-accelerated terminal with Lua configuration |
+| [ghostty-org/ghostty](https://github.com/ghostty-org/ghostty) | ![Stars](https://img.shields.io/github/stars/ghostty-org/ghostty?style=flat) | Fast native terminal with modern features |
+| [wavetermdev/waveterm](https://github.com/wavetermdev/waveterm) | ![Stars](https://img.shields.io/github/stars/wavetermdev/waveterm?style=flat) | AI-native terminal with inline rendering |
+
+## Code Editors
+
+| Repo | Stars | Description |
+|------|-------|-------------|
+| [neovim/neovim](https://github.com/neovim/neovim) | ![Stars](https://img.shields.io/github/stars/neovim/neovim?style=flat) | Hyperextensible Vim-based text editor |
+| [vim/vim](https://github.com/vim/vim) | ![Stars](https://img.shields.io/github/stars/vim/vim?style=flat) | The ubiquitous text editor |
+| [helix-editor/helix](https://github.com/helix-editor/helix) | ![Stars](https://img.shields.io/github/stars/helix-editor/helix?style=flat) | Post-modern modal text editor in Rust |
+| [zed-industries/zed](https://github.com/zed-industries/zed) | ![Stars](https://img.shields.io/github/stars/zed-industries/zed?style=flat) | High-performance multiplayer code editor |
+| [lapce/lapce](https://github.com/lapce/lapce) | ![Stars](https://img.shields.io/github/stars/lapce/lapce?style=flat) | Lightning-fast code editor written in Rust |
+| [CodeEditApp/CodeEdit](https://github.com/CodeEditApp/CodeEdit) | ![Stars](https://img.shields.io/github/stars/CodeEditApp/CodeEdit?style=flat) | Native macOS code editor built in Swift |
+| [textmate/textmate](https://github.com/textmate/textmate) | ![Stars](https://img.shields.io/github/stars/textmate/textmate?style=flat) | Graphical text editor for macOS |
+| [coteditor/CotEditor](https://github.com/coteditor/CotEditor) | ![Stars](https://img.shields.io/github/stars/coteditor/CotEditor?style=flat) | Lightweight plain-text editor for macOS |
+| [macvim-dev/macvim](https://github.com/macvim-dev/macvim) | ![Stars](https://img.shields.io/github/stars/macvim-dev/macvim?style=flat) | Vim with macOS GUI integration |
+| [qvacua/vimr](https://github.com/qvacua/vimr) | ![Stars](https://img.shields.io/github/stars/qvacua/vimr?style=flat) | Neovim GUI for macOS |
+| [AuroraEditor/AuroraEditor](https://github.com/AuroraEditor/AuroraEditor) | ![Stars](https://img.shields.io/github/stars/AuroraEditor/AuroraEditor?style=flat) | IDE built entirely in Swift |
+
+## Note-Taking & Writing
+
+| Repo | Stars | Description |
+|------|-------|-------------|
+| [logseq/logseq](https://github.com/logseq/logseq) | ![Stars](https://img.shields.io/github/stars/logseq/logseq?style=flat) | Privacy-first knowledge management system |
+| [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) | ![Stars](https://img.shields.io/github/stars/toeverything/AFFiNE?style=flat) | All-in-one workspace for docs and whiteboards |
+| [AppFlowy-IO/appflowy](https://github.com/AppFlowy-IO/appflowy) | ![Stars](https://img.shields.io/github/stars/AppFlowy-IO/appflowy?style=flat) | Open-source Notion alternative |
+| [laurent22/joplin](https://github.com/laurent22/joplin) | ![Stars](https://img.shields.io/github/stars/laurent22/joplin?style=flat) | Note-taking app with sync and encryption |
+| [standardnotes/app](https://github.com/standardnotes/app) | ![Stars](https://img.shields.io/github/stars/standardnotes/app?style=flat) | End-to-end encrypted notes app |
+| [glushchenko/fsnotes](https://github.com/glushchenko/fsnotes) | ![Stars](https://img.shields.io/github/stars/glushchenko/fsnotes?style=flat) | Plain text notes manager for macOS and iOS |
+| [Zettlr/Zettlr](https://github.com/Zettlr/Zettlr) | ![Stars](https://img.shields.io/github/stars/Zettlr/Zettlr?style=flat) | Markdown editor for academic writing |
+| [pbek/QOwnNotes](https://github.com/pbek/QOwnNotes) | ![Stars](https://img.shields.io/github/stars/pbek/QOwnNotes?style=flat) | Plain-text notes with Nextcloud integration |
+| [nuttyartist/notes](https://github.com/nuttyartist/notes) | ![Stars](https://img.shields.io/github/stars/nuttyartist/notes?style=flat) | Fast native note-taking app |
+| [heynote/heynote](https://github.com/heynote/heynote) | ![Stars](https://img.shields.io/github/stars/heynote/heynote?style=flat) | Dedicated scratchpad for developers |
+
+## Markdown Tools
+
+| Repo | Stars | Description |
+|------|-------|-------------|
+| [marktext/marktext](https://github.com/marktext/marktext) | ![Stars](https://img.shields.io/github/stars/marktext/marktext?style=flat) | Simple and elegant markdown editor |
+| [MacDownApp/macdown](https://github.com/MacDownApp/macdown) | ![Stars](https://img.shields.io/github/stars/MacDownApp/macdown?style=flat) | Open source Markdown editor for macOS |
+
+## Database Clients
+
+| Repo | Stars | Description |
+|------|-------|-------------|
+| [dbeaver/dbeaver](https://github.com/dbeaver/dbeaver) | ![Stars](https://img.shields.io/github/stars/dbeaver/dbeaver?style=flat) | Universal database tool and SQL client |
+| [sqlitebrowser/sqlitebrowser](https://github.com/sqlitebrowser/sqlitebrowser) | ![Stars](https://img.shields.io/github/stars/sqlitebrowser/sqlitebrowser?style=flat) | Visual tool for SQLite databases |
+| [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio) | ![Stars](https://img.shields.io/github/stars/beekeeper-studio/beekeeper-studio?style=flat) | Modern SQL editor and database manager |
+| [Sequel-Ace/Sequel-Ace](https://github.com/Sequel-Ace/Sequel-Ace) | ![Stars](https://img.shields.io/github/stars/Sequel-Ace/Sequel-Ace?style=flat) | MySQL and MariaDB database manager |
+| [PostgresApp/PostgresApp](https://github.com/PostgresApp/PostgresApp) | ![Stars](https://img.shields.io/github/stars/PostgresApp/PostgresApp?style=flat) | Run PostgreSQL on your Mac |
+| [qishibo/AnotherRedisDesktopManager](https://github.com/qishibo/AnotherRedisDesktopManager) | ![Stars](https://img.shields.io/github/stars/qishibo/AnotherRedisDesktopManager?style=flat) | Fast Redis desktop manager |
+| [luin/medis](https://github.com/luin/medis) | ![Stars](https://img.shields.io/github/stars/luin/medis?style=flat) | Beautiful Redis management app |
+| [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) | ![Stars](https://img.shields.io/github/stars/surrealdb/surrealdb?style=flat) | Multi-model database for modern apps |
+
+## API Development
+
+| Repo | Stars | Description |
+|------|-------|-------------|
+| [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) | ![Stars](https://img.shields.io/github/stars/hoppscotch/hoppscotch?style=flat) | Open-source API development ecosystem |
+| [Kong/insomnia](https://github.com/Kong/insomnia) | ![Stars](https://img.shields.io/github/stars/Kong/insomnia?style=flat) | API client for REST and GraphQL |
+| [mockoon/mockoon](https://github.com/mockoon/mockoon) | ![Stars](https://img.shields.io/github/stars/mockoon/mockoon?style=flat) | Mock API servers locally |
+| [requestly/requestly](https://github.com/requestly/requestly) | ![Stars](https://img.shields.io/github/stars/requestly/requestly?style=flat) | Intercept and modify HTTP requests |
+| [mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy) | ![Stars](https://img.shields.io/github/stars/mitmproxy/mitmproxy?style=flat) | Interactive HTTPS proxy |
+| [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet) | ![Stars](https://img.shields.io/github/stars/GyulyVGC/sniffnet?style=flat) | Monitor your network traffic |
+| [wireshark/wireshark](https://github.com/wireshark/wireshark) | ![Stars](https://img.shields.io/github/stars/wireshark/wireshark?style=flat) | Network protocol analyzer |
+
+## Version Control
+
+| Repo | Stars | Description |
+|------|-------|-------------|
+| [desktop/desktop](https://github.com/desktop/desktop) | ![Stars](https://img.shields.io/github/stars/desktop/desktop?style=flat) | GitHub Desktop application |
+| [gitbutlerapp/gitbutler](https://github.com/gitbutlerapp/gitbutler) | ![Stars](https://img.shields.io/github/stars/gitbutlerapp/gitbutler?style=flat) | Git client for modern workflows |
+| [git-up/GitUp](https://github.com/git-up/GitUp) | ![Stars](https://img.shields.io/github/stars/git-up/GitUp?style=flat) | Fast Git GUI with visual history |
+| [github/hub](https://github.com/github/hub) | ![Stars](https://img.shields.io/github/stars/github/hub?style=flat) | Command-line wrapper for Git with GitHub features |
+
+## Virtualization & Containers
+
+| Repo | Stars | Description |
+|------|-------|-------------|
+| [utmapp/UTM](https://github.com/utmapp/UTM) | ![Stars](https://img.shields.io/github/stars/utmapp/UTM?style=flat) | Virtual machines for iOS and macOS |
+| [lima-vm/lima](https://github.com/lima-vm/lima) | ![Stars](https://img.shields.io/github/stars/lima-vm/lima?style=flat) | Linux VMs with automatic file sharing |
+| [containers/podman-desktop](https://github.com/containers/podman-desktop) | ![Stars](https://img.shields.io/github/stars/containers/podman-desktop?style=flat) | GUI for managing containers |
+| [hashicorp/vagrant](https://github.com/hashicorp/vagrant) | ![Stars](https://img.shields.io/github/stars/hashicorp/vagrant?style=flat) | Build and manage virtual environments |
+| [qemu/qemu](https://github.com/qemu/qemu) | ![Stars](https://img.shields.io/github/stars/qemu/qemu?style=flat) | Machine emulator and virtualizer |
+| [canonical/multipass](https://github.com/canonical/multipass) | ![Stars](https://img.shields.io/github/stars/canonical/multipass?style=flat) | Lightweight Ubuntu VMs |
+
+## Design & Graphics
+
+| Repo | Stars | Description |
+|------|-------|-------------|
+| [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw) | ![Stars](https://img.shields.io/github/stars/excalidraw/excalidraw?style=flat) | Virtual whiteboard for hand-drawn diagrams |
+| [jgraph/drawio-desktop](https://github.com/jgraph/drawio-desktop) | ![Stars](https://img.shields.io/github/stars/jgraph/drawio-desktop?style=flat) | Diagram and flowchart maker |
+| [blender/blender](https://github.com/blender/blender) | ![Stars](https://img.shields.io/github/stars/blender/blender?style=flat) | 3D creation suite |
+| [KDE/krita](https://github.com/KDE/krita) | ![Stars](https://img.shields.io/github/stars/KDE/krita?style=flat) | Professional digital painting app |
+| [darktable-org/darktable](https://github.com/darktable-org/darktable) | ![Stars](https://img.shields.io/github/stars/darktable-org/darktable?style=flat) | Photography workflow and RAW editor |
+| [Beep6581/RawTherapee](https://github.com/Beep6581/RawTherapee) | ![Stars](https://img.shields.io/github/stars/Beep6581/RawTherapee?style=flat) | Cross-platform RAW image processor |
+| [pencil2d/pencil](https://github.com/pencil2d/pencil) | ![Stars](https://img.shields.io/github/stars/pencil2d/pencil?style=flat) | 2D animation software |
+| [synfig/synfig](https://github.com/synfig/synfig) | ![Stars](https://img.shields.io/github/stars/synfig/synfig?style=flat) | 2D vector animation software |
+| [fontforge/fontforge](https://github.com/fontforge/fontforge) | ![Stars](https://img.shields.io/github/stars/fontforge/fontforge?style=flat) | Font editor for creating typefaces |
+| [tropy/tropy](https://github.com/tropy/tropy) | ![Stars](https://img.shields.io/github/stars/tropy/tropy?style=flat) | Research photo management |
+| [superhighfives/pika](https://github.com/superhighfives/pika) | ![Stars](https://img.shields.io/github/stars/superhighfives/pika?style=flat) | Native color picker for macOS |
+
+## Screen Recording
+
+| Repo | Stars | Description |
+|------|-------|-------------|
+| [obsproject/obs-studio](https://github.com/obsproject/obs-studio) | ![Stars](https://img.shields.io/github/stars/obsproject/obs-studio?style=flat) | Video recording and live streaming |
+| [wulkano/kap](https://github.com/wulkano/kap) | ![Stars](https://img.shields.io/github/stars/wulkano/kap?style=flat) | Screen recorder built with web tech |
+| [keycastr/keycastr](https://github.com/keycastr/keycastr) | ![Stars](https://img.shields.io/github/stars/keycastr/keycastr?style=flat) | Keystroke visualizer for screencasts |
+| [flameshot-org/flameshot](https://github.com/flameshot-org/flameshot) | ![Stars](https://img.shields.io/github/stars/flameshot-org/flameshot?style=flat) | Screenshot tool with annotation |
+| [lihaoyun6/QuickRecorder](https://github.com/lihaoyun6/QuickRecorder) | ![Stars](https://img.shields.io/github/stars/lihaoyun6/QuickRecorder?style=flat) | Lightweight macOS screen recorder |
+| [mediar-ai/screenpipe](https://github.com/mediar-ai/screenpipe) | ![Stars](https://img.shields.io/github/stars/mediar-ai/screenpipe?style=flat) | AI-powered screen and audio capture |
+
+## Image Tools
+
+| Repo | Stars | Description |
+|------|-------|-------------|
+| [ImageOptim/ImageOptim](https://github.com/ImageOptim/ImageOptim) | ![Stars](https://img.shields.io/github/stars/ImageOptim/ImageOptim?style=flat) | Image compression without losing quality |
+| [upscayl/upscayl](https://github.com/upscayl/upscayl) | ![Stars](https://img.shields.io/github/stars/upscayl/upscayl?style=flat) | AI image upscaler |
+| [Molunerfinn/PicGo](https://github.com/Molunerfinn/PicGo) | ![Stars](https://img.shields.io/github/stars/Molunerfinn/PicGo?style=flat) | Image upload and management tool |
+| [gee1k/uPic](https://github.com/gee1k/uPic) | ![Stars](https://img.shields.io/github/stars/gee1k/uPic?style=flat) | Native macOS image host client |
+| [divamgupta/diffusionbee-stable-diffusion-ui](https://github.com/divamgupta/diffusionbee-stable-diffusion-ui) | ![Stars](https://img.shields.io/github/stars/divamgupta/diffusionbee-stable-diffusion-ui?style=flat) | Stable Diffusion on your Mac |
+
+## Browsers
+
+| Repo | Stars | Description |
+|------|-------|-------------|
+| [brave/brave-browser](https://github.com/brave/brave-browser) | ![Stars](https://img.shields.io/github/stars/brave/brave-browser?style=flat) | Privacy-focused browser with ad blocking |
+| [qutebrowser/qutebrowser](https://github.com/qutebrowser/qutebrowser) | ![Stars](https://img.shields.io/github/stars/qutebrowser/qutebrowser?style=flat) | Keyboard-driven browser with Vim bindings |
+| [zen-browser/desktop](https://github.com/zen-browser/desktop) | ![Stars](https://img.shields.io/github/stars/zen-browser/desktop?style=flat) | Firefox-based browser focused on privacy |
+| [minbrowser/min](https://github.com/minbrowser/min) | ![Stars](https://img.shields.io/github/stars/minbrowser/min?style=flat) | Fast minimal browser |
+
+## Communication
+
+| Repo | Stars | Description |
+|------|-------|-------------|
+| [signalapp/Signal-Desktop](https://github.com/signalapp/Signal-Desktop) | ![Stars](https://img.shields.io/github/stars/signalapp/Signal-Desktop?style=flat) | Private messaging app |
+| [overtake/TelegramSwift](https://github.com/overtake/TelegramSwift) | ![Stars](https://img.shields.io/github/stars/overtake/TelegramSwift?style=flat) | Telegram client for macOS |
+| [vector-im/element-web](https://github.com/vector-im/element-web) | ![Stars](https://img.shields.io/github/stars/vector-im/element-web?style=flat) | Matrix protocol client |
+| [sindresorhus/caprine](https://github.com/sindresorhus/caprine) | ![Stars](https://img.shields.io/github/stars/sindresorhus/caprine?style=flat) | Elegant Facebook Messenger client |
+| [mattermost/mattermost](https://github.com/mattermost/mattermost) | ![Stars](https://img.shields.io/github/stars/mattermost/mattermost?style=flat) | Open source Slack alternative |
+| [ferdium/ferdium-app](https://github.com/ferdium/ferdium-app) | ![Stars](https://img.shields.io/github/stars/ferdium/ferdium-app?style=flat) | All your messaging services in one place |
+
+## Email Clients
+
+| Repo | Stars | Description |
+|------|-------|-------------|
+| [Foundry376/Mailspring](https://github.com/Foundry376/Mailspring) | ![Stars](https://img.shields.io/github/stars/Foundry376/Mailspring?style=flat) | Beautiful extensible email client |
+| [tutao/tutanota](https://github.com/tutao/tutanota) | ![Stars](https://img.shields.io/github/stars/tutao/tutanota?style=flat) | Encrypted email service |
+
+## AI Assistants
+
+| Repo | Stars | Description |
+|------|-------|-------------|
+| [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | ![Stars](https://img.shields.io/github/stars/CherryHQ/cherry-studio?style=flat) | Multi-provider AI chat desktop app |
+| [janhq/jan](https://github.com/janhq/jan) | ![Stars](https://img.shields.io/github/stars/janhq/jan?style=flat) | Run AI models locally on your computer |
+| [chatboxai/chatbox](https://github.com/chatboxai/chatbox) | ![Stars](https://img.shields.io/github/stars/chatboxai/chatbox?style=flat) | Desktop client for ChatGPT and other LLMs |
+| [nbonamy/witsy](https://github.com/nbonamy/witsy) | ![Stars](https://img.shields.io/github/stars/nbonamy/witsy?style=flat) | AI assistant for macOS |
+
+## Download Managers
+
+| Repo | Stars | Description |
+|------|-------|-------------|
+| [transmission/transmission](https://github.com/transmission/transmission) | ![Stars](https://img.shields.io/github/stars/transmission/transmission?style=flat) | Fast and lightweight BitTorrent client |
+| [qbittorrent/qBittorrent](https://github.com/qbittorrent/qBittorrent) | ![Stars](https://img.shields.io/github/stars/qbittorrent/qBittorrent?style=flat) | Feature-rich BitTorrent client |
+| [agalwood/Motrix](https://github.com/agalwood/Motrix) | ![Stars](https://img.shields.io/github/stars/agalwood/Motrix?style=flat) | Full-featured download manager |
+| [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) | ![Stars](https://img.shields.io/github/stars/yt-dlp/yt-dlp?style=flat) | Download videos from YouTube and more |
+| [soimort/you-get](https://github.com/soimort/you-get) | ![Stars](https://img.shields.io/github/stars/soimort/you-get?style=flat) | Web media downloader |
+
+## Security & Privacy
+
+| Repo | Stars | Description |
+|------|-------|-------------|
+| [objective-see/LuLu](https://github.com/objective-see/LuLu) | ![Stars](https://img.shields.io/github/stars/objective-see/LuLu?style=flat) | macOS firewall to block unknown connections |
+| [objective-see/KnockKnock](https://github.com/objective-see/KnockKnock) | ![Stars](https://img.shields.io/github/stars/objective-see/KnockKnock?style=flat) | Discover persistently installed software |
+| [objective-see/BlockBlock](https://github.com/objective-see/BlockBlock) | ![Stars](https://img.shields.io/github/stars/objective-see/BlockBlock?style=flat) | Monitor persistence locations |
+| [objective-see/OverSight](https://github.com/objective-see/OverSight) | ![Stars](https://img.shields.io/github/stars/objective-see/OverSight?style=flat) | Monitor mic and camera access |
+| [ParetoSecurity/pareto-mac](https://github.com/ParetoSecurity/pareto-mac) | ![Stars](https://img.shields.io/github/stars/ParetoSecurity/pareto-mac?style=flat) | Security checklist for your Mac |
+| [halo/LinkLiar](https://github.com/halo/LinkLiar) | ![Stars](https://img.shields.io/github/stars/halo/LinkLiar?style=flat) | Spoof your MAC address |
+
+## VPN & Proxy
+
+| Repo | Stars | Description |
+|------|-------|-------------|
+| [mullvad/mullvadvpn-app](https://github.com/mullvad/mullvadvpn-app) | ![Stars](https://img.shields.io/github/stars/mullvad/mullvadvpn-app?style=flat) | Privacy-focused VPN app |
+| [hiddify/hiddify-app](https://github.com/hiddify/hiddify-app) | ![Stars](https://img.shields.io/github/stars/hiddify/hiddify-app?style=flat) | Multi-platform proxy client |
+| [qiuyuzhou/ShadowsocksX-NG](https://github.com/qiuyuzhou/ShadowsocksX-NG) | ![Stars](https://img.shields.io/github/stars/qiuyuzhou/ShadowsocksX-NG?style=flat) | Next generation Shadowsocks client |
+| [getlantern/lantern](https://github.com/getlantern/lantern) | ![Stars](https://img.shields.io/github/stars/getlantern/lantern?style=flat) | Free internet access tool |
+
+## Clipboard Managers
+
+| Repo | Stars | Description |
+|------|-------|-------------|
+| [p0deje/Maccy](https://github.com/p0deje/Maccy) | ![Stars](https://img.shields.io/github/stars/p0deje/Maccy?style=flat) | Lightweight clipboard manager for macOS |
+| [Clipy/Clipy](https://github.com/Clipy/Clipy) | ![Stars](https://img.shields.io/github/stars/Clipy/Clipy?style=flat) | Clipboard extension app |
+| [hluk/CopyQ](https://github.com/hluk/CopyQ) | ![Stars](https://img.shields.io/github/stars/hluk/CopyQ?style=flat) | Advanced clipboard manager |
+| [TermiT/Flycut](https://github.com/TermiT/Flycut) | ![Stars](https://img.shields.io/github/stars/TermiT/Flycut?style=flat) | Clean and simple clipboard manager |
+| [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) | ![Stars](https://img.shields.io/github/stars/Slackadays/Clipboard?style=flat) | Smart clipboard manager for the terminal |
+
+## Menu Bar Tools
+
+| Repo | Stars | Description |
+|------|-------|-------------|
+| [exelban/stats](https://github.com/exelban/stats) | ![Stars](https://img.shields.io/github/stars/exelban/stats?style=flat) | System monitor in your menu bar |
+| [MonitorControl/MonitorControl](https://github.com/MonitorControl/MonitorControl) | ![Stars](https://img.shields.io/github/stars/MonitorControl/MonitorControl?style=flat) | Control display brightness and volume |
+| [jordanbaird/Ice](https://github.com/jordanbaird/Ice) | ![Stars](https://img.shields.io/github/stars/jordanbaird/Ice?style=flat) | Powerful menu bar manager |
+| [dwarvesf/hidden](https://github.com/dwarvesf/hidden) | ![Stars](https://img.shields.io/github/stars/dwarvesf/hidden?style=flat) | Hide menu bar items |
+| [Mortennn/Dozer](https://github.com/Mortennn/Dozer) | ![Stars](https://img.shields.io/github/stars/Mortennn/Dozer?style=flat) | Hide menu bar icons |
+| [jacklandrin/OnlySwitch](https://github.com/jacklandrin/OnlySwitch) | ![Stars](https://img.shields.io/github/stars/jacklandrin/OnlySwitch?style=flat) | Quick toggles in your menu bar |
+| [sfsam/Itsycal](https://github.com/sfsam/Itsycal) | ![Stars](https://img.shields.io/github/stars/sfsam/Itsycal?style=flat) | Tiny calendar for your menu bar |
+| [leits/MeetingBar](https://github.com/leits/MeetingBar) | ![Stars](https://img.shields.io/github/stars/leits/MeetingBar?style=flat) | Show calendar meetings in menu bar |
+| [FelixKratz/SketchyBar](https://github.com/FelixKratz/SketchyBar) | ![Stars](https://img.shields.io/github/stars/FelixKratz/SketchyBar?style=flat) | Highly customizable menu bar replacement |
+| [matryer/xbar](https://github.com/matryer/xbar) | ![Stars](https://img.shields.io/github/stars/matryer/xbar?style=flat) | Put anything in your menu bar |
+| [swiftbar/SwiftBar](https://github.com/swiftbar/SwiftBar) | ![Stars](https://img.shields.io/github/stars/swiftbar/SwiftBar?style=flat) | Powerful menu bar customization |
+| [ivoronin/TomatoBar](https://github.com/ivoronin/TomatoBar) | ![Stars](https://img.shields.io/github/stars/ivoronin/TomatoBar?style=flat) | Pomodoro timer in menu bar |
+| [TheBoredTeam/boring.notch](https://github.com/TheBoredTeam/boring.notch) | ![Stars](https://img.shields.io/github/stars/TheBoredTeam/boring.notch?style=flat) | Make your MacBook notch useful |
+
+## Window Management
+
+| Repo | Stars | Description |
+|------|-------|-------------|
+| [rxhanson/Rectangle](https://github.com/rxhanson/Rectangle) | ![Stars](https://img.shields.io/github/stars/rxhanson/Rectangle?style=flat) | Move and resize windows with shortcuts |
+| [koekeishiya/yabai](https://github.com/koekeishiya/yabai) | ![Stars](https://img.shields.io/github/stars/koekeishiya/yabai?style=flat) | Tiling window manager for macOS |
+| [ianyh/Amethyst](https://github.com/ianyh/Amethyst) | ![Stars](https://img.shields.io/github/stars/ianyh/Amethyst?style=flat) | Automatic tiling window manager |
+| [nikitabobko/AeroSpace](https://github.com/nikitabobko/AeroSpace) | ![Stars](https://img.shields.io/github/stars/nikitabobko/AeroSpace?style=flat) | i3-like tiling window manager |
+| [lwouis/alt-tab-macos](https://github.com/lwouis/alt-tab-macos) | ![Stars](https://img.shields.io/github/stars/lwouis/alt-tab-macos?style=flat) | Windows-style alt-tab for macOS |
+| [MrKai77/Loop](https://github.com/MrKai77/Loop) | ![Stars](https://img.shields.io/github/stars/MrKai77/Loop?style=flat) | Elegant window management |
+| [ejbills/DockDoor](https://github.com/ejbills/DockDoor) | ![Stars](https://img.shields.io/github/stars/ejbills/DockDoor?style=flat) | Window preview for Dock items |
+| [FelixKratz/JankyBorders](https://github.com/FelixKratz/JankyBorders) | ![Stars](https://img.shields.io/github/stars/FelixKratz/JankyBorders?style=flat) | Highlight active window with borders |
+| [Hammerspoon/hammerspoon](https://github.com/Hammerspoon/hammerspoon) | ![Stars](https://img.shields.io/github/stars/Hammerspoon/hammerspoon?style=flat) | Powerful macOS automation with Lua |
+
+## System Utilities
+
+| Repo | Stars | Description |
+|------|-------|-------------|
+| [newmarcel/KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake) | ![Stars](https://img.shields.io/github/stars/newmarcel/KeepingYouAwake?style=flat) | Prevent your Mac from sleeping |
+| [dteoh/SlowQuitApps](https://github.com/dteoh/SlowQuitApps) | ![Stars](https://img.shields.io/github/stars/dteoh/SlowQuitApps?style=flat) | Add delay to Cmd+Q to prevent accidental quits |
+| [mangerlahn/Latest](https://github.com/mangerlahn/Latest) | ![Stars](https://img.shields.io/github/stars/mangerlahn/Latest?style=flat) | Check for app updates |
+| [balena-io/etcher](https://github.com/balena-io/etcher) | ![Stars](https://img.shields.io/github/stars/balena-io/etcher?style=flat) | Flash OS images to SD cards and USB drives |
+| [sveinbjornt/Sloth](https://github.com/sveinbjornt/Sloth) | ![Stars](https://img.shields.io/github/stars/sveinbjornt/Sloth?style=flat) | Display all open files and sockets |
+| [rlxone/Equinox](https://github.com/rlxone/Equinox) | ![Stars](https://img.shields.io/github/stars/rlxone/Equinox?style=flat) | Create dynamic wallpapers |
+| [zenangst/Gray](https://github.com/zenangst/Gray) | ![Stars](https://img.shields.io/github/stars/zenangst/Gray?style=flat) | Pick between light and dark mode per-app |
+| [lihaoyun6/AirBattery](https://github.com/lihaoyun6/AirBattery) | ![Stars](https://img.shields.io/github/stars/lihaoyun6/AirBattery?style=flat) | Show battery status for all your devices |
+| [linearmouse/linearmouse](https://github.com/linearmouse/linearmouse) | ![Stars](https://img.shields.io/github/stars/linearmouse/linearmouse?style=flat) | Customize mouse and trackpad settings |
+| [noah-nuebling/mac-mouse-fix](https://github.com/noah-nuebling/mac-mouse-fix) | ![Stars](https://img.shields.io/github/stars/noah-nuebling/mac-mouse-fix?style=flat) | Make your mouse better |
+| [Caldis/Mos](https://github.com/Caldis/Mos) | ![Stars](https://img.shields.io/github/stars/Caldis/Mos?style=flat) | Smooth scrolling and reverse mouse direction |
+| [pqrs-org/Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Elements) | ![Stars](https://img.shields.io/github/stars/pqrs-org/Karabiner-Elements?style=flat) | Powerful keyboard customization |
+| [zenangst/KeyboardCowboy](https://github.com/zenangst/KeyboardCowboy) | ![Stars](https://img.shields.io/github/stars/zenangst/KeyboardCowboy?style=flat) | Boost productivity with keyboard shortcuts |
+| [niw/HapticKey](https://github.com/niw/HapticKey) | ![Stars](https://img.shields.io/github/stars/niw/HapticKey?style=flat) | Haptic feedback for Touch Bar |
+
+## Productivity
+
+| Repo | Stars | Description |
+|------|-------|-------------|
+| [ActivityWatch/activitywatch](https://github.com/ActivityWatch/activitywatch) | ![Stars](https://img.shields.io/github/stars/ActivityWatch/activitywatch?style=flat) | Automated time tracker |
+| [johannesjo/super-productivity](https://github.com/johannesjo/super-productivity) | ![Stars](https://img.shields.io/github/stars/johannesjo/super-productivity?style=flat) | Todo list and time tracker |
+| [mattermost/focalboard](https://github.com/mattermost/focalboard) | ![Stars](https://img.shields.io/github/stars/mattermost/focalboard?style=flat) | Open source project management |
+| [cerebroapp/cerebro](https://github.com/cerebroapp/cerebro) | ![Stars](https://img.shields.io/github/stars/cerebroapp/cerebro?style=flat) | Extensible launcher |
+| [jasonjmcghee/rem](https://github.com/jasonjmcghee/rem) | ![Stars](https://img.shields.io/github/stars/jasonjmcghee/rem?style=flat) | Remember everything you see on your Mac |
+| [DamascenoRafael/reminders-menubar](https://github.com/DamascenoRafael/reminders-menubar) | ![Stars](https://img.shields.io/github/stars/DamascenoRafael/reminders-menubar?style=flat) | View Apple Reminders from menu bar |
+
+## Password Managers
+
+| Repo | Stars | Description |
+|------|-------|-------------|
+| [bitwarden/clients](https://github.com/bitwarden/clients) | ![Stars](https://img.shields.io/github/stars/bitwarden/clients?style=flat) | Open source password manager |
+| [keepassxreboot/keepassxc](https://github.com/keepassxreboot/keepassxc) | ![Stars](https://img.shields.io/github/stars/keepassxreboot/keepassxc?style=flat) | Cross-platform password manager |
+| [keeweb/keeweb](https://github.com/keeweb/keeweb) | ![Stars](https://img.shields.io/github/stars/keeweb/keeweb?style=flat) | KeePass-compatible password manager |
+| [strongbox-password-safe/Strongbox](https://github.com/strongbox-password-safe/Strongbox) | ![Stars](https://img.shields.io/github/stars/strongbox-password-safe/Strongbox?style=flat) | KeePass and Password Safe compatible |
+| [MacPass/MacPass](https://github.com/MacPass/MacPass) | ![Stars](https://img.shields.io/github/stars/MacPass/MacPass?style=flat) | Native macOS KeePass client |
+
+## File Management
+
+| Repo | Stars | Description |
+|------|-------|-------------|
+| [localsend/localsend](https://github.com/localsend/localsend) | ![Stars](https://img.shields.io/github/stars/localsend/localsend?style=flat) | Share files to nearby devices |
+| [alienator88/Pearcleaner](https://github.com/alienator88/Pearcleaner) | ![Stars](https://img.shields.io/github/stars/alienator88/Pearcleaner?style=flat) | Completely uninstall apps |
+| [waylybaye/XcodeCleaner-SwiftUI](https://github.com/waylybaye/XcodeCleaner-SwiftUI) | ![Stars](https://img.shields.io/github/stars/waylybaye/XcodeCleaner-SwiftUI?style=flat) | Clean up Xcode caches and files |
+| [JulianKahnert/PDF-Archiver](https://github.com/JulianKahnert/PDF-Archiver) | ![Stars](https://img.shields.io/github/stars/JulianKahnert/PDF-Archiver?style=flat) | Tag and archive PDF documents |
+| [szTheory/exifcleaner](https://github.com/szTheory/exifcleaner) | ![Stars](https://img.shields.io/github/stars/szTheory/exifcleaner?style=flat) | Remove metadata from images |
+
+## Translation
+
+| Repo | Stars | Description |
+|------|-------|-------------|
+| [tisfeng/Easydict](https://github.com/tisfeng/Easydict) | ![Stars](https://img.shields.io/github/stars/tisfeng/Easydict?style=flat) | Easy-to-use translation dictionary |
+| [yetone/openai-translator](https://github.com/yetone/openai-translator) | ![Stars](https://img.shields.io/github/stars/yetone/openai-translator?style=flat) | AI-powered translation app |
+
+## RSS Readers
+
+| Repo | Stars | Description |
+|------|-------|-------------|
+| [RSSNext/Folo](https://github.com/RSSNext/Folo) | ![Stars](https://img.shields.io/github/stars/RSSNext/Folo?style=flat) | Modern RSS reader |
+| [Ranchero-Software/NetNewsWire](https://github.com/Ranchero-Software/NetNewsWire) | ![Stars](https://img.shields.io/github/stars/Ranchero-Software/NetNewsWire?style=flat) | Free and open source RSS reader |
+| [ViennaRSS/vienna-rss](https://github.com/ViennaRSS/vienna-rss) | ![Stars](https://img.shields.io/github/stars/ViennaRSS/vienna-rss?style=flat) | RSS/Atom reader for macOS |
+
+## E-Book & Reading
+
+| Repo | Stars | Description |
+|------|-------|-------------|
+| [kovidgoyal/calibre](https://github.com/kovidgoyal/calibre) | ![Stars](https://img.shields.io/github/stars/kovidgoyal/calibre?style=flat) | E-book management |
+| [koodo-reader/koodo-reader](https://github.com/koodo-reader/koodo-reader) | ![Stars](https://img.shields.io/github/stars/koodo-reader/koodo-reader?style=flat) | Cross-platform e-book reader |
+| [readest/readest](https://github.com/readest/readest) | ![Stars](https://img.shields.io/github/stars/readest/readest?style=flat) | Modern e-book reader |
+| [Sigil-Ebook/Sigil](https://github.com/Sigil-Ebook/Sigil) | ![Stars](https://img.shields.io/github/stars/Sigil-Ebook/Sigil?style=flat) | EPUB editor |
+
+## Gaming & Emulators
+
+| Repo | Stars | Description |
+|------|-------|-------------|
+| [OpenEmu/OpenEmu](https://github.com/OpenEmu/OpenEmu) | ![Stars](https://img.shields.io/github/stars/OpenEmu/OpenEmu?style=flat) | Retro video game emulation |
+| [Whisky-App/Whisky](https://github.com/Whisky-App/Whisky) | ![Stars](https://img.shields.io/github/stars/Whisky-App/Whisky?style=flat) | Run Windows games on macOS |
+| [PlayCover/PlayCover](https://github.com/PlayCover/PlayCover) | ![Stars](https://img.shields.io/github/stars/PlayCover/PlayCover?style=flat) | Run iOS apps and games on Apple Silicon |
+| [RPCS3/rpcs3](https://github.com/RPCS3/rpcs3) | ![Stars](https://img.shields.io/github/stars/RPCS3/rpcs3?style=flat) | PlayStation 3 emulator |
+| [hrydgard/ppsspp](https://github.com/hrydgard/ppsspp) | ![Stars](https://img.shields.io/github/stars/hrydgard/ppsspp?style=flat) | PSP emulator |
+| [dolphin-emu/dolphin](https://github.com/dolphin-emu/dolphin) | ![Stars](https://img.shields.io/github/stars/dolphin-emu/dolphin?style=flat) | GameCube and Wii emulator |
+
+## Remote Desktop
+
+| Repo | Stars | Description |
+|------|-------|-------------|
+| [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | ![Stars](https://img.shields.io/github/stars/rustdesk/rustdesk?style=flat) | Open source remote desktop |
+| [moonlight-stream/moonlight-qt](https://github.com/moonlight-stream/moonlight-qt) | ![Stars](https://img.shields.io/github/stars/moonlight-stream/moonlight-qt?style=flat) | GameStream client |
+| [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) | ![Stars](https://img.shields.io/github/stars/LizardByte/Sunshine?style=flat) | Self-hosted game streaming |
+| [viarotel-org/escrcpy](https://github.com/viarotel-org/escrcpy) | ![Stars](https://img.shields.io/github/stars/viarotel-org/escrcpy?style=flat) | Display and control Android devices |
+
+## QuickLook Plugins
+
+| Repo | Stars | Description |
+|------|-------|-------------|
+| [sindresorhus/quick-look-plugins](https://github.com/sindresorhus/quick-look-plugins) | ![Stars](https://img.shields.io/github/stars/sindresorhus/quick-look-plugins?style=flat) | Collection of useful QuickLook plugins |
+| [sbarex/QLMarkdown](https://github.com/sbarex/QLMarkdown) | ![Stars](https://img.shields.io/github/stars/sbarex/QLMarkdown?style=flat) | QuickLook for Markdown files |
+| [sbarex/SourceCodeSyntaxHighlight](https://github.com/sbarex/SourceCodeSyntaxHighlight) | ![Stars](https://img.shields.io/github/stars/sbarex/SourceCodeSyntaxHighlight?style=flat) | Syntax highlighting in QuickLook |
+
+## Package Managers
+
+| Repo | Stars | Description |
+|------|-------|-------------|
+| [Homebrew/brew](https://github.com/Homebrew/brew) | ![Stars](https://img.shields.io/github/stars/Homebrew/brew?style=flat) | The missing package manager for macOS |
+| [milanvarady/Applite](https://github.com/milanvarady/Applite) | ![Stars](https://img.shields.io/github/stars/milanvarady/Applite?style=flat) | User-friendly GUI for Homebrew Cask |
+| [buresdv/Cork](https://github.com/buresdv/Cork) | ![Stars](https://img.shields.io/github/stars/buresdv/Cork?style=flat) | Fast GUI for Homebrew |
+
+## Development Tools
+
+| Repo | Stars | Description |
+|------|-------|-------------|
+| [insidegui/WWDC](https://github.com/insidegui/WWDC) | ![Stars](https://img.shields.io/github/stars/insidegui/WWDC?style=flat) | Unofficial WWDC app for macOS |
+| [RobotsAndPencils/XcodesApp](https://github.com/RobotsAndPencils/XcodesApp) | ![Stars](https://img.shields.io/github/stars/RobotsAndPencils/XcodesApp?style=flat) | Install and switch between Xcode versions |
+| [sindresorhus/touch-bar-simulator](https://github.com/sindresorhus/touch-bar-simulator) | ![Stars](https://img.shields.io/github/stars/sindresorhus/touch-bar-simulator?style=flat) | Use the Touch Bar on any Mac |
+| [responsively-org/responsively-app](https://github.com/responsively-org/responsively-app) | ![Stars](https://img.shields.io/github/stars/responsively-org/responsively-app?style=flat) | Preview all screen sizes at once |
+| [ObuchiYuki/DevToysMac](https://github.com/ObuchiYuki/DevToysMac) | ![Stars](https://img.shields.io/github/stars/ObuchiYuki/DevToysMac?style=flat) | Swiss Army knife for developers |
+| [ridiculousfish/HexFiend](https://github.com/ridiculousfish/HexFiend) | ![Stars](https://img.shields.io/github/stars/ridiculousfish/HexFiend?style=flat) | Fast hex editor |
+| [WerWolv/ImHex](https://github.com/WerWolv/ImHex) | ![Stars](https://img.shields.io/github/stars/WerWolv/ImHex?style=flat) | Feature-rich hex editor |
+| [johnste/finicky](https://github.com/johnste/finicky) | ![Stars](https://img.shields.io/github/stars/johnste/finicky?style=flat) | Customize which browser to open links |
+
+## Development Frameworks
+
+| Repo | Stars | Description |
+|------|-------|-------------|
+| [electron/electron](https://github.com/electron/electron) | ![Stars](https://img.shields.io/github/stars/electron/electron?style=flat) | Build cross-platform apps with web tech |
+| [tauri-apps/tauri](https://github.com/tauri-apps/tauri) | ![Stars](https://img.shields.io/github/stars/tauri-apps/tauri?style=flat) | Build smaller and faster desktop apps |
+
+## Voice & Dictation
+
+| Repo | Stars | Description |
+|------|-------|-------------|
+| [chidiwilliams/buzz](https://github.com/chidiwilliams/buzz) | ![Stars](https://img.shields.io/github/stars/chidiwilliams/buzz?style=flat) | Transcribe audio locally with Whisper |
+| [Beingpax/VoiceInk](https://github.com/Beingpax/VoiceInk) | ![Stars](https://img.shields.io/github/stars/Beingpax/VoiceInk?style=flat) | AI-powered voice transcription |
+
+---
+
+## Contributing
+
+Feel free to submit a PR to add more awesome open source Mac apps!
+
+## License
+
+CC0 1.0 Universal
