@@ -4,6 +4,8 @@ A curated list of awesome open source applications for macOS. Only includes apps
 
 For apps with 100-1,000 stars, see [OTHER.md](OTHER.md).
 
+![](images/banner.png)
+
 ---
 
 ## Contents
