@@ -444,6 +444,7 @@ For apps with 100-1,000 stars, see [OTHER.md](OTHER.md).
 | Repo | Stars | Description |
 |------|-------|-------------|
 | [insidegui/WWDC](https://github.com/insidegui/WWDC) | ![Stars](https://img.shields.io/github/stars/insidegui/WWDC?style=flat) | Unofficial WWDC app for macOS |
+| [agentfm-ai/agent-fm](https://github.com/agentfm-ai/agent-fm) | ![Stars](https://img.shields.io/github/stars/agentfm-ai/agent-fm?style=flat) | Listen to Claude Code and Codex agents as they work |
 | [RobotsAndPencils/XcodesApp](https://github.com/RobotsAndPencils/XcodesApp) | ![Stars](https://img.shields.io/github/stars/RobotsAndPencils/XcodesApp?style=flat) | Install and switch between Xcode versions |
 | [sindresorhus/touch-bar-simulator](https://github.com/sindresorhus/touch-bar-simulator) | ![Stars](https://img.shields.io/github/stars/sindresorhus/touch-bar-simulator?style=flat) | Use the Touch Bar on any Mac |
 | [responsively-org/responsively-app](https://github.com/responsively-org/responsively-app) | ![Stars](https://img.shields.io/github/stars/responsively-org/responsively-app?style=flat) | Preview all screen sizes at once |
