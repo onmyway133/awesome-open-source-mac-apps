@@ -284,6 +284,7 @@ For apps with 100-1,000 stars, see [OTHER.md](OTHER.md).
 | [hiddify/hiddify-app](https://github.com/hiddify/hiddify-app) | ![Stars](https://img.shields.io/github/stars/hiddify/hiddify-app?style=flat) | Multi-platform proxy client |
 | [qiuyuzhou/ShadowsocksX-NG](https://github.com/qiuyuzhou/ShadowsocksX-NG) | ![Stars](https://img.shields.io/github/stars/qiuyuzhou/ShadowsocksX-NG?style=flat) | Next generation Shadowsocks client |
 | [getlantern/lantern](https://github.com/getlantern/lantern) | ![Stars](https://img.shields.io/github/stars/getlantern/lantern?style=flat) | Free internet access tool |
+| [MoonProxyHQ/moonproxy-desktop](https://github.com/MoonProxyHQ/moonproxy-desktop) | ![Stars](https://img.shields.io/github/stars/MoonProxyHQ/moonproxy-desktop?style=flat) | FRP desktop GUI client for macOS and Windows |
 
 ## Clipboard Managers
 
