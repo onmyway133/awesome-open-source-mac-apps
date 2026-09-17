@@ -254,6 +254,7 @@ For apps with 100-1,000 stars, see [OTHER.md](OTHER.md).
 | [kevinhermawan/Ollamac](https://github.com/kevinhermawan/Ollamac) | ![Stars](https://img.shields.io/github/stars/kevinhermawan/Ollamac?style=flat) | Native Ollama client for Mac |
 | [psugihara/FreeChat](https://github.com/psugihara/FreeChat) | ![Stars](https://img.shields.io/github/stars/psugihara/FreeChat?style=flat) | Native macOS LLM chat app |
 | [nbonamy/witsy](https://github.com/nbonamy/witsy) | ![Stars](https://img.shields.io/github/stars/nbonamy/witsy?style=flat) | AI assistant for macOS |
+| [Orkas-AI/Orkas](https://github.com/Orkas-AI/Orkas) | ![Stars](https://img.shields.io/github/stars/Orkas-AI/Orkas?style=flat) | Open-source, local-first desktop AI workforce coordinated by a Commander through one chat. |
 
 ## Download Managers
 
