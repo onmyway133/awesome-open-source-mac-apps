@@ -254,6 +254,7 @@ For apps with 100-1,000 stars, see [OTHER.md](OTHER.md).
 | [kevinhermawan/Ollamac](https://github.com/kevinhermawan/Ollamac) | ![Stars](https://img.shields.io/github/stars/kevinhermawan/Ollamac?style=flat) | Native Ollama client for Mac |
 | [psugihara/FreeChat](https://github.com/psugihara/FreeChat) | ![Stars](https://img.shields.io/github/stars/psugihara/FreeChat?style=flat) | Native macOS LLM chat app |
 | [nbonamy/witsy](https://github.com/nbonamy/witsy) | ![Stars](https://img.shields.io/github/stars/nbonamy/witsy?style=flat) | AI assistant for macOS |
+| [pungme/superagent-desktop](https://github.com/pungme/superagent-desktop) | ![Stars](https://img.shields.io/github/stars/pungme/superagent-desktop?style=flat) | Gives Claude Code and Codex a real browser and iOS Simulator to drive, plus a phone companion app |
 
 ## Download Managers
 
