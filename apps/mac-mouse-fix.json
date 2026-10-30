@@ -1,0 +1,10 @@
+{
+  "name": "Mac Mouse Fix",
+  "repo": "noah-nuebling/mac-mouse-fix",
+  "description": "Make your mouse better",
+  "category": "system-utilities",
+  "homepage": "https://macmousefix.com/",
+  "icon": "https://github.com/noah-nuebling/mac-mouse-fix/raw/master/Markdown/Media/AppIconRound3.png",
+  "screenshot": "https://github.com/noah-nuebling/mac-mouse-fix/raw/master/Markdown/Media/Apple-Keys-Demo.gif",
+  "stars": 11183
+}

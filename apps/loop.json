@@ -1,0 +1,9 @@
+{
+  "name": "Loop",
+  "repo": "mrkai77/Loop",
+  "description": "Elegant window management",
+  "category": "window-management",
+  "icon": "https://github.com/MrKai77/Loop/blob/develop/Loop/Assets.xcassets/App%20Icons/AppIcon-Classic.appiconset/Classic-512.png?raw=true",
+  "screenshot": "https://github.com/MrKai77/Loop/raw/develop/assets/graphics/loop_demo.gif",
+  "stars": 11899
+}

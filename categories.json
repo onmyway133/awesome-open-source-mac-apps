@@ -1,0 +1,142 @@
+[
+  {
+    "slug": "productivity",
+    "name": "Productivity",
+    "description": "Get more done: launchers, timers, focus and everyday helpers"
+  },
+  {
+    "slug": "menu-bar",
+    "name": "Menu Bar",
+    "description": "Small utilities that live in the menu bar or notch"
+  },
+  {
+    "slug": "window-management",
+    "name": "Window Management",
+    "description": "Tile, move and switch windows"
+  },
+  {
+    "slug": "system-utilities",
+    "name": "System Utilities",
+    "description": "Tweak, monitor and maintain your Mac"
+  },
+  {
+    "slug": "clipboard",
+    "name": "Clipboard",
+    "description": "Clipboard history and managers"
+  },
+  {
+    "slug": "notes-writing",
+    "name": "Notes & Writing",
+    "description": "Note-taking, writing and Markdown"
+  },
+  {
+    "slug": "ai",
+    "name": "AI",
+    "description": "AI assistants, chat clients and local models"
+  },
+  {
+    "slug": "developer-tools",
+    "name": "Developer Tools",
+    "description": "Tools for building software"
+  },
+  {
+    "slug": "code-editors",
+    "name": "Code Editors",
+    "description": "Text and code editors"
+  },
+  {
+    "slug": "terminal",
+    "name": "Terminal",
+    "description": "Terminal emulators"
+  },
+  {
+    "slug": "git",
+    "name": "Git",
+    "description": "Version control clients"
+  },
+  {
+    "slug": "database",
+    "name": "Database",
+    "description": "Database clients and GUIs"
+  },
+  {
+    "slug": "api",
+    "name": "API Development",
+    "description": "API clients and HTTP debugging"
+  },
+  {
+    "slug": "virtualization",
+    "name": "Virtualization",
+    "description": "Virtual machines and containers"
+  },
+  {
+    "slug": "design",
+    "name": "Design & Graphics",
+    "description": "Design, drawing, 3D and color tools"
+  },
+  {
+    "slug": "images",
+    "name": "Images",
+    "description": "Image viewers, editors and converters"
+  },
+  {
+    "slug": "screen-capture",
+    "name": "Screen Capture",
+    "description": "Screenshots and screen recording"
+  },
+  {
+    "slug": "video",
+    "name": "Video",
+    "description": "Video players, editors and converters"
+  },
+  {
+    "slug": "audio",
+    "name": "Audio & Music",
+    "description": "Music players, audio editors and routing"
+  },
+  {
+    "slug": "browsers",
+    "name": "Browsers",
+    "description": "Web browsers"
+  },
+  {
+    "slug": "communication",
+    "name": "Communication",
+    "description": "Chat, email and social"
+  },
+  {
+    "slug": "reading",
+    "name": "Reading",
+    "description": "RSS readers and e-books"
+  },
+  {
+    "slug": "files",
+    "name": "Files",
+    "description": "File managers, transfer, downloads and Quick Look"
+  },
+  {
+    "slug": "security",
+    "name": "Security & Privacy",
+    "description": "Passwords, firewalls, VPNs and privacy"
+  },
+  {
+    "slug": "translation",
+    "name": "Translation",
+    "description": "Translation and dictionaries"
+  },
+  {
+    "slug": "voice",
+    "name": "Voice & Dictation",
+    "description": "Speech to text and voice control"
+  },
+  {
+    "slug": "remote-desktop",
+    "name": "Remote Desktop",
+    "description": "Remote access and screen sharing"
+  },
+  {
+    "slug": "games",
+    "name": "Games & Emulators",
+    "description": "Games and emulators"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "name": "Hello HTTP",
+  "repo": "sunny-chung/hello-http",
+  "description": "A cross-platform HTTP client desktop application for testing HTTP and REST APIs, WebSocket, GraphQL (including subscriptions) and gRPC endpoints",
+  "category": "developer-tools",
+  "homepage": "https://sunny-chung.github.io/hello-http/",
+  "icon": "https://raw.githubusercontent.com/sunny-chung/hello-http/main/appicon/appicon.png",
+  "screenshot": "https://raw.githubusercontent.com/sunny-chung/hello-http/main/doc/_include/screenshot1.png",
+  "stars": 116
+}

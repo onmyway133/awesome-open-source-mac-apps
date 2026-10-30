@@ -1,0 +1,9 @@
+{
+  "name": "Background Music",
+  "repo": "kyleneideck/BackgroundMusic",
+  "description": "Per-app volume control and audio recording",
+  "category": "audio",
+  "icon": "https://github.com/kyleneideck/BackgroundMusic/raw/master/Images/README/FermataIcon.png",
+  "screenshot": "https://github.com/kyleneideck/BackgroundMusic/raw/master/Images/README/Screenshot.png",
+  "stars": 19361
+}

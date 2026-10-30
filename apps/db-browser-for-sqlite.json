@@ -1,0 +1,8 @@
+{
+  "name": "DB Browser for SQLite",
+  "repo": "sqlitebrowser/sqlitebrowser",
+  "description": "Visual tool for SQLite databases",
+  "category": "database",
+  "homepage": "https://sqlitebrowser.org",
+  "stars": 24745
+}

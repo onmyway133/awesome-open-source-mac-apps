@@ -1,0 +1,10 @@
+{
+  "name": "Freeter",
+  "repo": "FreeterApp/Freeter",
+  "description": "Gather everything you need for work in one place, organized by projects and workflows, and have a quick access to them",
+  "category": "browsers",
+  "homepage": "https://freeter.io/",
+  "icon": "https://raw.githubusercontent.com/FreeterApp/Freeter/master/src/assets/app-icons/256.png",
+  "screenshot": "https://freeter.io/images/app-screen.png",
+  "stars": 1028
+}

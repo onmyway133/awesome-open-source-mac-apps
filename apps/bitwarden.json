@@ -1,0 +1,9 @@
+{
+  "name": "Bitwarden",
+  "repo": "bitwarden/clients",
+  "description": "Open source password manager",
+  "category": "security",
+  "homepage": "https://bitwarden.com/",
+  "screenshot": "https://raw.githubusercontent.com/bitwarden/brand/master/screenshots/apps-combo-logo.png",
+  "stars": 14109
+}

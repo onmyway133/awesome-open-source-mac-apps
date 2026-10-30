@@ -1,0 +1,10 @@
+{
+  "name": "Tuneful",
+  "repo": "martinfekete10/Tuneful",
+  "description": "Tuneful provides a convenient way to control music playback for both Spotify and Apple Music, and see the currently playing song directly in the menu bar",
+  "category": "audio",
+  "homepage": "https://tuneful.app",
+  "icon": "https://github.com/martinfekete10/Tuneful/raw/main/docs/images/icon.png",
+  "screenshot": "https://github.com/martinfekete10/Tuneful/raw/main/docs/images/playback.png",
+  "stars": 538
+}

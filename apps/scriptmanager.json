@@ -1,0 +1,9 @@
+{
+  "name": "ScriptManager",
+  "repo": "DanielFiller30/ScriptManager",
+  "description": "An easy and comfortable macOS menu bar-tool, to organize and use your own terminal-scripts",
+  "category": "developer-tools",
+  "icon": "https://github.com/DanielFiller30/ScriptManager/blob/main/Media/AppIcons/64.png",
+  "screenshot": "https://github.com/DanielFiller30/ScriptManager/blob/main/Media/Screenshots/start_v2.png",
+  "stars": 100
+}

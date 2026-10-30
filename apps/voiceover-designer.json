@@ -1,0 +1,9 @@
+{
+  "name": "VoiceOver Designer",
+  "repo": "AccessibilityTools/VoiceOverDesigner",
+  "description": "Design, prototype and test accessibility of iOS-apps",
+  "category": "developer-tools",
+  "icon": "https://rubanov.dev/voice-over-designer/images/logo.png",
+  "screenshot": "https://rubanov.dev/voice-over-designer/images/HeaderLight.png",
+  "stars": 122
+}

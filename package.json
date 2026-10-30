@@ -1,0 +1,17 @@
+{
+  "name": "awesome-open-source-mac-apps",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "readme": "node scripts/generate-readme.mjs",
+    "refresh-stars": "node scripts/refresh-stars.mjs"
+  },
+  "devDependencies": {
+    "ajv": "8.20.0",
+    "ajv-formats": "3.0.1"
+  }
+}

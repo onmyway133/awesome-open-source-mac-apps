@@ -1,0 +1,10 @@
+{
+  "name": "MeetingBar",
+  "repo": "leits/MeetingBar",
+  "description": "Show calendar meetings in menu bar",
+  "category": "menu-bar",
+  "homepage": "https://meetingbar.app/",
+  "icon": "https://meetingbar.app/_astro/logomark.7c6317bd_Zm7TIE.png",
+  "screenshot": "https://meetingbar.app/_astro/dropdown.820db2c9_1B6v9W.avif",
+  "stars": 5392
+}

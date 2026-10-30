@@ -1,0 +1,8 @@
+{
+  "name": "Mattermost",
+  "repo": "mattermost/mattermost",
+  "description": "Open source Slack alternative",
+  "category": "communication",
+  "homepage": "https://mattermost.com",
+  "stars": 39473
+}

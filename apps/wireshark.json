@@ -1,0 +1,8 @@
+{
+  "name": "Wireshark",
+  "repo": "wireshark/wireshark",
+  "description": "Network protocol analyzer",
+  "category": "api",
+  "homepage": "https://www.wireshark.org",
+  "stars": 10122
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Alacritty",
+  "repo": "alacritty/alacritty",
+  "description": "GPU-accelerated terminal emulator",
+  "category": "terminal",
+  "homepage": "https://alacritty.org",
+  "icon": "https://alacritty.org/alacritty-simple.svg",
+  "screenshot": "https://alacritty.org/alacritty_example.png",
+  "stars": 66087
+}

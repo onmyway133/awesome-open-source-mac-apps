@@ -1,0 +1,8 @@
+{
+  "name": "Blender",
+  "repo": "blender/blender",
+  "description": "3D creation suite",
+  "category": "design",
+  "homepage": "https://developer.blender.org/docs/handbook/contributing/using_git/#github-mirror",
+  "stars": 21445
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Clop",
+  "repo": "FuzzyIdeas/Clop",
+  "description": "Clipboard optimizer for macOS",
+  "category": "system-utilities",
+  "homepage": "https://lowtechguys.com/clop",
+  "icon": "https://github.com/FuzzyIdeas/Clop/raw/main/Clop/Assets.xcassets/clop.imageset/clop_256.png",
+  "stars": 1858
+}

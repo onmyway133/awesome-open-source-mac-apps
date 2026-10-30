@@ -1,0 +1,9 @@
+{
+  "name": "SlowQuitApps",
+  "repo": "dteoh/SlowQuitApps",
+  "description": "Add delay to Cmd+Q to prevent accidental quits",
+  "category": "system-utilities",
+  "icon": "https://avatars.githubusercontent.com/u/200159?s=48&v=4",
+  "screenshot": "https://github.com/dteoh/SlowQuitApps/raw/master/img/preview.gif?raw=true",
+  "stars": 1230
+}

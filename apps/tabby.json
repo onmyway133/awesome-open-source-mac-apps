@@ -1,0 +1,10 @@
+{
+  "name": "Tabby",
+  "repo": "Eugeny/tabby",
+  "description": "Modern terminal with serial port support",
+  "category": "terminal",
+  "homepage": "https://tabby.sh/",
+  "icon": "https://tabby.sh/32bf32ff6c87e8d18932.svg",
+  "screenshot": "https://github.com/Eugeny/tabby/raw/master/docs/readme.png",
+  "stars": 75209
+}

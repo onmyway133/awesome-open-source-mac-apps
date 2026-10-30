@@ -1,0 +1,9 @@
+{
+  "name": "TomatoBar",
+  "repo": "ivoronin/TomatoBar",
+  "description": "Pomodoro timer in menu bar",
+  "category": "menu-bar",
+  "icon": "https://raw.githubusercontent.com/ivoronin/TomatoBar/main/TomatoBar/Assets.xcassets/AppIcon.appiconset/icon_128x128%402x.png",
+  "screenshot": "https://github.com/ivoronin/TomatoBar/raw/main/screenshot.png?raw=true",
+  "stars": 3578
+}

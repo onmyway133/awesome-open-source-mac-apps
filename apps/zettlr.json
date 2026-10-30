@@ -1,0 +1,10 @@
+{
+  "name": "Zettlr",
+  "repo": "Zettlr/Zettlr",
+  "description": "Markdown editor for academic writing",
+  "category": "notes-writing",
+  "homepage": "https://www.zettlr.com/",
+  "icon": "https://raw.githubusercontent.com/Zettlr/Zettlr/master/resources/icons/png/256x256.png",
+  "screenshot": "https://github.com/Zettlr/Zettlr/raw/develop/resources/screenshots/zettlr_view.png",
+  "stars": 13841
+}

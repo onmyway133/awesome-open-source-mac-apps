@@ -1,0 +1,8 @@
+{
+  "name": "qBittorrent",
+  "repo": "qbittorrent/qBittorrent",
+  "description": "Feature-rich BitTorrent client",
+  "category": "files",
+  "homepage": "https://www.qbittorrent.org",
+  "stars": 41236
+}

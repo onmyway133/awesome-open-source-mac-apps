@@ -1,0 +1,8 @@
+{
+  "name": "GPT4All",
+  "repo": "nomic-ai/gpt4all",
+  "description": "Run local LLMs on CPU/GPU with M-series support",
+  "category": "ai",
+  "homepage": "https://nomic.ai/gpt4all",
+  "stars": 77345
+}

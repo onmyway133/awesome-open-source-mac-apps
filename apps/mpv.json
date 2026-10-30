@@ -1,0 +1,8 @@
+{
+  "name": "mpv",
+  "repo": "mpv-player/mpv",
+  "description": "Powerful command-line media player",
+  "category": "video",
+  "homepage": "https://mpv.io",
+  "stars": 37630
+}

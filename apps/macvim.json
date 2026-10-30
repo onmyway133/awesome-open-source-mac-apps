@@ -1,0 +1,8 @@
+{
+  "name": "MacVim",
+  "repo": "macvim-dev/macvim",
+  "description": "Vim with macOS GUI integration",
+  "category": "code-editors",
+  "homepage": "https://macvim.org",
+  "stars": 7890
+}

@@ -1,0 +1,9 @@
+{
+  "name": "HostsX",
+  "repo": "ZzzM/HostsX",
+  "description": "A lightweight macOS app for updating local hosts",
+  "category": "menu-bar",
+  "icon": "https://raw.githubusercontent.com/ZzzM/HostsX/master/HostsX/Assets.xcassets/AppIcon.appiconset/icon_512x512.png",
+  "screenshot": "https://github.com/ZzzM/HostsX?tab=readme-ov-file#snapshots",
+  "stars": 309
+}

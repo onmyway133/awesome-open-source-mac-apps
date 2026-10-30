@@ -1,0 +1,8 @@
+{
+  "name": "OBS Studio",
+  "repo": "obsproject/obs-studio",
+  "description": "Video recording and live streaming",
+  "category": "screen-capture",
+  "homepage": "https://obsproject.com",
+  "stars": 78629
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MacSymbolicator",
+  "repo": "inket/MacSymbolicator",
+  "description": "Symbolicating macOS/iOS crash reports, easily",
+  "category": "developer-tools",
+  "icon": "https://github.com/inket/MacSymbolicator/raw/master/Resources/Assets.xcassets/AppIcon.appiconset/Icon_128x128.png?raw=true",
+  "stars": 1674
+}

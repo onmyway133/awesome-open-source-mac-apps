@@ -1,0 +1,10 @@
+{
+  "name": "System Color Picker",
+  "repo": "sindresorhus/System-Color-Picker",
+  "description": "The macOS color picker as an app with lots of extra features",
+  "category": "design",
+  "homepage": "https://sindresorhus.com/system-color-picker",
+  "icon": "https://github.com/sindresorhus/System-Color-Picker/raw/main/Stuff/AppIcon-readme.png",
+  "screenshot": "https://github.com/sindresorhus/System-Color-Picker/raw/main/Stuff/screenshot1.jpg",
+  "stars": 1415
+}

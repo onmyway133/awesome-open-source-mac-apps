@@ -1,0 +1,10 @@
+{
+  "name": "Flameshot",
+  "repo": "flameshot-org/flameshot",
+  "description": "Screenshot tool with annotation",
+  "category": "screen-capture",
+  "homepage": "https://flameshot.org/",
+  "icon": "https://github.com/flameshot-org/flameshot/raw/master/data/img/app/org.flameshot.Flameshot.svg",
+  "screenshot": "https://raw.githubusercontent.com/flameshot-org/flameshot/master/data/img/preview/animatedUsage.gif",
+  "stars": 31370
+}

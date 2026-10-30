@@ -1,0 +1,10 @@
+{
+  "name": "MacDown",
+  "repo": "MacDownApp/macdown",
+  "description": "Open source Markdown editor for macOS",
+  "category": "notes-writing",
+  "homepage": "https://macdown.uranusjr.com/",
+  "icon": "https://macdown.uranusjr.com/static/images/logo.png",
+  "screenshot": "https://github.com/MacDownApp/macdown/raw/master/assets/screenshot.png",
+  "stars": 9843
+}

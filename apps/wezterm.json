@@ -1,0 +1,9 @@
+{
+  "name": "WezTerm",
+  "repo": "wezterm/wezterm",
+  "description": "GPU-accelerated terminal with Lua configuration",
+  "category": "terminal",
+  "homepage": "https://wezterm.org/",
+  "icon": "https://raw.githubusercontent.com/wez/wezterm/main/assets/icon/wezterm-icon.svg",
+  "stars": 29401
+}

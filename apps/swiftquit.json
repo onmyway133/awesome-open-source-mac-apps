@@ -1,0 +1,9 @@
+{
+  "name": "SwiftQuit",
+  "repo": "onebadidea/swiftquit",
+  "description": "Automatic quitting of macOS apps when closing their windows",
+  "category": "menu-bar",
+  "homepage": "https://swiftquit.com/",
+  "screenshot": "https://swiftquit.com/images/screenshot.png",
+  "stars": 568
+}

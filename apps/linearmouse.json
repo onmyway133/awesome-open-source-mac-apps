@@ -1,0 +1,10 @@
+{
+  "name": "LinearMouse",
+  "repo": "linearmouse/linearmouse",
+  "description": "Customize mouse and trackpad settings",
+  "category": "system-utilities",
+  "homepage": "https://linearmouse.app/",
+  "icon": "https://github.com/linearmouse/linearmouse/raw/main/logo.svg",
+  "screenshot": "https://linearmouse.app/_next/static/media/feature-2-dark.26bf178a.png",
+  "stars": 7093
+}

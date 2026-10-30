@@ -1,0 +1,10 @@
+{
+  "name": "Tiny Wi-Fi Analyzer",
+  "repo": "nolze/tiny-wifi-analyzer",
+  "description": "Simple, open-source Wi-Fi channel and strength analyzer for macOS",
+  "category": "system-utilities",
+  "homepage": "https://nolze.github.io/tiny-wifi-analyzer/",
+  "icon": "https://raw.githubusercontent.com/nolze/tiny-wifi-analyzer/master/assets/twa.svg",
+  "screenshot": "https://raw.githubusercontent.com/nolze/tiny-wifi-analyzer/master/assets/screenshot.png",
+  "stars": 323
+}

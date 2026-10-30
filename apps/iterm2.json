@@ -1,0 +1,10 @@
+{
+  "name": "iTerm2",
+  "repo": "gnachman/iTerm2",
+  "description": "Feature-rich terminal replacement for macOS",
+  "category": "terminal",
+  "homepage": "https://iterm2.com/",
+  "icon": "https://iterm2.com/img/logo2x.jpg",
+  "screenshot": "https://iterm2.com/img/screenshots/split_panes.png",
+  "stars": 18239
+}

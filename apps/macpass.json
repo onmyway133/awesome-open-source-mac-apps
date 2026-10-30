@@ -1,0 +1,8 @@
+{
+  "name": "MacPass",
+  "repo": "MacPass/MacPass",
+  "description": "Native macOS KeePass client",
+  "category": "security",
+  "homepage": "http://macpass.app/",
+  "stars": 6895
+}

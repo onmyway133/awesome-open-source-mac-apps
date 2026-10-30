@@ -1,0 +1,8 @@
+{
+  "name": "Dolphin",
+  "repo": "dolphin-emu/dolphin",
+  "description": "GameCube and Wii emulator",
+  "category": "games",
+  "homepage": "https://dolphin-emu.org",
+  "stars": 15743
+}

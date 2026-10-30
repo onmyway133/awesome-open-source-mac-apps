@@ -1,0 +1,18 @@
+name: Report a problem
+description: An app is listed wrongly, has a broken link, or is no longer maintained.
+title: "Fix: "
+labels: ["correction"]
+body:
+  - type: input
+    id: app
+    attributes:
+      label: Which app?
+      placeholder: Maccy
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's wrong, and what should it be?
+    validations:
+      required: true

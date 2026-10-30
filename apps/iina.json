@@ -1,0 +1,10 @@
+{
+  "name": "IINA",
+  "repo": "iina/iina",
+  "description": "Modern video player with minimalist design for macOS",
+  "category": "video",
+  "homepage": "https://iina.io/",
+  "icon": "https://github.com/iina/iina/raw/master/iina/Assets.xcassets/AppIcon.appiconset/iina-icon-256.png",
+  "screenshot": "https://iina.io/images/sc-sky.png",
+  "stars": 46961
+}

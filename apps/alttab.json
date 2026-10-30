@@ -1,0 +1,10 @@
+{
+  "name": "AltTab",
+  "repo": "lwouis/alt-tab-macos",
+  "description": "Windows-style alt-tab for macOS",
+  "category": "window-management",
+  "homepage": "https://alt-tab-macos.netlify.app/",
+  "icon": "https://alt-tab-macos.netlify.app/public/android-chrome-256x256.png",
+  "screenshot": "https://github.com/lwouis/alt-tab-macos/raw/master/docs/public/demo/frontpage.jpg",
+  "stars": 16457
+}

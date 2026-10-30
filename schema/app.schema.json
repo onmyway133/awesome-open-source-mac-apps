@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "App",
+  "description": "One open source Mac app: apps/<slug>.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "name",
+    "repo",
+    "description",
+    "category"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 60,
+      "pattern": "^[^\\n]+$"
+    },
+    "repo": {
+      "description": "GitHub repository as owner/name",
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 160,
+      "pattern": "^[^\\n]+$"
+    },
+    "category": {
+      "description": "A slug from categories.json",
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "homepage": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https?://"
+    },
+    "icon": {
+      "description": "App icon image, square",
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https?://"
+    },
+    "screenshot": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https?://"
+    },
+    "stars": {
+      "description": "GitHub stars, updated weekly by a workflow. Leave it out when adding an app.",
+      "type": "integer",
+      "minimum": 0
+    }
+  }
+}

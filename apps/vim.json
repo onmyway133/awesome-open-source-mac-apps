@@ -1,0 +1,8 @@
+{
+  "name": "Vim",
+  "repo": "vim/vim",
+  "description": "The ubiquitous text editor",
+  "category": "code-editors",
+  "homepage": "https://www.vim.org",
+  "stars": 41180
+}

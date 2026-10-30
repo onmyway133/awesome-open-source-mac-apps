@@ -1,0 +1,10 @@
+{
+  "name": "Gray",
+  "repo": "zenangst/Gray",
+  "description": "Pick between light and dark mode per-app",
+  "category": "system-utilities",
+  "homepage": "https://github.com/zenangst",
+  "icon": "https://github.com/zenangst/Gray/raw/master/Resources/Assets.xcassets/AppIcon.appiconset/icon_256x256.png?raw=true",
+  "screenshot": "https://github.com/zenangst/Gray/raw/master/Images/Screenshot.png",
+  "stars": 1447
+}

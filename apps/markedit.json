@@ -1,0 +1,10 @@
+{
+  "name": "MarkEdit",
+  "repo": "MarkEdit-app/MarkEdit",
+  "description": "MarkEdit is a free and open-source Markdown editor for macOS. It's just like TextEdit on Mac but dedicated to Markdown",
+  "category": "notes-writing",
+  "homepage": "http://tiny.cc/markedit",
+  "icon": "https://github.com/MarkEdit-app/MarkEdit/raw/main/Icon.png",
+  "screenshot": "https://github.com/MarkEdit-app/MarkEdit/raw/main/Screenshots/01.png",
+  "stars": 5919
+}

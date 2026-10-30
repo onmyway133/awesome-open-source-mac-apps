@@ -1,0 +1,10 @@
+{
+  "name": "Hidden Bar",
+  "repo": "dwarvesf/hidden",
+  "description": "Hide menu bar items",
+  "category": "menu-bar",
+  "homepage": "https://d.foundation/opensource",
+  "icon": "https://github.com/dwarvesf/hidden/raw/develop/img/icon_512%402x.png?raw=true",
+  "screenshot": "https://github.com/dwarvesf/hidden/raw/develop/img/screen1.png",
+  "stars": 15302
+}

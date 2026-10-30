@@ -1,0 +1,10 @@
+{
+  "name": "Actions",
+  "repo": "sindresorhus/Actions",
+  "description": "Additional actions for the Shortcuts app",
+  "category": "productivity",
+  "homepage": "https://sindresorhus.com/actions",
+  "icon": "https://github.com/sindresorhus/Actions/raw/main/Stuff/AppIcon-readme.png",
+  "screenshot": "https://github.com/sindresorhus/Actions/raw/main/Stuff/screenshot1.jpg",
+  "stars": 3070
+}

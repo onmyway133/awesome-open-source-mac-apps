@@ -1,0 +1,8 @@
+{
+  "name": "LosslessCut",
+  "repo": "mifi/lossless-cut",
+  "description": "Trim and cut video/audio without re-encoding",
+  "category": "audio",
+  "homepage": "https://losslesscut.app/",
+  "stars": 45476
+}

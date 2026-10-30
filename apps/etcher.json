@@ -1,0 +1,8 @@
+{
+  "name": "Etcher",
+  "repo": "balena-io/etcher",
+  "description": "Flash OS images to SD cards and USB drives",
+  "category": "system-utilities",
+  "homepage": "https://etcher.io/",
+  "stars": 34621
+}

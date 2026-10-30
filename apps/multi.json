@@ -1,0 +1,9 @@
+{
+  "name": "Multi",
+  "repo": "kofigumbs/multi",
+  "description": "Create custom, lightweight macOS apps from websites",
+  "category": "window-management",
+  "icon": "https://raw.githubusercontent.com/kofigumbs/multi/main/Docs/logo.png",
+  "screenshot": "https://raw.githubusercontent.com/kofigumbs/multi/main/Docs/screenshot.png",
+  "stars": 1413
+}

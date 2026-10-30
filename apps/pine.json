@@ -1,0 +1,10 @@
+{
+  "name": "Pine",
+  "repo": "lukakerr/Pine",
+  "description": "A modern, native macOS markdown editor",
+  "category": "notes-writing",
+  "homepage": "https://lukakerr.github.io/Pine",
+  "icon": "https://github.com/lukakerr/Pine/raw/master/Pine/Assets.xcassets/AppIcon.appiconset/pine-512@1x.png",
+  "screenshot": "https://lukakerr.github.io/Pine/img/pine-1.png",
+  "stars": 3484
+}

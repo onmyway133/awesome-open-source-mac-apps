@@ -1,0 +1,9 @@
+{
+  "name": "Keyboard Cowboy",
+  "repo": "zenangst/KeyboardCowboy",
+  "description": "Boost productivity with keyboard shortcuts",
+  "category": "system-utilities",
+  "icon": "https://github.com/zenangst/KeyboardCowboy/raw/main/App/Resources/Assets.xcassets/AppIcon.appiconset/icon_256x256.png?raw=true",
+  "screenshot": "https://github.com/zenangst/KeyboardCowboy/raw/main/gh-pages/img/app.png?raw=true",
+  "stars": 2251
+}

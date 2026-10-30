@@ -1,0 +1,10 @@
+{
+  "name": "Cronica",
+  "repo": "eggerco/cronica",
+  "description": "Cronica is a minimalist watchlist app for all your Apple devices, that reminds you about upcoming releases",
+  "category": "ai",
+  "homepage": "https://cronica.watch",
+  "icon": "https://github.com/MadeiraAlexandre/Cronica/raw/main/Shared/Assets.xcassets/MacAppIcon.appiconset/icon_512x512.png?raw=true",
+  "screenshot": "https://raw.githubusercontent.com/MadeiraAlexandre/Cronica/main/Screenshots/iPhone.webp",
+  "stars": 249
+}

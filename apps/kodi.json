@@ -1,0 +1,8 @@
+{
+  "name": "Kodi",
+  "repo": "xbmc/xbmc",
+  "description": "Kodi media center for organizing and streaming content",
+  "category": "video",
+  "homepage": "https://kodi.tv/",
+  "stars": 21401
+}

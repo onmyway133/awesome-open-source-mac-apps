@@ -1,0 +1,68 @@
+name: Suggest an app
+description: Suggest an open source Mac app without editing JSON. It needs at least 100 GitHub stars.
+title: "Add: "
+labels: ["new app"]
+body:
+  - type: input
+    id: repo
+    attributes:
+      label: GitHub repository
+      placeholder: https://github.com/leits/MeetingBar
+    validations:
+      required: true
+  - type: input
+    id: description
+    attributes:
+      label: What does it do?
+      description: One line, up to 160 characters.
+      placeholder: Your meetings at your fingertips in the macOS menu bar
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Productivity
+        - Menu Bar
+        - Window Management
+        - System Utilities
+        - Clipboard
+        - Notes & Writing
+        - AI
+        - Developer Tools
+        - Code Editors
+        - Terminal
+        - Git
+        - Database
+        - API Development
+        - Virtualization
+        - Design & Graphics
+        - Images
+        - Screen Capture
+        - Video
+        - Audio & Music
+        - Browsers
+        - Communication
+        - Reading
+        - Files
+        - Security & Privacy
+        - Translation
+        - Voice & Dictation
+        - Remote Desktop
+        - Games & Emulators
+    validations:
+      required: true
+  - type: input
+    id: homepage
+    attributes:
+      label: Website, if any
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: It's an app for macOS, not a library, CLI-only tool or server.
+          required: true
+        - label: The repository has at least 100 stars and isn't archived.
+          required: true

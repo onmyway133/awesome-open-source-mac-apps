@@ -1,0 +1,8 @@
+{
+  "name": "Lapce",
+  "repo": "lapce/lapce",
+  "description": "Lightning-fast code editor written in Rust",
+  "category": "code-editors",
+  "homepage": "https://lap.dev/lapce/",
+  "stars": 38961
+}

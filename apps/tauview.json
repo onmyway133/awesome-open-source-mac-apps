@@ -1,0 +1,9 @@
+{
+  "name": "TauView",
+  "repo": "sprout2000/tauview",
+  "description": "Minimalist image viewer based on Leaflet.js and Tauri",
+  "category": "design",
+  "icon": "https://github.com/sprout2000/leafview/assets/52094761/33fe888a-e1bc-4418-a3e6-effdbba7f828",
+  "screenshot": "https://user-images.githubusercontent.com/52094761/227748216-a9c94a97-dfef-42b5-bce4-1df7a142d509.png",
+  "stars": 167
+}

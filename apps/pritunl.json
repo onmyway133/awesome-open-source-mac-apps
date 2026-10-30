@@ -1,0 +1,9 @@
+{
+  "name": "Pritunl",
+  "repo": "pritunl/pritunl-client",
+  "description": "Open Source OpenVPN Client",
+  "category": "security",
+  "homepage": "https://client.pritunl.com/",
+  "screenshot": "https://client.pritunl.com/img/screenshot.png",
+  "stars": 1472
+}

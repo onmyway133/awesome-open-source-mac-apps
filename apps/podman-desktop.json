@@ -1,0 +1,8 @@
+{
+  "name": "Podman Desktop",
+  "repo": "podman-desktop/podman-desktop",
+  "description": "GUI for managing containers",
+  "category": "virtualization",
+  "homepage": "https://podman-desktop.io",
+  "stars": 8115
+}

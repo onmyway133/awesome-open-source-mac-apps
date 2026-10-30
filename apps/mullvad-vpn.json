@@ -1,0 +1,8 @@
+{
+  "name": "Mullvad VPN",
+  "repo": "mullvad/mullvadvpn-app",
+  "description": "Privacy-focused VPN app",
+  "category": "security",
+  "homepage": "https://mullvad.net/",
+  "stars": 7722
+}

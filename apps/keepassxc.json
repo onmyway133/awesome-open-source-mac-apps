@@ -1,0 +1,9 @@
+{
+  "name": "KeePassXC",
+  "repo": "keepassxreboot/keepassxc",
+  "description": "Cross-platform password manager",
+  "category": "security",
+  "homepage": "https://keepassxc.org/",
+  "icon": "https://keepassxc.org/assets/img/keepassxc.svg",
+  "stars": 29627
+}

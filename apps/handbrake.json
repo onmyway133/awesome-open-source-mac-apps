@@ -1,0 +1,10 @@
+{
+  "name": "HandBrake",
+  "repo": "HandBrake/HandBrake",
+  "description": "Open-source video transcoder available for Linux, Mac, and Windows",
+  "category": "video",
+  "homepage": "https://handbrake.fr/",
+  "icon": "https://handbrake.fr/img/logo.png",
+  "screenshot": "https://handbrake.fr/img/slides/slide1_mac.png",
+  "stars": 24826
+}

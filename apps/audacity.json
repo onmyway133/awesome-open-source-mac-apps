@@ -1,0 +1,8 @@
+{
+  "name": "Audacity",
+  "repo": "audacity/audacity",
+  "description": "Multi-track audio editor and recorder",
+  "category": "audio",
+  "homepage": "https://www.audacityteam.org/manual/getting-started/",
+  "stars": 18881
+}

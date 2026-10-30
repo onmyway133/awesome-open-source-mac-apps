@@ -1,0 +1,9 @@
+{
+  "name": "Hammerspoon",
+  "repo": "Hammerspoon/hammerspoon",
+  "description": "Powerful macOS automation with Lua",
+  "category": "window-management",
+  "homepage": "http://www.hammerspoon.org",
+  "icon": "https://www.hammerspoon.org/images/hammerspoon.png",
+  "stars": 16349
+}

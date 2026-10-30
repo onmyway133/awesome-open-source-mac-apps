@@ -1,0 +1,10 @@
+{
+  "name": "SelfControl",
+  "repo": "SelfControlApp/selfcontrol",
+  "description": "Block your own access to distracting websites",
+  "category": "productivity",
+  "homepage": "http://selfcontrolapp.com",
+  "icon": "https://avatars.githubusercontent.com/u/8949958?s=48&v=4",
+  "screenshot": "https://github.com/SelfControlApp/selfcontrol/raw/master/.github/docs/screenshot.png",
+  "stars": 4418
+}

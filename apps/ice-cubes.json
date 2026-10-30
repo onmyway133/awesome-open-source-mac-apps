@@ -1,0 +1,10 @@
+{
+  "name": "Ice Cubes",
+  "repo": "Dimillian/IceCubesApp",
+  "description": "A SwiftUI Mastodon client",
+  "category": "system-utilities",
+  "homepage": "https://apps.apple.com/us/app/ice-cubes-for-mastodon/id6444915884",
+  "icon": "https://github.com/Dimillian/IceCubesApp/blob/main/IceCubesApp/Assets.xcassets/AppIcon.appiconset/macOS512.png?raw=true",
+  "screenshot": "https://github.com/Dimillian/IceCubesApp/raw/main/Images/promo.png",
+  "stars": 7096
+}

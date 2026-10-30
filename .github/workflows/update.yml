@@ -1,0 +1,56 @@
+name: update
+
+# Keeps README.md and the star counts in sync with apps/*.json: regenerates README.md after every
+# push to main, and every Monday also refreshes stars and redeploys the site. Runs only code that
+# is already on main. Commits made with GITHUB_TOKEN don't start other workflows, so this can't
+# loop, and the scheduled run calls the deploy hook itself.
+on:
+  push:
+    branches: [main]
+    paths: ['apps/**', 'categories.json', 'scripts/**']
+  schedule:
+    - cron: '23 5 * * 1'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    name: update
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 24
+          package-manager-cache: false
+      - run: npm ci --ignore-scripts --no-audit --no-fund
+      - if: github.event_name == 'schedule'
+        run: node scripts/refresh-stars.mjs
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+      - run: node scripts/generate-readme.mjs
+      - name: Commit
+        id: commit
+        run: |
+          if git diff --quiet; then
+            echo "nothing changed"
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -qam "${{ github.event_name == 'schedule' && 'Refresh stars' || 'Regenerate README' }}"
+          git push
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+      - if: github.event_name == 'schedule' && steps.commit.outputs.pushed == 'true'
+        name: Redeploy indiegoodies.com
+        run: |
+          if [ -z "$DEPLOY_HOOK" ]; then echo "VERCEL_DEPLOY_HOOK_URL is not set"; exit 0; fi
+          curl -fsS -X POST "$DEPLOY_HOOK" > /dev/null
+        env:
+          DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}

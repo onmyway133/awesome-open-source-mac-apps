@@ -1,0 +1,9 @@
+{
+  "name": "CotEditor",
+  "repo": "coteditor/CotEditor",
+  "description": "Lightweight plain-text editor for macOS",
+  "category": "code-editors",
+  "homepage": "https://coteditor.com/",
+  "screenshot": "https://github.com/coteditor/CotEditor/raw/main/screenshot@2x.png",
+  "stars": 8644
+}

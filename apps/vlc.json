@@ -1,0 +1,8 @@
+{
+  "name": "VLC",
+  "repo": "videolan/vlc",
+  "description": "Cross-platform multimedia player that plays most formats",
+  "category": "video",
+  "homepage": "http://www.videolan.org/vlc",
+  "stars": 20270
+}

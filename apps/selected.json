@@ -1,0 +1,10 @@
+{
+  "name": "Selected",
+  "repo": "sakeven/Selected",
+  "description": "The floating toolbar that appears when you select any text",
+  "category": "system-utilities",
+  "homepage": "https://plus.anynotes.app/",
+  "icon": "https://github.com/sakeven/Selected/blob/main/Selected/Assets.xcassets/AppIcon.appiconset/icon_512x512.png",
+  "screenshot": "https://github.com/sakeven/Selected/blob/main/DocImages/Screenshot.png",
+  "stars": 116
+}

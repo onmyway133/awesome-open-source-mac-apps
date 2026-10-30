@@ -1,0 +1,10 @@
+{
+  "name": "Cork",
+  "repo": "buresdv/Cork",
+  "description": "Fast GUI for Homebrew",
+  "category": "developer-tools",
+  "homepage": "https://corkmac.app",
+  "icon": "https://corkmac.app/Assets/Images/Icon.png",
+  "screenshot": "https://camo.githubusercontent.com/737ad40d2c2dc6484fd34cf6c45944f06bfda58ac9409e186e841ba851fe0c97/68747470733a2f2f692e696d6775722e636f6d2f444e43737563702e706e67",
+  "stars": 4717
+}

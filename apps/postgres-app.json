@@ -1,0 +1,8 @@
+{
+  "name": "Postgres.app",
+  "repo": "PostgresApp/PostgresApp",
+  "description": "Run PostgreSQL on your Mac",
+  "category": "database",
+  "homepage": "https://postgresapp.com",
+  "stars": 7785
+}

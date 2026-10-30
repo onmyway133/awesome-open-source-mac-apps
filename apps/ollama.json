@@ -1,0 +1,8 @@
+{
+  "name": "Ollama",
+  "repo": "ollama/ollama",
+  "description": "Run LLMs locally (Llama, Gemma, Mistral, and more)",
+  "category": "ai",
+  "homepage": "https://ollama.com",
+  "stars": 185366
+}

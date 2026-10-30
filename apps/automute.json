@@ -1,0 +1,9 @@
+{
+  "name": "AutoMute",
+  "repo": "yonilevy/automute",
+  "description": "A MacOS menu bar app that mutes the sound on headphones disconnect / awake from sleep",
+  "category": "audio",
+  "icon": "https://raw.githubusercontent.com/yonilevy/automute/master/automute/Assets.xcassets/AppIcon.appiconset/icon_512x512%402x.png",
+  "screenshot": "https://user-images.githubusercontent.com/31284/49688097-ac653900-fb15-11e8-9c48-3db96df5dcbf.png",
+  "stars": 285
+}

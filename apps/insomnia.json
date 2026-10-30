@@ -1,0 +1,10 @@
+{
+  "name": "Insomnia",
+  "repo": "Kong/insomnia",
+  "description": "API client for REST and GraphQL",
+  "category": "api",
+  "homepage": "https://insomnia.rest/",
+  "icon": "https://pbs.twimg.com/profile_images/1367596400410722305/-X7hZiSm_400x400.jpg",
+  "screenshot": "https://raw.githubusercontent.com/Kong/insomnia/develop/screenshots/main.png",
+  "stars": 40105
+}

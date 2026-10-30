@@ -1,0 +1,8 @@
+{
+  "name": "Neovim",
+  "repo": "neovim/neovim",
+  "description": "Hyperextensible Vim-based text editor",
+  "category": "code-editors",
+  "homepage": "https://neovim.io",
+  "stars": 103253
+}

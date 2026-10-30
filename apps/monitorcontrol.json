@@ -1,0 +1,10 @@
+{
+  "name": "MonitorControl",
+  "repo": "MonitorControl/MonitorControl",
+  "description": "Control display brightness and volume",
+  "category": "menu-bar",
+  "homepage": "https://monitorcontrol.app/",
+  "icon": "https://github.com/MonitorControl/MonitorControl/raw/main/.github/Icon-cropped.png",
+  "screenshot": "https://github.com/MonitorControl/MonitorControl/raw/main/.github/screenshot.png",
+  "stars": 34601
+}

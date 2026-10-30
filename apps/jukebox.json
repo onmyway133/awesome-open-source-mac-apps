@@ -1,0 +1,10 @@
+{
+  "name": "JukeBox",
+  "repo": "Jaysce/Jukebox",
+  "description": "Jukebox is a macOS application that allows you to display and control the currently playing song from Spotify or Apple Music in the menu bar",
+  "category": "audio",
+  "homepage": "https://www.jaysce.dev/projects/jukebox",
+  "icon": "https://github.com/Jaysce/Jukebox/raw/main/Images/icon.png",
+  "screenshot": "https://github.com/Jaysce/Jukebox/raw/main/Images/example.png",
+  "stars": 261
+}

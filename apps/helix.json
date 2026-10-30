@@ -1,0 +1,8 @@
+{
+  "name": "Helix",
+  "repo": "helix-editor/helix",
+  "description": "Post-modern modal text editor in Rust",
+  "category": "code-editors",
+  "homepage": "https://helix-editor.com",
+  "stars": 46738
+}

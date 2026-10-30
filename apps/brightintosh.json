@@ -1,0 +1,10 @@
+{
+  "name": "BrightIntosh",
+  "repo": "niklasr22/BrightIntosh",
+  "description": "Use the full XDR brightness of Apple silicon MacBook Pro displays anytime, not just for HDR content",
+  "category": "system-utilities",
+  "homepage": "https://brightintosh.de",
+  "icon": "https://brightintosh.de/brightintosh_256.png",
+  "screenshot": "https://brightintosh.de/1500x0w.webp",
+  "stars": 558
+}

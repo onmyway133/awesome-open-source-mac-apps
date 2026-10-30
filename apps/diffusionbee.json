@@ -1,0 +1,10 @@
+{
+  "name": "DiffusionBee",
+  "repo": "divamgupta/diffusionbee-stable-diffusion-ui",
+  "description": "Stable Diffusion on your Mac",
+  "category": "images",
+  "homepage": "https://diffusionbee.com/",
+  "icon": "https://diffusionbee.com/imgs/bee_logo.png",
+  "screenshot": "https://private-user-images.githubusercontent.com/1890549/290290019-3ee8e70b-ea17-4b26-8069-6d8c65aaa729.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDU2NjQyODQsIm5iZiI6MTcwNTY2Mzk4NCwicGF0aCI6Ii8xODkwNTQ5LzI5MDI5MDAxOS0zZWU4ZTcwYi1lYTE3LTRiMjYtODA2OS02ZDhjNjVhYWE3MjkucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDExOSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDAxMTlUMTEzMzA0WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ODA5MzU1NDQzYzcyYjIzZjQ1YjliMDczMTA3YWVlODBkYzFiMTgwODBiMmNkY2U0MjU1Y2E0ZjU4MjlkNjNkZCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.jssFTv9UCc_eL56GePf199iqrAZbrsmhj2JQI2HJeMM",
+  "stars": 13593
+}

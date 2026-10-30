@@ -1,0 +1,9 @@
+{
+  "name": "Espanso",
+  "repo": "espanso/espanso",
+  "description": "Cross-platform Text Expander written in Rust",
+  "category": "productivity",
+  "homepage": "https://espanso.org/",
+  "icon": "https://espanso.org/img/logo.png",
+  "stars": 14695
+}

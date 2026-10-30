@@ -1,0 +1,9 @@
+{
+  "name": "Hyper",
+  "repo": "vercel/hyper",
+  "description": "Electron-based terminal with web technologies",
+  "category": "terminal",
+  "homepage": "https://hyper.is/",
+  "icon": "https://jasonkenison.com/wp-content/uploads/2020/08/Hyper-800x800.png",
+  "stars": 44762
+}

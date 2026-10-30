@@ -1,0 +1,10 @@
+{
+  "name": "Jan",
+  "repo": "janhq/jan",
+  "description": "Run AI models locally on your computer",
+  "category": "ai",
+  "homepage": "https://jan.ai/",
+  "icon": "https://avatars.githubusercontent.com/u/102363196?s=48&v=4",
+  "screenshot": "https://github.com/janhq/jan/raw/dev/demo.gif",
+  "stars": 45175
+}

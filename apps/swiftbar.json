@@ -1,0 +1,10 @@
+{
+  "name": "SwiftBar",
+  "repo": "swiftbar/SwiftBar",
+  "description": "Powerful menu bar customization",
+  "category": "menu-bar",
+  "homepage": "https://swiftbar.app/",
+  "icon": "https://github.com/swiftbar/SwiftBar/raw/main/Resources/logo.png",
+  "screenshot": "https://user-images.githubusercontent.com/222100/110520713-d5058000-80dc-11eb-9b15-baa09cb445bf.png",
+  "stars": 4737
+}

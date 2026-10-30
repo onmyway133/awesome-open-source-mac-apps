@@ -1,0 +1,8 @@
+{
+  "name": "qutebrowser",
+  "repo": "qutebrowser/qutebrowser",
+  "description": "Keyboard-driven browser with Vim bindings",
+  "category": "browsers",
+  "homepage": "https://www.qutebrowser.org/",
+  "stars": 11734
+}
