@@ -1,0 +1,8 @@
+{
+  "name": "AuthPass",
+  "repo": "authpass/authpass",
+  "description": "Password manager compatible with KeePass databases",
+  "category": "security",
+  "homepage": "https://authpass.app/",
+  "stars": 2808
+}

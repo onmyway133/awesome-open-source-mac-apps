@@ -1,0 +1,8 @@
+{
+  "name": "Rockxy",
+  "repo": "RockxyApp/Rockxy",
+  "description": "Native HTTP debugging proxy to intercept HTTPS, inspect APIs and mock responses",
+  "category": "api",
+  "homepage": "https://rockxy.io",
+  "stars": 1451
+}

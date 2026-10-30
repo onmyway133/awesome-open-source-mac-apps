@@ -1,0 +1,8 @@
+{
+  "name": "electerm",
+  "repo": "electerm/electerm",
+  "description": "Terminal, SSH, SFTP, FTP, RDP and VNC client in one app",
+  "category": "terminal",
+  "homepage": "https://electerm.org",
+  "stars": 15506
+}

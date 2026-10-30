@@ -1,0 +1,8 @@
+{
+  "name": "cmux",
+  "repo": "manaflow-ai/cmux",
+  "description": "Ghostty-based terminal with vertical tabs and notifications for AI coding agents",
+  "category": "terminal",
+  "homepage": "https://cmux.com",
+  "stars": 28613
+}

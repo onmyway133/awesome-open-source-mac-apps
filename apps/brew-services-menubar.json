@@ -1,0 +1,7 @@
+{
+  "name": "Brew Services Menubar",
+  "repo": "andrewn/brew-services-menubar",
+  "description": "Start and stop Homebrew services from the menu bar",
+  "category": "developer-tools",
+  "stars": 358
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Pasteboard Viewer",
+  "repo": "sindresorhus/Pasteboard-Viewer",
+  "description": "Inspect the system pasteboards",
+  "category": "developer-tools",
+  "homepage": "https://sindresorhus.com/pasteboard-viewer",
+  "stars": 866
+}

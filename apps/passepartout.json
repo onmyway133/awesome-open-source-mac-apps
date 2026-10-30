@@ -1,0 +1,8 @@
+{
+  "name": "Passepartout",
+  "repo": "partout-io/passepartout",
+  "description": "OpenVPN and WireGuard client focused on privacy",
+  "category": "security",
+  "homepage": "https://partout.io/passepartout/",
+  "stars": 1389
+}

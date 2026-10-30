@@ -1,0 +1,8 @@
+{
+  "name": "Swiftcord",
+  "repo": "SwiftcordApp/Swiftcord",
+  "description": "Native Discord client written in Swift",
+  "category": "communication",
+  "homepage": "https://swiftcord.app",
+  "stars": 2750
+}
