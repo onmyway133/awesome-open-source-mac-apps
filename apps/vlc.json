@@ -4,5 +4,6 @@
   "description": "Cross-platform multimedia player that plays most formats",
   "category": "video",
   "homepage": "http://www.videolan.org/vlc",
+  "icon": "https://github.com/videolan.png?size=256",
   "stars": 20270
 }

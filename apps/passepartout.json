@@ -4,5 +4,6 @@
   "description": "OpenVPN and WireGuard client focused on privacy",
   "category": "security",
   "homepage": "https://partout.io/passepartout/",
+  "icon": "https://github.com/partout-io.png?size=256",
   "stars": 1389
 }

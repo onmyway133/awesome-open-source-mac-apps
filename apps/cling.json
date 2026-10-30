@@ -4,5 +4,6 @@
   "description": "Instant fuzzy search for any file",
   "category": "files",
   "homepage": "https://lowtechguys.com/cling",
+  "icon": "https://github.com/FuzzyIdeas.png?size=256",
   "stars": 934
 }

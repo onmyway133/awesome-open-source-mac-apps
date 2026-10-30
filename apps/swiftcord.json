@@ -4,5 +4,6 @@
   "description": "Native Discord client written in Swift",
   "category": "communication",
   "homepage": "https://swiftcord.app",
+  "icon": "https://github.com/SwiftcordApp.png?size=256",
   "stars": 2750
 }

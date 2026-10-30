@@ -4,5 +4,6 @@
   "description": "Fast minimal browser",
   "category": "browsers",
   "homepage": "https://minbrowser.org/",
+  "icon": "https://github.com/minbrowser.png?size=256",
   "stars": 9233
 }

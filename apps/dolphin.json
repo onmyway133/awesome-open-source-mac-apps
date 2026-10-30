@@ -4,5 +4,6 @@
   "description": "GameCube and Wii emulator",
   "category": "games",
   "homepage": "https://dolphin-emu.org",
+  "icon": "https://github.com/dolphin-emu.png?size=256",
   "stars": 15743
 }

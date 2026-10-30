@@ -4,5 +4,6 @@
   "description": "Install and switch between Xcode versions",
   "category": "developer-tools",
   "homepage": "https://xcodes.app",
+  "icon": "https://github.com/XcodesOrg.png?size=256",
   "stars": 8629
 }

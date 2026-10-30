@@ -4,5 +4,6 @@
   "description": "Tiling window manager with scrolling and BSP layouts",
   "category": "window-management",
   "homepage": "https://omniwm.app",
+  "icon": "https://github.com/OmniNull.png?size=256",
   "stars": 3485
 }

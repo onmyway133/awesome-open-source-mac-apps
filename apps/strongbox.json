@@ -4,5 +4,6 @@
   "description": "KeePass and Password Safe compatible",
   "category": "security",
   "homepage": "https://strongboxsafe.com",
+  "icon": "https://github.com/strongbox-password-safe.png?size=256",
   "stars": 1474
 }

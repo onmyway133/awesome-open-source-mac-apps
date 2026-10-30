@@ -4,5 +4,6 @@
   "description": "Display and control Android devices",
   "category": "remote-desktop",
   "homepage": "https://viarotel.eu.org/",
+  "icon": "https://github.com/viarotel-org.png?size=256",
   "stars": 12241
 }

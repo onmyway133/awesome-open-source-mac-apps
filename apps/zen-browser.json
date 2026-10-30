@@ -4,5 +4,6 @@
   "description": "Firefox-based browser focused on privacy",
   "category": "browsers",
   "homepage": "https://zen-browser.app",
+  "icon": "https://github.com/zen-browser.png?size=256",
   "stars": 45455
 }

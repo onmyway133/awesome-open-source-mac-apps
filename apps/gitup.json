@@ -4,5 +4,6 @@
   "description": "Fast Git GUI with visual history",
   "category": "git",
   "homepage": "http://gitup.co",
+  "icon": "https://github.com/git-up.png?size=256",
   "stars": 12149
 }

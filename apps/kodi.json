@@ -4,5 +4,6 @@
   "description": "Kodi media center for organizing and streaming content",
   "category": "video",
   "homepage": "https://kodi.tv/",
+  "icon": "https://github.com/xbmc.png?size=256",
   "stars": 21401
 }

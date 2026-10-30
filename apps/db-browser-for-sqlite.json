@@ -4,5 +4,6 @@
   "description": "Visual tool for SQLite databases",
   "category": "database",
   "homepage": "https://sqlitebrowser.org",
+  "icon": "https://github.com/sqlitebrowser.png?size=256",
   "stars": 24745
 }

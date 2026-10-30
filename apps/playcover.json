@@ -4,5 +4,6 @@
   "description": "Run iOS apps and games on Apple Silicon",
   "category": "games",
   "homepage": "https://playcover.io",
+  "icon": "https://github.com/PlayCover.png?size=256",
   "stars": 12057
 }

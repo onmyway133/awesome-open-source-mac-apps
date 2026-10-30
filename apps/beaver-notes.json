@@ -4,5 +4,6 @@
   "description": "Local-first notes app for notes, projects and meetings",
   "category": "notes-writing",
   "homepage": "https://www.beavernotes.com",
+  "icon": "https://github.com/Beaver-Notes.png?size=256",
   "stars": 1361
 }

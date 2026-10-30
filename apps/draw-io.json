@@ -4,5 +4,6 @@
   "description": "Diagram and flowchart maker",
   "category": "design",
   "homepage": "https://www.diagrams.net",
+  "icon": "https://github.com/jgraph.png?size=256",
   "stars": 63727
 }

@@ -4,5 +4,6 @@
   "description": "System-wide audio equalizer and volume mixer",
   "category": "audio",
   "homepage": "https://eqmac.app",
+  "icon": "https://github.com/bitgapp.png?size=256",
   "stars": 6823
 }

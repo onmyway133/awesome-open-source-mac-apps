@@ -4,5 +4,6 @@
   "description": "Make your MacBook notch useful",
   "category": "menu-bar",
   "homepage": "https://theboring.name/",
+  "icon": "https://github.com/TheBoredTeam.png?size=256",
   "stars": 11203
 }

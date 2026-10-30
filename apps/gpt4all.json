@@ -4,5 +4,6 @@
   "description": "Run local LLMs on CPU/GPU with M-series support",
   "category": "ai",
   "homepage": "https://nomic.ai/gpt4all",
+  "icon": "https://github.com/nomic-ai.png?size=256",
   "stars": 77345
 }

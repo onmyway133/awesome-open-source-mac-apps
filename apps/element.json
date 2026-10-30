@@ -4,5 +4,6 @@
   "description": "Matrix protocol client",
   "category": "communication",
   "homepage": "https://element.io",
+  "icon": "https://github.com/element-hq.png?size=256",
   "stars": 13633
 }

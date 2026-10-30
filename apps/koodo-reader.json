@@ -4,5 +4,6 @@
   "description": "Cross-platform e-book reader",
   "category": "reading",
   "homepage": "https://koodoreader.com",
+  "icon": "https://github.com/koodo-reader.png?size=256",
   "stars": 28674
 }

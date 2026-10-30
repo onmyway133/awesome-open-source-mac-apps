@@ -3,5 +3,6 @@
   "repo": "moonlight-stream/moonlight-qt",
   "description": "GameStream client",
   "category": "remote-desktop",
+  "icon": "https://github.com/moonlight-stream.png?size=256",
   "stars": 19314
 }

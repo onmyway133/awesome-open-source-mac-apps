@@ -4,5 +4,6 @@
   "description": "Run PostgreSQL on your Mac",
   "category": "database",
   "homepage": "https://postgresapp.com",
+  "icon": "https://github.com/PostgresApp.png?size=256",
   "stars": 7785
 }

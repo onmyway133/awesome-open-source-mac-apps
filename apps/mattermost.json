@@ -4,5 +4,6 @@
   "description": "Open source Slack alternative",
   "category": "communication",
   "homepage": "https://mattermost.com",
+  "icon": "https://github.com/mattermost.png?size=256",
   "stars": 39473
 }

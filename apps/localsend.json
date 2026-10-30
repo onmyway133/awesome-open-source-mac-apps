@@ -4,5 +4,6 @@
   "description": "Share files to nearby devices",
   "category": "files",
   "homepage": "https://localsend.org",
+  "icon": "https://github.com/localsend.png?size=256",
   "stars": 96681
 }

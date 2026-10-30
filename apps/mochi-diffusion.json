@@ -3,5 +3,6 @@
   "repo": "MochiDiffusion/MochiDiffusion",
   "description": "Run Stable Diffusion natively on your Mac",
   "category": "ai",
+  "icon": "https://github.com/MochiDiffusion.png?size=256",
   "stars": 7973
 }

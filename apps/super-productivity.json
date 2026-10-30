@@ -4,5 +4,6 @@
   "description": "Todo list and time tracker",
   "category": "productivity",
   "homepage": "http://super-productivity.com?ref=github",
+  "icon": "https://github.com/super-productivity.png?size=256",
   "stars": 23286
 }

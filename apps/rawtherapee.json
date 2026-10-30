@@ -4,5 +4,6 @@
   "description": "Cross-platform RAW image processor",
   "category": "design",
   "homepage": "https://rawtherapee.com",
+  "icon": "https://github.com/RawTherapee.png?size=256",
   "stars": 4259
 }

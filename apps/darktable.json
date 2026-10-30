@@ -4,5 +4,6 @@
   "description": "Photography workflow and RAW editor",
   "category": "design",
   "homepage": "https://www.darktable.org",
+  "icon": "https://github.com/darktable-org.png?size=256",
   "stars": 13362
 }

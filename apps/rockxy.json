@@ -4,5 +4,6 @@
   "description": "Native HTTP debugging proxy to intercept HTTPS, inspect APIs and mock responses",
   "category": "api",
   "homepage": "https://rockxy.io",
+  "icon": "https://github.com/RockxyApp.png?size=256",
   "stars": 1451
 }

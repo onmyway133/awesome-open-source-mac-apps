@@ -4,5 +4,6 @@
   "description": "Light and fast AI chat assistant",
   "category": "ai",
   "homepage": "https://nextchat.club",
+  "icon": "https://github.com/ChatGPTNextWeb.png?size=256",
   "stars": 88925
 }

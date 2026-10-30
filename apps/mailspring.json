@@ -4,5 +4,6 @@
   "description": "Beautiful extensible email client",
   "category": "communication",
   "homepage": "https://getmailspring.com/",
+  "icon": "https://github.com/Foundry376.png?size=256",
   "stars": 17969
 }

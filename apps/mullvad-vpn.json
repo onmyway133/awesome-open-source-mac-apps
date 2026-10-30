@@ -4,5 +4,6 @@
   "description": "Privacy-focused VPN app",
   "category": "security",
   "homepage": "https://mullvad.net/",
+  "icon": "https://github.com/mullvad.png?size=256",
   "stars": 7722
 }

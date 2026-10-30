@@ -4,5 +4,6 @@
   "description": "All-in-one AI app with document chat",
   "category": "ai",
   "homepage": "https://anythingllm.com",
+  "icon": "https://github.com/Mintplex-Labs.png?size=256",
   "stars": 67759
 }

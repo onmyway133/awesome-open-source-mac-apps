@@ -4,5 +4,6 @@
   "description": "Multi-provider AI chat desktop app",
   "category": "ai",
   "homepage": "https://cherryai.com",
+  "icon": "https://github.com/CherryHQ.png?size=256",
   "stars": 53106
 }

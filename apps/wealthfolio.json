@@ -4,5 +4,6 @@
   "description": "Private, local-first tracker for investments, net worth and spending",
   "category": "productivity",
   "homepage": "https://wealthfolio.app",
+  "icon": "https://github.com/wealthfolio.png?size=256",
   "stars": 9291
 }

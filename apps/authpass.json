@@ -4,5 +4,6 @@
   "description": "Password manager compatible with KeePass databases",
   "category": "security",
   "homepage": "https://authpass.app/",
+  "icon": "https://github.com/authpass.png?size=256",
   "stars": 2808
 }

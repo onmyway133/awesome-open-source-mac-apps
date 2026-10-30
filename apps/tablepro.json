@@ -4,5 +4,6 @@
   "description": "Native database client for developers",
   "category": "database",
   "homepage": "https://tablepro.app",
+  "icon": "https://github.com/TableProApp.png?size=256",
   "stars": 6343
 }

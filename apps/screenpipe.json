@@ -4,5 +4,6 @@
   "description": "AI-powered screen and audio capture",
   "category": "screen-capture",
   "homepage": "https://screenpipe.com",
+  "icon": "https://github.com/screenpipe.png?size=256",
   "stars": 22175
 }

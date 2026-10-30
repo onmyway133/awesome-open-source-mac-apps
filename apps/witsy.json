@@ -3,5 +3,6 @@
   "repo": "Kochava-Studios/witsy",
   "description": "Desktop AI assistant that works with many LLM providers",
   "category": "ai",
+  "icon": "https://github.com/Kochava-Studios.png?size=256",
   "stars": 2038
 }

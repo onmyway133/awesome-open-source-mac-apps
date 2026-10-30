@@ -4,5 +4,6 @@
   "description": "Modern SQL client focused on UX",
   "category": "database",
   "homepage": "https://antares-sql.app",
+  "icon": "https://github.com/antares-sql.png?size=256",
   "stars": 2664
 }

@@ -4,5 +4,6 @@
   "description": "Terminal, SSH, SFTP, FTP, RDP and VNC client in one app",
   "category": "terminal",
   "homepage": "https://electerm.org",
+  "icon": "https://github.com/electerm.png?size=256",
   "stars": 15506
 }

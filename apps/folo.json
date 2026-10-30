@@ -4,5 +4,6 @@
   "description": "Modern RSS reader",
   "category": "reading",
   "homepage": "https://app.folo.is",
+  "icon": "https://github.com/RSSNext.png?size=256",
   "stars": 39200
 }

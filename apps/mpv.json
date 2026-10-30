@@ -4,5 +4,6 @@
   "description": "Powerful command-line media player",
   "category": "video",
   "homepage": "https://mpv.io",
+  "icon": "https://github.com/mpv-player.png?size=256",
   "stars": 37630
 }

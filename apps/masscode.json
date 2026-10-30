@@ -4,5 +4,6 @@
   "description": "Developer workspace for code snippets, notes and HTTP requests",
   "category": "developer-tools",
   "homepage": "https://masscode.io",
+  "icon": "https://github.com/massCodeIO.png?size=256",
   "stars": 7094
 }

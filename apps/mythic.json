@@ -4,5 +4,6 @@
   "description": "Game launcher that plays Windows games through Game Porting Toolkit",
   "category": "games",
   "homepage": "https://getmythic.app",
+  "icon": "https://github.com/MythicApp.png?size=256",
   "stars": 1453
 }

@@ -4,5 +4,6 @@
   "description": "DJ mixing software with controller support",
   "category": "audio",
   "homepage": "http://mixxx.org",
+  "icon": "https://github.com/mixxxdj.png?size=256",
   "stars": 7336
 }

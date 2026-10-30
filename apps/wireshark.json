@@ -4,5 +4,6 @@
   "description": "Network protocol analyzer",
   "category": "api",
   "homepage": "https://www.wireshark.org",
+  "icon": "https://github.com/wireshark.png?size=256",
   "stars": 10122
 }

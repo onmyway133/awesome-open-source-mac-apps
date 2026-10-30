@@ -4,5 +4,6 @@
   "description": "Multi-track audio editor and recorder",
   "category": "audio",
   "homepage": "https://www.audacityteam.org/manual/getting-started/",
+  "icon": "https://github.com/audacity.png?size=256",
   "stars": 18881
 }

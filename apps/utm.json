@@ -4,5 +4,6 @@
   "description": "Virtual machines for iOS and macOS",
   "category": "virtualization",
   "homepage": "https://getutm.app",
+  "icon": "https://github.com/utmapp.png?size=256",
   "stars": 36601
 }

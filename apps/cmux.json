@@ -4,5 +4,6 @@
   "description": "Ghostty-based terminal with vertical tabs and notifications for AI coding agents",
   "category": "terminal",
   "homepage": "https://cmux.com",
+  "icon": "https://github.com/manaflow-ai.png?size=256",
   "stars": 28613
 }

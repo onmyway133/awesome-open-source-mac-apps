@@ -4,5 +4,6 @@
   "description": "All your messaging services in one place",
   "category": "communication",
   "homepage": "https://ferdium.org",
+  "icon": "https://github.com/ferdium.png?size=256",
   "stars": 4760
 }

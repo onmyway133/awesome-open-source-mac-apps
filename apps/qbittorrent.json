@@ -4,5 +4,6 @@
   "description": "Feature-rich BitTorrent client",
   "category": "files",
   "homepage": "https://www.qbittorrent.org",
+  "icon": "https://github.com/qbittorrent.png?size=256",
   "stars": 41236
 }

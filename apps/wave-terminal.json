@@ -4,5 +4,6 @@
   "description": "AI-native terminal with inline rendering",
   "category": "terminal",
   "homepage": "https://www.waveterm.dev",
+  "icon": "https://github.com/wavetermdev.png?size=256",
   "stars": 22623
 }

@@ -4,5 +4,6 @@
   "description": "Screen recorder built with web tech",
   "category": "screen-capture",
   "homepage": "https://getkap.co",
+  "icon": "https://github.com/wulkano.png?size=256",
   "stars": 19412
 }

@@ -4,6 +4,7 @@
   "description": "Image compression without losing quality",
   "category": "images",
   "homepage": "https://imageoptim.com/mac",
+  "icon": "https://github.com/ImageOptim.png?size=256",
   "screenshot": "https://imageoptim.com/ImageOptim-app@2x.png",
   "stars": 10022
 }

@@ -4,5 +4,6 @@
   "description": "2D animation software",
   "category": "design",
   "homepage": "http://pencil2d.org",
+  "icon": "https://github.com/pencil2d.png?size=256",
   "stars": 1816
 }

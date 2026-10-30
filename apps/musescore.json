@@ -4,5 +4,6 @@
   "description": "Music notation and composition software",
   "category": "audio",
   "homepage": "https://musescore.org",
+  "icon": "https://github.com/musescore.png?size=256",
   "stars": 15331
 }

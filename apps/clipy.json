@@ -4,5 +4,6 @@
   "description": "Clipboard extension app",
   "category": "clipboard",
   "homepage": "https://clipy-app.com",
+  "icon": "https://github.com/Clipy.png?size=256",
   "stars": 8949
 }

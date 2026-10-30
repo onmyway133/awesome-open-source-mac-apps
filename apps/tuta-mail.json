@@ -4,5 +4,6 @@
   "description": "Encrypted email service",
   "category": "communication",
   "homepage": "https://tuta.com",
+  "icon": "https://github.com/tutao.png?size=256",
   "stars": 8069
 }

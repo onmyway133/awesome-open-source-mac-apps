@@ -4,5 +4,6 @@
   "description": "2D vector animation software",
   "category": "design",
   "homepage": "https://synfig.org",
+  "icon": "https://github.com/synfig.png?size=256",
   "stars": 2322
 }

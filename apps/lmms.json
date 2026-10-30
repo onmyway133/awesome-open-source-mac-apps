@@ -4,5 +4,6 @@
   "description": "Cross-platform music production software",
   "category": "audio",
   "homepage": "https://lmms.io",
+  "icon": "https://github.com/LMMS.png?size=256",
   "stars": 10565
 }

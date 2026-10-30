@@ -4,5 +4,6 @@
   "description": "Professional digital audio workstation",
   "category": "audio",
   "homepage": "http://ardour.org",
+  "icon": "https://github.com/Ardour.png?size=256",
   "stars": 5392
 }

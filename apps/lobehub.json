@@ -4,5 +4,6 @@
   "description": "Modern AI chat framework with plugins",
   "category": "ai",
   "homepage": "https://lobehub.com",
+  "icon": "https://github.com/lobehub.png?size=256",
   "stars": 83613
 }

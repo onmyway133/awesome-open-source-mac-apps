@@ -4,5 +4,6 @@
   "description": "Mock API servers locally",
   "category": "api",
   "homepage": "https://mockoon.com",
+  "icon": "https://github.com/mockoon.png?size=256",
   "stars": 8465
 }

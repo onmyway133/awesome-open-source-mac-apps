@@ -3,5 +3,6 @@
   "repo": "permissionlesstech/bitchat",
   "description": "Bluetooth mesh chat that works without internet",
   "category": "communication",
+  "icon": "https://github.com/permissionlesstech.png?size=256",
   "stars": 37008
 }

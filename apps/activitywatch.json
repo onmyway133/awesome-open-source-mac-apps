@@ -4,5 +4,6 @@
   "description": "Automated time tracker",
   "category": "productivity",
   "homepage": "https://activitywatch.net/",
+  "icon": "https://github.com/ActivityWatch.png?size=256",
   "stars": 19438
 }

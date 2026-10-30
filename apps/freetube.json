@@ -4,5 +4,6 @@
   "description": "Privacy-focused YouTube desktop client",
   "category": "video",
   "homepage": "https://freetubeapp.io/",
+  "icon": "https://github.com/FreeTubeApp.png?size=256",
   "stars": 22267
 }

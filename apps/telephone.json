@@ -4,5 +4,6 @@
   "description": "SIP softphone for making VoIP calls",
   "category": "communication",
   "homepage": "https://www.64characters.com/telephone",
+  "icon": "https://github.com/64characters.png?size=256",
   "stars": 1177
 }

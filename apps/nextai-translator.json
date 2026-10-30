@@ -3,5 +3,6 @@
   "repo": "nextai-translator/nextai-translator",
   "description": "AI-powered translation app",
   "category": "translation",
+  "icon": "https://github.com/nextai-translator.png?size=256",
   "stars": 25025
 }

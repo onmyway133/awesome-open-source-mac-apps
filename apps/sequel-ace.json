@@ -4,5 +4,6 @@
   "description": "MySQL and MariaDB database manager",
   "category": "database",
   "homepage": "https://sequel-ace.com",
+  "icon": "https://github.com/Sequel-Ace.png?size=256",
   "stars": 7561
 }

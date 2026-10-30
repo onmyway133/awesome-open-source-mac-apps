@@ -4,5 +4,6 @@
   "description": "Self-hosted game streaming",
   "category": "remote-desktop",
   "homepage": "http://app.lizardbyte.dev/Sunshine/",
+  "icon": "https://github.com/LizardByte.png?size=256",
   "stars": 42810
 }

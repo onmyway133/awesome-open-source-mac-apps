@@ -4,5 +4,6 @@
   "description": "AI image upscaler",
   "category": "images",
   "homepage": "https://upscayl.org",
+  "icon": "https://github.com/upscayl.png?size=256",
   "stars": 51347
 }

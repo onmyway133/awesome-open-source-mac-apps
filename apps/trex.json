@@ -4,5 +4,6 @@
   "description": "Copy any text on your screen with OCR",
   "category": "productivity",
   "homepage": "https://trex.ameba.co",
+  "icon": "https://github.com/amebalabs.png?size=256",
   "stars": 1947
 }

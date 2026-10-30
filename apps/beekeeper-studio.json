@@ -4,5 +4,6 @@
   "description": "Modern SQL editor and database manager",
   "category": "database",
   "homepage": "https://www.beekeeperstudio.io",
+  "icon": "https://github.com/beekeeper-studio.png?size=256",
   "stars": 23819
 }

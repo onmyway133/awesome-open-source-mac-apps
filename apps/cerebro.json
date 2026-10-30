@@ -4,5 +4,6 @@
   "description": "Extensible launcher",
   "category": "productivity",
   "homepage": "https://www.cerebroapp.com/",
+  "icon": "https://github.com/cerebroapp.png?size=256",
   "stars": 8563
 }

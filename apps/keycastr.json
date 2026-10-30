@@ -3,6 +3,7 @@
   "repo": "keycastr/keycastr",
   "description": "Keystroke visualizer for screencasts",
   "category": "screen-capture",
+  "icon": "https://github.com/keycastr.png?size=256",
   "screenshot": "https://github.com/keycastr/keycastr/raw/main/assets/mouse-click-visualizer.gif",
   "stars": 15183
 }

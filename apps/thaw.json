@@ -4,5 +4,6 @@
   "description": "Hide, rearrange and manage menu bar items",
   "category": "menu-bar",
   "homepage": "https://www.getthaw.app",
+  "icon": "https://github.com/thaw-app.png?size=256",
   "stars": 12422
 }

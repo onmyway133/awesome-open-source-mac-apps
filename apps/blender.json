@@ -4,5 +4,6 @@
   "description": "3D creation suite",
   "category": "design",
   "homepage": "https://developer.blender.org/docs/handbook/contributing/using_git/#github-mirror",
+  "icon": "https://github.com/blender.png?size=256",
   "stars": 21445
 }

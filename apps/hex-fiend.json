@@ -4,5 +4,6 @@
   "description": "Fast hex editor",
   "category": "developer-tools",
   "homepage": "https://hexfiend.com",
+  "icon": "https://github.com/HexFiend.png?size=256",
   "stars": 5911
 }

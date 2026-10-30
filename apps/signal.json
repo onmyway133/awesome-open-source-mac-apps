@@ -4,5 +4,6 @@
   "description": "Private messaging app",
   "category": "communication",
   "homepage": "https://signal.org/download",
+  "icon": "https://github.com/signalapp.png?size=256",
   "stars": 16636
 }

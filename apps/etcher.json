@@ -4,5 +4,6 @@
   "description": "Flash OS images to SD cards and USB drives",
   "category": "system-utilities",
   "homepage": "https://etcher.io/",
+  "icon": "https://github.com/balena-io.png?size=256",
   "stars": 34621
 }

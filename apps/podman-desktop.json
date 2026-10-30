@@ -4,5 +4,6 @@
   "description": "GUI for managing containers",
   "category": "virtualization",
   "homepage": "https://podman-desktop.io",
+  "icon": "https://github.com/podman-desktop.png?size=256",
   "stars": 8115
 }

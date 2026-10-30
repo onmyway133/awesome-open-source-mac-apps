@@ -4,5 +4,6 @@
   "description": "GitHub Desktop application",
   "category": "git",
   "homepage": "https://github.com/apps/desktop",
+  "icon": "https://github.com/desktop.png?size=256",
   "stars": 22039
 }

@@ -4,5 +4,6 @@
   "description": "Display macOS Dock in Touch Bar",
   "category": "productivity",
   "homepage": "https://pock.app",
+  "icon": "https://github.com/pock.png?size=256",
   "stars": 10167
 }

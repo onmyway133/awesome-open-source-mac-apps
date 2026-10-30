@@ -4,5 +4,6 @@
   "description": "Desktop client for ChatGPT and other LLMs",
   "category": "ai",
   "homepage": "https://chatboxai.app?utm_medium=github",
+  "icon": "https://github.com/chatboxai.png?size=256",
   "stars": 42200
 }

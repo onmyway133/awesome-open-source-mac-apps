@@ -4,5 +4,6 @@
   "description": "Gmail desktop app",
   "category": "communication",
   "homepage": "https://meru.so",
+  "icon": "https://github.com/zoidsh.png?size=256",
   "stars": 1041
 }

@@ -4,5 +4,6 @@
   "description": "Lightweight Ubuntu VMs",
   "category": "virtualization",
   "homepage": "https://canonical.com/multipass",
+  "icon": "https://github.com/canonical.png?size=256",
   "stars": 9321
 }

@@ -4,5 +4,6 @@
   "description": "Modular music player for many audio formats",
   "category": "audio",
   "homepage": "https://deadbeef.sourceforge.io/",
+  "icon": "https://github.com/DeaDBeeF-Player.png?size=256",
   "stars": 1983
 }

@@ -3,5 +3,6 @@
   "repo": "PasteBar/PasteBarApp",
   "description": "Free clipboard manager with unlimited history, snippets and collections",
   "category": "clipboard",
+  "icon": "https://github.com/PasteBar.png?size=256",
   "stars": 2194
 }
