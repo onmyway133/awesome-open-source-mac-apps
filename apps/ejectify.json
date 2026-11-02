@@ -4,5 +4,5 @@
   "description": "Unmount external volumes when your Mac sleeps and remount them on wake",
   "category": "system-utilities",
   "homepage": "https://ejectify.app",
-  "stars": 585
+  "stars": 586
 }
