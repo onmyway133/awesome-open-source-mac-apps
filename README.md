@@ -2,7 +2,7 @@
 
 # Awesome Open Source Mac Apps
 
-A curated list of 358 open source apps for macOS, each with at least 100 GitHub stars.
+A curated list of 359 open source apps for macOS, each with at least 100 GitHub stars.
 Browse it with search and categories at [indiegoodies.com/awesome-open-source-mac-apps](https://indiegoodies.com/awesome-open-source-mac-apps).
 
 ![](images/banner.png)
@@ -17,7 +17,7 @@ Know a great app that is missing? [Add it with a pull request](CONTRIBUTING.md).
 - [System Utilities](#system-utilities) (32)
 - [Clipboard](#clipboard) (6)
 - [Notes & Writing](#notes--writing) (17)
-- [AI](#ai) (18)
+- [AI](#ai) (19)
 - [Developer Tools](#developer-tools) (28)
 - [Code Editors](#code-editors) (10)
 - [Terminal](#terminal) (10)
@@ -229,6 +229,7 @@ AI assistants, chat clients and local models.
 | [Claude Usage Bar](https://github.com/Artzainnn/ClaudeUsageBar) · [website](https://claudeusagebar.com) | ⭐ 351 | Claude API usage monitor |
 | [Fazm](https://github.com/mediar-ai/fazm) · [website](https://fazm.ai/gh) | ⭐ 349 | AI computer agent |
 | [Cronica](https://github.com/eggerco/cronica) · [website](https://cronica.watch) | ⭐ 251 | Cronica is a minimalist watchlist app for all your Apple devices, that reminds you about upcoming releases |
+| [Phosphene](https://github.com/mrbizarro/Phosphene) · [website](https://phosphene.video) |  | Make AI videos with sound, pictures and songs offline on Apple Silicon, with LTX-2.5 and MiniMax H3 |
 
 ## Developer Tools
 
