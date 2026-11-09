@@ -1,0 +1,9 @@
+{
+  "name": "Phosphene",
+  "repo": "mrbizarro/Phosphene",
+  "description": "Make AI videos with sound, pictures and songs offline on Apple Silicon, with LTX-2.5 and MiniMax H3",
+  "category": "ai",
+  "homepage": "https://phosphene.video",
+  "icon": "https://phosphene.video/brand/mark_512.png",
+  "screenshot": "https://phosphene.video/press/phosphene_editor.webp"
+}
