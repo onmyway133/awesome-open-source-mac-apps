@@ -1,0 +1,8 @@
+{
+  "name": "KeyStats",
+  "repo": "debugtheworldbot/keyStats",
+  "description": "Keyboard and mouse usage stats",
+  "category": "menu-bar",
+  "homepage": "https://keystats.vercel.app",
+  "stars": 1505
+}

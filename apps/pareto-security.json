@@ -1,9 +1,0 @@
-{
-  "name": "Pareto Security",
-  "repo": "ParetoSecurity/pareto-mac",
-  "description": "Security checklist for your Mac",
-  "category": "security",
-  "homepage": "https://paretosecurity.com",
-  "icon": "https://github.com/ParetoSecurity.png?size=256",
-  "stars": 468
-}

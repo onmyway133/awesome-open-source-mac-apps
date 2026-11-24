@@ -1,0 +1,9 @@
+{
+  "name": "OpenScreen",
+  "repo": "getopenscreen/openscreen",
+  "description": "Record your screen and make demo videos without watermarks",
+  "category": "screen-capture",
+  "homepage": "https://getopenscreen.com/",
+  "icon": "https://github.com/getopenscreen.png?size=256",
+  "stars": 7996
+}

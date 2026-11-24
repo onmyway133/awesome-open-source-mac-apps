@@ -1,0 +1,9 @@
+{
+  "name": "MQTTX",
+  "repo": "emqx/MQTTX",
+  "description": "MQTT 5.0 client toolbox",
+  "category": "api",
+  "homepage": "https://mqttx.app",
+  "icon": "https://github.com/emqx.png?size=256",
+  "stars": 5111
+}

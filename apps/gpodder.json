@@ -1,0 +1,9 @@
+{
+  "name": "gPodder",
+  "repo": "gpodder/gpodder",
+  "description": "Podcast client",
+  "category": "audio",
+  "homepage": "http://gpodder.org/",
+  "icon": "https://github.com/gpodder.png?size=256",
+  "stars": 1457
+}

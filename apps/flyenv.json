@@ -1,0 +1,8 @@
+{
+  "name": "FlyEnv",
+  "repo": "xpf0000/FlyEnv",
+  "description": "Local development environment with web servers, databases and languages",
+  "category": "developer-tools",
+  "homepage": "https://flyenv.com",
+  "stars": 3386
+}

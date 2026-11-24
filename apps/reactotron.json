@@ -1,0 +1,9 @@
+{
+  "name": "Reactotron",
+  "repo": "infinitered/reactotron",
+  "description": "Inspect React and React Native apps while you build them",
+  "category": "developer-tools",
+  "homepage": "https://docs.infinite.red/reactotron/",
+  "icon": "https://github.com/infinitered.png?size=256",
+  "stars": 15600
+}

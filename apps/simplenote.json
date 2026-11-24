@@ -1,0 +1,9 @@
+{
+  "name": "Simplenote",
+  "repo": "Automattic/simplenote-macos",
+  "description": "Simple, synced notes from Automattic",
+  "category": "notes-writing",
+  "homepage": "https://simplenote.com",
+  "icon": "https://github.com/Automattic.png?size=256",
+  "stars": 1555
+}

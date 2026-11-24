@@ -1,0 +1,9 @@
+{
+  "name": "muCommander",
+  "repo": "mucommander/mucommander",
+  "description": "Dual-pane file manager",
+  "category": "files",
+  "homepage": "https://www.mucommander.com",
+  "icon": "https://github.com/mucommander.png?size=256",
+  "stars": 1297
+}

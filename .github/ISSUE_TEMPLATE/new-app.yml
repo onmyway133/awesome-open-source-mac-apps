@@ -1,5 +1,5 @@
 name: Suggest an app
-description: Suggest an open source Mac app without editing JSON. It needs at least 100 GitHub stars.
+description: Suggest an open source Mac app without editing JSON. It needs at least 1,000 GitHub stars.
 title: "Add: "
 labels: ["new app"]
 body:
@@ -64,5 +64,5 @@ body:
       options:
         - label: It's an app for macOS, not a library, CLI-only tool or server.
           required: true
-        - label: The repository has at least 100 stars and isn't archived.
+        - label: The repository has at least 1,000 stars and isn't archived.
           required: true

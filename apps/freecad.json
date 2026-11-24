@@ -1,0 +1,9 @@
+{
+  "name": "FreeCAD",
+  "repo": "FreeCAD/FreeCAD",
+  "description": "Parametric 3D modeler for product design and engineering",
+  "category": "design",
+  "homepage": "https://www.freecad.org",
+  "icon": "https://github.com/FreeCAD.png?size=256",
+  "stars": 35758
+}

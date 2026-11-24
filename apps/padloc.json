@@ -1,0 +1,9 @@
+{
+  "name": "Padloc",
+  "repo": "padloc/padloc",
+  "description": "Password manager for individuals and teams",
+  "category": "security",
+  "homepage": "https://padloc.app",
+  "icon": "https://github.com/padloc.png?size=256",
+  "stars": 2944
+}

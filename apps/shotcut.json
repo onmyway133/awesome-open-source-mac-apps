@@ -1,0 +1,9 @@
+{
+  "name": "Shotcut",
+  "repo": "mltframework/shotcut",
+  "description": "Cross-platform video editor with wide format support",
+  "category": "video",
+  "homepage": "https://www.shotcut.org",
+  "icon": "https://github.com/mltframework.png?size=256",
+  "stars": 15781
+}

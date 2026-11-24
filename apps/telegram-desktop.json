@@ -1,0 +1,9 @@
+{
+  "name": "Telegram Desktop",
+  "repo": "telegramdesktop/tdesktop",
+  "description": "Official Telegram desktop client",
+  "category": "communication",
+  "homepage": "https://desktop.telegram.org/",
+  "icon": "https://github.com/telegramdesktop.png?size=256",
+  "stars": 33672
+}

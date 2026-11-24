@@ -1,0 +1,9 @@
+{
+  "name": "Tribler",
+  "repo": "Tribler/tribler",
+  "description": "Privacy-focused BitTorrent client",
+  "category": "files",
+  "homepage": "https://www.tribler.org",
+  "icon": "https://github.com/Tribler.png?size=256",
+  "stars": 5356
+}

@@ -1,0 +1,9 @@
+{
+  "name": "SuperCmd",
+  "repo": "SuperCmdLabs/SuperCmd",
+  "description": "Launcher with commands, extensions and AI",
+  "category": "productivity",
+  "homepage": "https://supercmd.sh",
+  "icon": "https://github.com/SuperCmdLabs.png?size=256",
+  "stars": 3236
+}

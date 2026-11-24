@@ -1,0 +1,9 @@
+{
+  "name": "GIMP",
+  "repo": "GNOME/gimp",
+  "description": "Full-featured image editor for photo retouching and design",
+  "category": "images",
+  "homepage": "https://gitlab.gnome.org/GNOME/gimp",
+  "icon": "https://github.com/GNOME.png?size=256",
+  "stars": 6619
+}

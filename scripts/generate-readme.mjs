@@ -12,6 +12,15 @@ const formatStars = (n) => (n >= 1000 ? `${(n / 1000).toFixed(n >= 10000 ? 0 : 1
 const anchor = (name) => name.toLowerCase().replace(/[^a-z0-9 -]/g, '').replace(/ /g, '-')
 const cell = (text) => text.replace(/\|/g, '\\|')
 
+// Other lists worth browsing; also where many entries here were found.
+const SEE_ALSO = [
+  ['serhii-londar/open-source-mac-os-apps', 'Open source macOS apps, the largest list by category'],
+  ['jaywcjlove/awesome-mac', 'Mac apps, free and paid, marked when open source'],
+  ['jaywcjlove/awesome-swift-macos-apps', 'Open source Mac apps written in Swift'],
+  ['iCHAIT/awesome-macOS', 'Applications, tools and resources for macOS'],
+  ['onmyway133/awesome-open-source-alternatives', 'Open source alternatives to proprietary software'],
+]
+
 const categories = loadCategories()
 const apps = loadApps().map(({ slug, app }) => ({ slug, ...app }))
 const sections = categories
@@ -26,7 +35,7 @@ const lines = [
   '',
   '# Awesome Open Source Mac Apps',
   '',
-  `A curated list of ${apps.length} open source apps for macOS, each with at least ${MIN_STARS} GitHub stars.`,
+  `A curated list of ${apps.length} open source apps for macOS, each with at least ${MIN_STARS.toLocaleString("en-US")} GitHub stars.`,
   'Browse it with search and categories at [indiegoodies.com/awesome-open-source-mac-apps](https://indiegoodies.com/awesome-open-source-mac-apps).',
   '',
   '![](images/banner.png)',
@@ -47,6 +56,7 @@ for (const c of sections) {
   }
   lines.push('')
 }
+lines.push('## See also', '', ...SEE_ALSO.map(([r, d]) => `- [${r}](https://github.com/${r}): ${d}`), '')
 lines.push('## Contributing', '', 'See [CONTRIBUTING.md](CONTRIBUTING.md).', '', '## License', '', 'CC0 1.0 Universal', '')
 
 const readme = lines.join('\n')

@@ -1,0 +1,9 @@
+{
+  "name": "Tart",
+  "repo": "openai/tart",
+  "description": "macOS and Linux VMs on Apple Silicon",
+  "category": "virtualization",
+  "homepage": "https://tart.run",
+  "icon": "https://github.com/openai.png?size=256",
+  "stars": 8017
+}

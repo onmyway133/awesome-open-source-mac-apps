@@ -1,0 +1,9 @@
+{
+  "name": "NitroShare",
+  "repo": "nitroshare/nitroshare-desktop",
+  "description": "Send files to other devices on your network",
+  "category": "files",
+  "homepage": "http://nitroshare.net",
+  "icon": "https://github.com/nitroshare.png?size=256",
+  "stars": 1661
+}

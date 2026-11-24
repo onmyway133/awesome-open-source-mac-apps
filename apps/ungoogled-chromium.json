@@ -1,0 +1,8 @@
+{
+  "name": "ungoogled-chromium",
+  "repo": "ungoogled-software/ungoogled-chromium",
+  "description": "Chromium without Google integration, for more privacy and control",
+  "category": "browsers",
+  "icon": "https://github.com/ungoogled-software.png?size=256",
+  "stars": 28334
+}

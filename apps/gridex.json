@@ -1,0 +1,9 @@
+{
+  "name": "Gridex",
+  "repo": "gridex/gridex",
+  "description": "Native database IDE for PostgreSQL, MySQL, SQLite and more",
+  "category": "database",
+  "homepage": "https://gridex.app",
+  "icon": "https://github.com/gridex.png?size=256",
+  "stars": 2002
+}

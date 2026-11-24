@@ -1,0 +1,9 @@
+{
+  "name": "Otter Browser",
+  "repo": "OtterBrowser/otter-browser",
+  "description": "Browser that recreates the classic Opera 12 interface",
+  "category": "browsers",
+  "homepage": "https://otter-browser.org",
+  "icon": "https://github.com/OtterBrowser.png?size=256",
+  "stars": 1993
+}

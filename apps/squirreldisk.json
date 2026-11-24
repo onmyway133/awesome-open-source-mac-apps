@@ -1,0 +1,8 @@
+{
+  "name": "SquirrelDisk",
+  "repo": "adileo/squirreldisk",
+  "description": "Disk usage analyzer that shows what fills your drive",
+  "category": "system-utilities",
+  "homepage": "https://www.squirreldisk.com",
+  "stars": 2340
+}

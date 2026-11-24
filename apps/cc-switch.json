@@ -1,0 +1,8 @@
+{
+  "name": "CC Switch",
+  "repo": "farion1231/cc-switch",
+  "description": "Manage providers, MCP servers and settings for Claude Code, Codex and other coding agents",
+  "category": "ai",
+  "homepage": "https://ccswitch.io",
+  "stars": 156890
+}

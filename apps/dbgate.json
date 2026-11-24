@@ -1,0 +1,9 @@
+{
+  "name": "DbGate",
+  "repo": "dbgate/dbgate",
+  "description": "Database manager for MySQL, PostgreSQL, SQL Server, MongoDB and more",
+  "category": "database",
+  "homepage": "https://www.dbgate.io",
+  "icon": "https://github.com/dbgate.png?size=256",
+  "stars": 7397
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Gitify",
+  "repo": "gitify-app/gitify",
+  "description": "GitHub notifications in the menu bar",
+  "category": "git",
+  "homepage": "https://gitify.io",
+  "icon": "https://github.com/gitify-app.png?size=256",
+  "stars": 5402
+}

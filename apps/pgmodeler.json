@@ -1,0 +1,9 @@
+{
+  "name": "pgModeler",
+  "repo": "nullptrlabs/pgmodeler",
+  "description": "Data modeling tool for PostgreSQL",
+  "category": "database",
+  "homepage": "https://pgmodeler.io",
+  "icon": "https://github.com/nullptrlabs.png?size=256",
+  "stars": 3663
+}

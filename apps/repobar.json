@@ -1,0 +1,8 @@
+{
+  "name": "RepoBar",
+  "repo": "steipete/RepoBar",
+  "description": "GitHub repo status, CI and pull requests in the menu bar",
+  "category": "git",
+  "homepage": "https://repo.bar",
+  "stars": 2235
+}

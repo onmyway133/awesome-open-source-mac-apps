@@ -1,0 +1,8 @@
+{
+  "name": "NTFSTool",
+  "repo": "ntfstool/ntfstool",
+  "description": "Read and write NTFS drives, built on FSKit",
+  "category": "files",
+  "homepage": "https://ntfstool.com",
+  "stars": 4248
+}

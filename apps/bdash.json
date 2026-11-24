@@ -1,0 +1,9 @@
+{
+  "name": "Bdash",
+  "repo": "bdash-app/bdash",
+  "description": "SQL client for lightweight data analysis",
+  "category": "database",
+  "homepage": "https://bdash-app.github.io/",
+  "icon": "https://github.com/bdash-app.png?size=256",
+  "stars": 1519
+}

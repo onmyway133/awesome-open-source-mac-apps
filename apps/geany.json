@@ -1,0 +1,9 @@
+{
+  "name": "Geany",
+  "repo": "geany/geany",
+  "description": "Fast, lightweight IDE",
+  "category": "code-editors",
+  "homepage": "https://www.geany.org",
+  "icon": "https://github.com/geany.png?size=256",
+  "stars": 3764
+}

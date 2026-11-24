@@ -1,0 +1,8 @@
+{
+  "name": "Sikarugir",
+  "repo": "Sikarugir-App/Sikarugir",
+  "description": "Wrap Windows apps and games with Wine to run them on a Mac",
+  "category": "games",
+  "icon": "https://github.com/Sikarugir-App.png?size=256",
+  "stars": 4120
+}

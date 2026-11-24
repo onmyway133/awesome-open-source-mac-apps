@@ -1,0 +1,9 @@
+{
+  "name": "GitAhead",
+  "repo": "gitahead/gitahead",
+  "description": "Graphical Git client to understand your history",
+  "category": "git",
+  "homepage": "https://gitahead.com",
+  "icon": "https://github.com/gitahead.png?size=256",
+  "stars": 1960
+}

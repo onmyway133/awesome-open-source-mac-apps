@@ -1,0 +1,9 @@
+{
+  "name": "The Battle for Wesnoth",
+  "repo": "wesnoth/wesnoth",
+  "description": "Turn-based strategy game with a high fantasy theme",
+  "category": "games",
+  "homepage": "https://www.wesnoth.org/",
+  "icon": "https://github.com/wesnoth.png?size=256",
+  "stars": 7007
+}

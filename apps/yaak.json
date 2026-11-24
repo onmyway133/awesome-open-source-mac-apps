@@ -1,0 +1,9 @@
+{
+  "name": "Yaak",
+  "repo": "mountain-loop/yaak",
+  "description": "Desktop API client for REST, GraphQL, WebSockets, SSE and gRPC",
+  "category": "api",
+  "homepage": "https://yaak.app",
+  "icon": "https://github.com/mountain-loop.png?size=256",
+  "stars": 19539
+}

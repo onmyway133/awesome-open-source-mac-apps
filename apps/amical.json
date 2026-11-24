@@ -1,0 +1,9 @@
+{
+  "name": "Amical",
+  "repo": "amicalhq/amical",
+  "description": "Local voice typing with Whisper",
+  "category": "voice",
+  "homepage": "https://amical.ai",
+  "icon": "https://github.com/amicalhq.png?size=256",
+  "stars": 1658
+}

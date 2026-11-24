@@ -1,0 +1,9 @@
+{
+  "name": "RelaGit",
+  "repo": "relagit/relagit",
+  "description": "Elegant graphical Git client",
+  "category": "git",
+  "homepage": "https://rela.dev",
+  "icon": "https://github.com/relagit.png?size=256",
+  "stars": 1126
+}

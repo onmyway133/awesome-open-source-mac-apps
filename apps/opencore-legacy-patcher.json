@@ -1,0 +1,9 @@
+{
+  "name": "OpenCore Legacy Patcher",
+  "repo": "dortania/OpenCore-Legacy-Patcher",
+  "description": "Run newer macOS versions on unsupported Macs",
+  "category": "system-utilities",
+  "homepage": "https://dortania.github.io/OpenCore-Legacy-Patcher/",
+  "icon": "https://github.com/dortania.png?size=256",
+  "stars": 19065
+}

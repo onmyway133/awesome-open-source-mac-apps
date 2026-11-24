@@ -1,0 +1,8 @@
+{
+  "name": "CodexBar",
+  "repo": "steipete/CodexBar",
+  "description": "Shows OpenAI Codex and Claude Code usage limits in the menu bar",
+  "category": "menu-bar",
+  "homepage": "https://codex.bar",
+  "stars": 23320
+}

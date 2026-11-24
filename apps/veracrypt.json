@@ -1,0 +1,9 @@
+{
+  "name": "VeraCrypt",
+  "repo": "veracrypt/VeraCrypt",
+  "description": "Disk and container encryption based on TrueCrypt",
+  "category": "security",
+  "homepage": "https://veracrypt.jp",
+  "icon": "https://github.com/veracrypt.png?size=256",
+  "stars": 12198
+}

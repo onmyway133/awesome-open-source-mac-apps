@@ -1,0 +1,9 @@
+{
+  "name": "Notesnook",
+  "repo": "streetwriters/notesnook",
+  "description": "End-to-end encrypted note-taking, an Evernote alternative",
+  "category": "notes-writing",
+  "homepage": "https://notesnook.com/",
+  "icon": "https://github.com/streetwriters.png?size=256",
+  "stars": 14963
+}

@@ -1,0 +1,9 @@
+{
+  "name": "novelWriter",
+  "repo": "saga-soft/novelWriter",
+  "description": "Plain text editor for writing novels",
+  "category": "notes-writing",
+  "homepage": "https://novelwriter.io",
+  "icon": "https://github.com/saga-soft.png?size=256",
+  "stars": 3252
+}

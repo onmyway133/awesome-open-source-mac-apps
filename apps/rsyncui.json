@@ -1,0 +1,8 @@
+{
+  "name": "RsyncUI",
+  "repo": "rsyncOSX/RsyncUI",
+  "description": "SwiftUI front end for rsync",
+  "category": "files",
+  "homepage": "https://rsyncui.netlify.app/docs/",
+  "stars": 1503
+}

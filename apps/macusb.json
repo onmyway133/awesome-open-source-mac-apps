@@ -1,0 +1,8 @@
+{
+  "name": "macUSB",
+  "repo": "Kruszoneq/macUSB",
+  "description": "Create bootable macOS USB installers",
+  "category": "system-utilities",
+  "homepage": "https://macusb.app",
+  "stars": 3468
+}

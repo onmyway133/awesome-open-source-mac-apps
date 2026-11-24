@@ -1,0 +1,9 @@
+{
+  "name": "Cog",
+  "repo": "losnoco/Cog",
+  "description": "Audio player with wide format support",
+  "category": "audio",
+  "homepage": "https://cog.losno.co",
+  "icon": "https://github.com/losnoco.png?size=256",
+  "stars": 1053
+}

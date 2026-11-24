@@ -12,7 +12,7 @@ Not comfortable editing JSON? [Suggest an app with the form](../../issues/new/ch
 - **An app for macOS** that people install and use: native, or cross-platform with a Mac build.
   No libraries, frameworks, command-line-only tools, servers or plugin collections.
 - **Open source**, with its code on GitHub.
-- **At least 100 GitHub stars**, to keep the list useful. The check enforces this.
+- **At least 1,000 GitHub stars**, to keep the list useful. The check enforces this.
 - **Maintained**: not archived on GitHub.
 
 ## Add an app

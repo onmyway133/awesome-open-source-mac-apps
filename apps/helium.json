@@ -1,0 +1,9 @@
+{
+  "name": "Helium",
+  "repo": "imputnet/helium",
+  "description": "Private, fast Chromium-based browser with ad blocking built in",
+  "category": "browsers",
+  "homepage": "https://helium.computer",
+  "icon": "https://github.com/imputnet.png?size=256",
+  "stars": 22981
+}

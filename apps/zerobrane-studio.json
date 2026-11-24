@@ -1,0 +1,8 @@
+{
+  "name": "ZeroBrane Studio",
+  "repo": "pkulchenko/ZeroBraneStudio",
+  "description": "Lightweight Lua IDE with debugging and live coding",
+  "category": "code-editors",
+  "homepage": "http://studio.zerobrane.com/",
+  "stars": 2778
+}

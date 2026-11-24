@@ -1,0 +1,8 @@
+{
+  "name": "mkchromecast",
+  "repo": "muammar/mkchromecast",
+  "description": "Cast Mac audio and video to Chromecast and Sonos",
+  "category": "audio",
+  "homepage": "http://mkchromecast.com",
+  "stars": 2359
+}

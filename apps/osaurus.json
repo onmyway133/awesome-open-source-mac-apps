@@ -1,0 +1,9 @@
+{
+  "name": "Osaurus",
+  "repo": "osaurus-ai/osaurus",
+  "description": "Agent harness that runs local or cloud models on your Mac",
+  "category": "ai",
+  "homepage": "https://osaurus.ai",
+  "icon": "https://github.com/osaurus-ai.png?size=256",
+  "stars": 8205
+}

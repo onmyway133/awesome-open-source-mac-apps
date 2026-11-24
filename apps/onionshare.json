@@ -1,0 +1,9 @@
+{
+  "name": "OnionShare",
+  "repo": "onionshare/onionshare",
+  "description": "Share files, host websites and chat anonymously over Tor",
+  "category": "security",
+  "homepage": "https://onionshare.org/",
+  "icon": "https://github.com/onionshare.png?size=256",
+  "stars": 7244
+}

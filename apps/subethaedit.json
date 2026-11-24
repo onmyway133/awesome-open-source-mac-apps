@@ -1,0 +1,9 @@
+{
+  "name": "SubEthaEdit",
+  "repo": "subethaedit/SubEthaEdit",
+  "description": "Text editor with live collaboration",
+  "category": "code-editors",
+  "homepage": "https://subethaedit.net",
+  "icon": "https://github.com/subethaedit.png?size=256",
+  "stars": 1433
+}

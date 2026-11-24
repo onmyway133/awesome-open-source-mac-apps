@@ -1,0 +1,9 @@
+{
+  "name": "Palmier Pro",
+  "repo": "palmier-io/palmier-pro",
+  "description": "Native macOS video editor built for AI",
+  "category": "video",
+  "homepage": "https://palmier.io",
+  "icon": "https://github.com/palmier-io.png?size=256",
+  "stars": 14802
+}

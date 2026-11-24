@@ -1,0 +1,9 @@
+{
+  "name": "Deluge",
+  "repo": "deluge-torrent/deluge",
+  "description": "Lightweight BitTorrent client",
+  "category": "files",
+  "homepage": "https://www.deluge-torrent.org",
+  "icon": "https://github.com/deluge-torrent.png?size=256",
+  "stars": 1804
+}

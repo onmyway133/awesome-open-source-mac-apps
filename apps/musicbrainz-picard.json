@@ -1,0 +1,9 @@
+{
+  "name": "MusicBrainz Picard",
+  "repo": "metabrainz/picard",
+  "description": "Music tagger powered by MusicBrainz",
+  "category": "audio",
+  "homepage": "https://picard.musicbrainz.org",
+  "icon": "https://github.com/metabrainz.png?size=256",
+  "stars": 5403
+}

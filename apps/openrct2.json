@@ -1,0 +1,9 @@
+{
+  "name": "OpenRCT2",
+  "repo": "OpenRCT2/OpenRCT2",
+  "description": "Open source re-implementation of RollerCoaster Tycoon 2",
+  "category": "games",
+  "homepage": "https://openrct2.io",
+  "icon": "https://github.com/OpenRCT2.png?size=256",
+  "stars": 16609
+}

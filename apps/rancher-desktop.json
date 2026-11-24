@@ -1,0 +1,9 @@
+{
+  "name": "Rancher Desktop",
+  "repo": "rancher-sandbox/rancher-desktop",
+  "description": "Containers and Kubernetes on the desktop",
+  "category": "virtualization",
+  "homepage": "https://rancherdesktop.io",
+  "icon": "https://github.com/rancher-sandbox.png?size=256",
+  "stars": 7424
+}

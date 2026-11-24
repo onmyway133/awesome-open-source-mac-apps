@@ -1,0 +1,8 @@
+{
+  "name": "Process Explorer",
+  "repo": "microsoft/Procexp-Mac",
+  "description": "Process Explorer from Sysinternals, for macOS",
+  "category": "system-utilities",
+  "icon": "https://github.com/microsoft.png?size=256",
+  "stars": 1059
+}

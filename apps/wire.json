@@ -1,0 +1,9 @@
+{
+  "name": "Wire",
+  "repo": "wireapp/wire-desktop",
+  "description": "Secure messaging and calls",
+  "category": "communication",
+  "homepage": "https://wire.com/download/",
+  "icon": "https://github.com/wireapp.png?size=256",
+  "stars": 1133
+}

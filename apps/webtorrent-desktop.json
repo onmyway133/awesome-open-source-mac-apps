@@ -1,0 +1,9 @@
+{
+  "name": "WebTorrent Desktop",
+  "repo": "webtorrent/webtorrent-desktop",
+  "description": "Streaming torrent app",
+  "category": "files",
+  "homepage": "https://webtorrent.io/desktop",
+  "icon": "https://github.com/webtorrent.png?size=256",
+  "stars": 10151
+}

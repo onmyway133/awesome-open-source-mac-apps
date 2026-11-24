@@ -1,0 +1,9 @@
+{
+  "name": "Cryptomator",
+  "repo": "cryptomator/cryptomator",
+  "description": "Client-side encryption for your cloud storage files",
+  "category": "security",
+  "homepage": "https://cryptomator.org",
+  "icon": "https://github.com/cryptomator.png?size=256",
+  "stars": 16583
+}

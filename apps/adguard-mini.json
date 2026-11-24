@@ -1,0 +1,9 @@
+{
+  "name": "AdGuard Mini",
+  "repo": "AdguardTeam/AdGuardMiniForMac",
+  "description": "Safari ad blocker from AdGuard",
+  "category": "security",
+  "homepage": "https://adguard.com/adguard-mini-mac/overview.html",
+  "icon": "https://github.com/AdguardTeam.png?size=256",
+  "stars": 1194
+}

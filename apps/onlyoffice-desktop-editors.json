@@ -1,0 +1,9 @@
+{
+  "name": "ONLYOFFICE Desktop Editors",
+  "repo": "ONLYOFFICE/DesktopEditors",
+  "description": "Office suite for documents, spreadsheets, presentations and PDFs",
+  "category": "productivity",
+  "homepage": "https://www.onlyoffice.com",
+  "icon": "https://github.com/ONLYOFFICE.png?size=256",
+  "stars": 5802
+}

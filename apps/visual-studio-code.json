@@ -1,0 +1,9 @@
+{
+  "name": "Visual Studio Code",
+  "repo": "microsoft/vscode",
+  "description": "Code editor with debugging, Git, extensions and AI built in",
+  "category": "code-editors",
+  "homepage": "https://code.visualstudio.com",
+  "icon": "https://github.com/microsoft.png?size=256",
+  "stars": 195683
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Hydrogen",
+  "repo": "hydrogen-music/hydrogen",
+  "description": "Advanced drum machine",
+  "category": "audio",
+  "homepage": "http://www.hydrogen-music.org",
+  "icon": "https://github.com/hydrogen-music.png?size=256",
+  "stars": 1361
+}

@@ -1,0 +1,9 @@
+{
+  "name": "YouTube Music Desktop",
+  "repo": "ytmdesktop/ytmdesktop",
+  "description": "Desktop app for YouTube Music",
+  "category": "audio",
+  "homepage": "https://ytmdesktop.github.io/",
+  "icon": "https://github.com/ytmdesktop.png?size=256",
+  "stars": 6776
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Warp",
+  "repo": "warpdotdev/warp",
+  "description": "Modern terminal with blocks, AI commands and agents",
+  "category": "terminal",
+  "homepage": "https://warp.dev",
+  "icon": "https://github.com/warpdotdev.png?size=256",
+  "stars": 66133
+}

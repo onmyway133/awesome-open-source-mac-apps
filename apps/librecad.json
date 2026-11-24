@@ -1,0 +1,9 @@
+{
+  "name": "LibreCAD",
+  "repo": "LibreCAD/LibreCAD",
+  "description": "2D CAD that reads and writes DXF and DWG",
+  "category": "design",
+  "homepage": "http://librecad.org/",
+  "icon": "https://github.com/LibreCAD.png?size=256",
+  "stars": 6638
+}

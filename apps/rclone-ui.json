@@ -1,0 +1,9 @@
+{
+  "name": "Rclone UI",
+  "repo": "rclone/rclone-ui",
+  "description": "GUI for rclone and S3",
+  "category": "files",
+  "homepage": "https://rcloneui.com",
+  "icon": "https://github.com/rclone.png?size=256",
+  "stars": 2440
+}

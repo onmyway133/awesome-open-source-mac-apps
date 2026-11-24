@@ -1,0 +1,7 @@
+{
+  "name": "PortKiller",
+  "repo": "productdevbook/port-killer",
+  "description": "See which ports are in use and kill the processes behind them",
+  "category": "developer-tools",
+  "stars": 5180
+}

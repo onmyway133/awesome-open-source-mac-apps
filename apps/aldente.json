@@ -1,0 +1,9 @@
+{
+  "name": "AlDente",
+  "repo": "AppHouseKitchen/AlDente-Battery_Care_and_Monitoring",
+  "description": "Set a charge limit to extend your MacBook battery life",
+  "category": "system-utilities",
+  "homepage": "https://apphousekitchen.com/",
+  "icon": "https://github.com/AppHouseKitchen.png?size=256",
+  "stars": 9260
+}

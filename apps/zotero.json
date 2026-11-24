@@ -1,0 +1,9 @@
+{
+  "name": "Zotero",
+  "repo": "zotero/zotero",
+  "description": "Collect, organize, annotate and cite research sources",
+  "category": "productivity",
+  "homepage": "https://www.zotero.org",
+  "icon": "https://github.com/zotero.png?size=256",
+  "stars": 16028
+}

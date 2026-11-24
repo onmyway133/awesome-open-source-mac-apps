@@ -1,7 +1,7 @@
 // Looks up repositories with the GitHub GraphQL API, 50 per request.
 // Needs GITHUB_TOKEN (any token, read access to public repos is enough).
 
-export const MIN_STARS = 100
+export const MIN_STARS = 1000
 
 /** Returns Map<"owner/name" as given, { nameWithOwner, stars, archived, pushedAt } | null>. */
 export async function fetchRepos(repos, token = process.env.GITHUB_TOKEN) {

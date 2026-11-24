@@ -1,0 +1,9 @@
+{
+  "name": "Clementine",
+  "repo": "clementine-player/Clementine",
+  "description": "Music player and library organizer",
+  "category": "audio",
+  "homepage": "https://www.clementine-player.org/",
+  "icon": "https://github.com/clementine-player.png?size=256",
+  "stars": 4281
+}

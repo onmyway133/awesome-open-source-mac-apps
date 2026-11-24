@@ -1,0 +1,9 @@
+{
+  "name": "Rocket.Chat",
+  "repo": "RocketChat/Rocket.Chat.Electron",
+  "description": "Rocket.Chat desktop app with multiple workspaces",
+  "category": "communication",
+  "homepage": "https://www.rocket.chat/download-apps",
+  "icon": "https://github.com/RocketChat.png?size=256",
+  "stars": 1706
+}
